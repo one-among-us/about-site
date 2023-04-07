@@ -25,10 +25,10 @@ It was named by Maura.
 “One Among Us” — represents that both those who are still living and those who had passed away are members of our trans and gender non-conforming community.
 As they wrote on the front page:
 
-> Perhaps the names written on the monuments made of stones do not convey what they really are, but we can remember them properly by building monuments made of zeros and ones with our hearts.”
+> Perhaps the names written on the monuments made of stones do not convey what they really are, but we can remember them properly by building monuments made of zeros and ones with our hearts.
 
 On Dec 15, 2022, One Among Us was incorporated as a registered NPO in Toronto, Ontario, Canada. We believe the incorporation isn't just a change in name; the NPO status will certainly help with our work.
 
-On Mar 13, 2023, we lost our beloved member, ArtsEpiphany, to her mental health condition. We named our new online-arts-gallery project “Arts Among Us" in memory of her.
+On Mar 13, 2023, we lost our beloved member, ArtsEpiphany, to her mental health condition. We named our new online-arts-gallery project “Arts Among Us” in memory of her.
 
 We now have one full-time coordinator and more than ten part-time volunteers. Some of them work in Canada; others work outside Canada.
