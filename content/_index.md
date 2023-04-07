@@ -1,6 +1,5 @@
 ---
 title: Introduction
-draft: true
 ---
 
 One Among Us is a registered not-for-profit organization located in Toronto, Ontario, Canada.
