@@ -9,7 +9,7 @@ We aim to **advocate rights** of and **provide community services** to transgend
 ## Projects
 
 [**One Among Us**](https://one-among.us) --
-  <img src=https://www.one-among.us/favicon-large.png style="width:50px;height:50px;border:none;padding-top:0px;padding-right:20px;margin:0px;float:inline-end;" alt="Logo of One Among Us">A memorial website dedicated to transgender individuals and their allies who had passed away.
+  <img src=https://www.one-among.us/favicon-large.png style="width:50px;height:50px;border:none;padding-top:0px;padding-left:5px;margin:0px;float:inline-end;" alt="Logo of One Among Us">A memorial website dedicated to transgender individuals and their allies who had passed away.
 
 **Trans in Academia!** --
 A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.
