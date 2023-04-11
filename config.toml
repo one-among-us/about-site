@@ -209,12 +209,12 @@ uglyURLs = false
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
-    # [[menu.main]]
-    #     pageref = "/posts/"
-    #     name = "Posts"
-    #     weight = 2
-    #     pre = "internal"
-    #     post = "archive"
+    [[menu.main]]
+        pageref = "/posts/"
+        name = "Posts"
+        weight = 2
+        pre = "internal"
+        post = "archive"
     # [[menu.main]]
     #     pageref = "/categories/"
     #     name = "Categories"
@@ -832,12 +832,12 @@ uglyURLs = false
     # Note: valid for the `posts` and
     #       `page` homepage layout only
 
-    postMetaDateFormat = "2006.1.2"
+    postMetaDateFormat = "02 Jan 2006"
     # ATTENTION: be sure to follow the
     #            specified format
     #            https://gohugo.io/functions/format/
 
-    displayPublishedDate = false
+    displayPublishedDate = true
     publishedDateIcon = "calendar-alt"
 
     displayModifiedDate = false
