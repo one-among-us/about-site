@@ -1,0 +1,20 @@
+{
+  "name": "one-among-us-about-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "One Among Us",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "sass": "^1.61.0",
+    "vitepress": "1.0.0-alpha.65",
+    "vue": "^3.2.47"
+  }
+}
