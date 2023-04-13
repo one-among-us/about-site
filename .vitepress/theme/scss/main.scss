@@ -1,8 +1,8 @@
 @import 'mixins';
 
-$primaryColorLightH: 250;
-$primaryColorLightS: 84%;
-$primaryColorLightL: 54%;
+$primaryColorLightH: 220;
+$primaryColorLightS: 90%;
+$primaryColorLightL: 56%;
 
 :root {
   @include defineColorHSL(
