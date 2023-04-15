@@ -28,6 +28,12 @@ body {
 .vp-doc p {
   line-height: 1.618;
 }
+.vp-doc .imageCaption {
+  display: block;
+  text-align: center;
+  font-size: 90%;
+  color: var(--vp-c-text-2);
+}
 
 /**
  * Component: Button

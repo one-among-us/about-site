@@ -1,5 +1,6 @@
-import { defineConfig } from 'vitepress';
 import VueJsx from '@vitejs/plugin-vue-jsx';
+import { defineConfig } from 'vitepress';
+import imgPlugin from './plugins/imgPlugin';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -28,4 +29,9 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
   },
   vite: { plugins: [VueJsx()] },
+  markdown: {
+    config: (md) => {
+      md.use(imgPlugin);
+    },
+  },
 });

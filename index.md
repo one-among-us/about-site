@@ -26,6 +26,7 @@ features:
     details: An online gallery showcasing Asian-Canadian trans and queer arts.
 ---
 
+<div :class="$style.outerContent">
 <div :class="$style.content" class="vp-doc">
 
 ## History
@@ -45,11 +46,14 @@ On Mar 13, 2023, we lost our beloved member, ArtsEpiphany, to her mental health 
 We now have one full-time coordinator and more than ten part-time volunteers. Some of them work in Canada; others work outside Canada.
 
 </div>
+</div>
 
 <style module>
 .content {
   max-width: 1152px;
-  margin: 2rem auto 0 auto;
+  margin: 0 auto 2rem auto;
+}
+.outerContent {
   padding: 0 1rem;
 }
 </style>
