@@ -11,6 +11,11 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom"]
   },
-  "include": [".vitepress/**/*.ts", ".vitepress/**/*.d.ts", ".vitepress/**/*.tsx", ".vitepress/**/*.vue"],
+  "include": [
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.d.ts",
+    ".vitepress/**/*.tsx",
+    ".vitepress/**/*.vue"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

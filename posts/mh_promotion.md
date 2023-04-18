@@ -1,4 +1,5 @@
 ---
+title: One Among Us Promotes Mental Health Among Members
 date: 2023-04-11T05:00:00-04:00
 ---
 
@@ -14,7 +15,6 @@ As most of us are working from home and some overseas, we understand that the ch
 
 We believe that promoting mental health and preventing overdose and self-harm are essential to creating a healthier and more resilient community. By addressing the complex social causes of these issues and providing support and resources to our members, we hope to make a positive impact on the well-being of our members and the diversed trans, gender non-conforming, and queer community as a whole.
 
+![Striving to Become a Model NPO for Mental Health Promotion](./mh.png 'A parody of Chinese propaganda arts but showing our topic of preventing overdose and self-cutting.')
 
-![Striving to Become a Model NPO for Mental Health Promotion](./mh.png "A parody of Chinese propaganda arts but showing our topic of preventing overdose and self-cutting.")
-
-![Do not juice pom. Do not overeat starch.](./another-mh-art.jpg "Another artwork, proudly made by our member artifaritaKuniklo.")
+![Do not juice pom. Do not overeat starch.](./another-mh-art.jpg 'Another artwork, proudly made by our member artifaritaKuniklo.')

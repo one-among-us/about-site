@@ -1,4 +1,5 @@
 import VueJsx from '@vitejs/plugin-vue-jsx';
+import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
 import imgPlugin from './plugins/imgPlugin';
 
@@ -10,25 +11,29 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Blog', link: '/posts/mh_promotion' },
+      { text: 'Posts', link: '/posts' },
+      { text: 'Contact', link: '/contact' },
     ],
+    logo: 'https://www.one-among.us/favicon-large.png',
 
-    sidebar: [
-      {
-        text: 'Posts',
-        items: [
-          {
-            text: 'One Among Us Promotes Mental Health Among Members',
-            link: '/posts/mh_promotion',
-          },
-        ],
-      },
-    ],
+    sidebar: {
+      '/posts': [
+        {
+          text: 'Posts',
+          items: [
+            {
+              text: 'One Among Us Promotes Mental Health Among Members',
+              link: '/posts/mh_promotion',
+            },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
   },
-  vite: { plugins: [VueJsx()] },
+  rewrites: { 'posts/index.md': 'posts.md' },
+  vite: { plugins: [VueJsx(), Unocss()] },
   markdown: {
     config: (md) => {
       md.use(imgPlugin);

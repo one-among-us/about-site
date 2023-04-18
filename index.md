@@ -8,12 +8,18 @@ hero:
   tagline: A not-for-profit organization which operates one-among.us and other projects.
   image: https://www.one-among.us/favicon-large.png
   actions:
+    #- theme: brand
+    #  text: Markdown Examples
+    #  link: /markdown-examples
+    #- theme: alt
+    #  text: API Examples
+    #  link: /api-examples
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Posts
+      link: /posts
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Contact
+      link: /contact
 
 features:
   - icon: <img src="https://www.one-among.us/favicon-large.png" style="padding:8px;">
