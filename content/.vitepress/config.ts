@@ -30,7 +30,7 @@ export default defineConfig({
       ],
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/one-among-us' }],
   },
   rewrites: { 'posts/index.md': 'posts.md' },
   vite: { plugins: [VueJsx(), Unocss()] },
