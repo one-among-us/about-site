@@ -1,11 +1,11 @@
 ---
 title: One Among Us Holds Successful Board of Directors Reelection and Announces New Leadership
-date: 2023-04-22T03:00:00-04:00
+date: 2023-04-22T02:20:00-04:00
 ---
 
 # One Among Us Holds Successful Board of Directors Reelection and Announces New Leadership
 
-One Among Us, the non-profit organization dedicated to promoting mental health and wellness, recently held a successful reelection of its Board of Directors. The organization is pleased to announce changes to its Board membership and new leadership.
+One Among Us, the non-profit organization dedicated to providing services for and promoting rights of the transgender community, recently held a successful reelection of its Board of Directors. The organization is pleased to announce changes to its Board membership and new leadership.
 
 CC, a valued member of the Board for several months, has resigned from her position. One Among Us would like to thank her for her dedication and contributions to the organization and wish her all the best in her future endeavors.
 
