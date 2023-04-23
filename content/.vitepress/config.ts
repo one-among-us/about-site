@@ -2,6 +2,7 @@ import VueJsx from '@vitejs/plugin-vue-jsx';
 import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
 import imgPlugin from './plugins/imgPlugin';
+import getPostList from './theme/utils/getPostList';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -17,17 +18,7 @@ export default defineConfig({
     logo: 'https://www.one-among.us/favicon-large.png',
 
     sidebar: {
-      '/posts': [
-        {
-          text: 'Posts',
-          items: [
-            {
-              text: 'One Among Us Promotes Mental Health Among Members',
-              link: '/posts/mh_promotion',
-            },
-          ],
-        },
-      ],
+      '/posts': getPostList(),
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/one-among-us' }],
