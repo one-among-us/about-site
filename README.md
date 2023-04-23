@@ -14,6 +14,14 @@ pnpm i
 pnpm docs:dev
 ```
 
+### Docker
+
+You can also use the following command to run the dev server locally.
+
+```bash
+docker compose up
+```
+
 ## Build
 
 ```bash

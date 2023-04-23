@@ -33,7 +33,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/one-among-us' }],
   },
   rewrites: { 'posts/index.md': 'posts.md' },
-  vite: { plugins: [VueJsx(), Unocss()] },
+  vite: { plugins: [VueJsx(), Unocss()], server: { host: '0.0.0.0' } },
   markdown: {
     config: (md) => {
       md.use(imgPlugin);
