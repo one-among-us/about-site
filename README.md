@@ -22,6 +22,12 @@ You can also use the following command to run the dev server locally.
 docker compose up
 ```
 
+If you got any troubles after we updated dependencies, try the command below.
+
+```bash
+docker compose build
+```
+
 ## Build
 
 ```bash
