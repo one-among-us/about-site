@@ -36,11 +36,20 @@ const works: MyWorks = {
   ],
   Friends: [
     {
-      title: 'MtF.wiki',
+      title: 'Project trans',
       details:
-        'A free, open, and continuously updated transgender female knowledge integration site. ',
-      link: 'https://mtf.wiki',
-      icon: { src: 'https://mtf.wiki/logo.svg', height: '15px' },
+        'Project Trans (formerly known as MtF.wiki) aims to better maintain multiple projects including MtF wiki, FtM wiki and more.',
+      link: 'https://about.project-trans.org/en/',
+      icon: { src: 'https://about.project-trans.org/en/home/en.png', height: '15px' },
+    },
+    {
+      title: 'Twitter Translate',
+      details: '',
+      link: 'https://linktr.ee/twitter_translate',
+      icon: {
+        src: 'https://d1fdloi71mui9q.cloudfront.net/io9nxIiTqdVNDgW66Kgn_mn313K6byJCYTZI6',
+        height: '15px',
+      },
     },
   ],
 };
