@@ -31,7 +31,7 @@ const works: MyWorks = {
       details:
         'A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.',
       link: 'https://oau.edu.kg',
-      icon: { src: 'https://oau.edu.kg/logo.jpg', height: '15px' },
+      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
   ],
   Friends: [
@@ -46,10 +46,7 @@ const works: MyWorks = {
       title: 'Twitter Translate',
       details: '',
       link: 'https://linktr.ee/twitter_translate',
-      icon: {
-        src: 'https://d1fdloi71mui9q.cloudfront.net/io9nxIiTqdVNDgW66Kgn_mn313K6byJCYTZI6',
-        height: '15px',
-      },
+      icon: '<img src="https://d1fdloi71mui9q.cloudfront.net/io9nxIiTqdVNDgW66Kgn_mn313K6byJCYTZI6" style="border-radius:9999px">'
     },
   ],
 };
