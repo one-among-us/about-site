@@ -18,6 +18,9 @@ hero:
       text: Posts
       link: /posts
     - theme: alt
+      text: Links
+      link: /links
+    - theme: alt
       text: Contact
       link: /contact
 

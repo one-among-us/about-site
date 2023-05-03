@@ -13,6 +13,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Posts', link: '/posts' },
+      { text: 'Links', link: '/links' },
       { text: 'Contact', link: '/contact' },
     ],
     logo: 'https://www.one-among.us/favicon-large.png',
@@ -23,7 +24,7 @@ export default defineConfig({
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/one-among-us' }],
   },
-  rewrites: { 'posts/index.md': 'posts.md' },
+  rewrites: { 'posts/index.md': 'posts.md', 'links/index.md': 'links.md' },
   vite: { plugins: [VueJsx(), Unocss()], server: { host: '0.0.0.0' } },
   markdown: {
     config: (md) => {
