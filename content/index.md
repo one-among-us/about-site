@@ -35,6 +35,9 @@ features:
     link: https://oau.edu.kg
   - title: 'Arts Among Us: An epiphanic library of creativity.'
     details: An online gallery showcasing Asian-Canadian trans and queer arts.
+  - icon: <img src="posts/rxn-logo.jpg" style="mix-blend-mode:multiply;">
+    title: Reaction Group
+    details: A reaction group (not accepting requests).
 ---
 
 <div :class="$style.outerContent">
