@@ -29,13 +29,13 @@ features:
     title: One Among Us
     details: A memorial website dedicated to transgender individuals and their allies who had passed away.
     link: https://one-among.us
-  - icon: <img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">
+  - icon: <img src="https://oau.edu.kg/logo.png">
     title: Trans in Academia!
     details: A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.
     link: https://oau.edu.kg
   - title: 'Arts Among Us: An epiphanic library of creativity.'
     details: An online gallery showcasing Asian-Canadian trans and queer arts.
-  - icon: <img src="posts/rxn-logo.jpg" style="mix-blend-mode:multiply;">
+  - icon: <img src="https://oau.edu.kg/rxn-logo.jpg" style="mix-blend-mode:multiply;">
     title: Reaction Group
     details: A reaction group (not accepting requests).
 ---
