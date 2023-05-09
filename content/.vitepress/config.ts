@@ -22,6 +22,11 @@ export default defineConfig({
       '/posts': getPostList(),
     },
 
+    footer: {
+      message: 'Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>',
+      copyright: 'Copyright © 2023 One Among Us Transgender Support'
+    },
+
     socialLinks: [{ icon: 'github', link: 'https://github.com/one-among-us' }],
   },
   rewrites: { 'posts/index.md': 'posts.md', 'links/index.md': 'links.md' },
