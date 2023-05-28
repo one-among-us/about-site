@@ -1,5 +1,5 @@
 ---
-title: *Transgender University Guidance* Joins *Trans in Academia!*
+title: Transgender University Guidance Joins Trans in Academia!
 date: 2023-05-03T23:30:00-04:00
 ---
 
