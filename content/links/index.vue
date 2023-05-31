@@ -18,7 +18,7 @@ interface MyWorks {
 }
 
 const works: MyWorks = {
-  'Producted by One Among Us': [
+  'One Among Us Projects': [
     {
       title: 'One Among Us',
       details:
@@ -33,6 +33,13 @@ const works: MyWorks = {
       link: 'https://oau.edu.kg',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
+    {
+      title: 'Transgender University Guidance',
+      details:
+        'A collective effort aimed at providing valuable resources and support for transgender individuals pursuing higher education.',
+      link: 'https://uniguide.transacademic.org/',
+      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
+    },
   ],
   Friends: [
     {
@@ -43,10 +50,16 @@ const works: MyWorks = {
       icon: { src: 'https://about.project-trans.org/en/home/en.png', height: '15px' },
     },
     {
-      title: 'Twitter Translate',
-      details: '',
+      title: 'TranslateCN',
+      details: 'TranslateCN commits to translating a selection of quality, diversed news and posts into the Chinese world.',
       link: 'https://linktr.ee/twitter_translate',
       icon: '<img src="https://d1fdloi71mui9q.cloudfront.net/io9nxIiTqdVNDgW66Kgn_mn313K6byJCYTZI6" style="border-radius:9999px">'
+    },
+    {
+      title: '2345.LGBT',
+      details: 'A transgender navigation site owned and maintained by Project Trans.',
+      link: 'https://2345.lgbt/en/',
+      icon: { src: 'https://2345.lgbt/brand.svg', height: '15px' },
     },
   ],
 };
