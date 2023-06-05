@@ -7,7 +7,7 @@ date: 2023-06-05T10:00:00-04:00
 
 We released the flag and anthem of our organization recently.
 
-## The Flag
+## The Flag: Double-Flowered Cherry Blossom
 
 ![The Flag of One Among Us](./flag.oau.png 'The Flag of One Among Us')
 
