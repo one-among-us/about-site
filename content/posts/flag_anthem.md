@@ -13,9 +13,9 @@ We released the flag and anthem of our organization recently.
 
 ## The Anthem: Star Tour Song
 
-**『星めぐりの歌』**
+**『星めぐりの歌』**　宮沢賢治 作詞/作曲
 
-宮沢賢治 作詞/作曲
+!["Star Tour Song," from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō](./flag.oau.png 'Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobō')
 
 あかいめだまの　さそり
 
@@ -25,17 +25,15 @@ We released the flag and anthem of our organization recently.
 
 ひかりのへびの　とぐろ。
 
-<br />
-
 オリオンは高く　うたひ
 
 つゆとしもとを　おとす、
 
+<br />
+
 アンドロメダの　くもは
 
 さかなのくちの　かたち。
-
-<br />
 
 大ぐまのあしを　きたに
 
