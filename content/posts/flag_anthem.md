@@ -15,7 +15,7 @@ We released the flag and anthem of our organization recently.
 
 **『星めぐりの歌』**　宮沢賢治 作詞/作曲
 
-!["Star Tour Song," from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō](./hoshi-meguri-no-uta.png 'Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo')
+![Star Tour Song, from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō](./hoshi-meguri-no-uta.png 'Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo')
 
 あかいめだまの　さそり
 
