@@ -23,6 +23,9 @@ hero:
     - theme: alt
       text: Contact
       link: /contact
+    - theme: brand
+      text: Support .us
+      link: https://github.com/sponsors/one-among-us/
 
 features:
   - icon: <img src="https://www.one-among.us/favicon-large.png" style="padding:8px;">
