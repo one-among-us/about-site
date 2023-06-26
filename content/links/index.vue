@@ -50,12 +50,6 @@ const works: MyWorks = {
       icon: { src: 'https://about.project-trans.org/en/home/en.png', height: '15px' },
     },
     {
-      title: 'TranslateCN',
-      details: 'TranslateCN commits to translating a selection of quality, diversed news and posts into the Chinese world.',
-      link: 'https://linktr.ee/twitter_translate',
-      icon: '<img src="https://d1fdloi71mui9q.cloudfront.net/io9nxIiTqdVNDgW66Kgn_mn313K6byJCYTZI6" style="border-radius:9999px">'
-    },
-    {
       title: '2345.LGBT',
       details: 'A transgender navigation site owned and maintained by Project Trans.',
       link: 'https://2345.lgbt/en/',

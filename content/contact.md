@@ -11,7 +11,7 @@ date: 2023-04-07T00:32:40-04:00
 
 **Board of Directors**: [board@oneamongus.ca](mailto:board@oneamongus.ca)
 
-**TranslateCN**: [translate@oneamongus.ca](mailto:translate@oneamongus.ca)
+**TranslateCN (Legacy Support, From 2023-05 to 2023-06-25)**: [translate@oneamongus.ca](mailto:translate@oneamongus.ca)
 
 ## Business Hours (Zoom by Appointment)
 
