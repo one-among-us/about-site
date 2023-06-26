@@ -11,7 +11,7 @@ date: 2023-06-25T23:59:00-04:00
 
 3. Except for the above public affairs and supervision, the accounts and operations of our organization and "Xiyu" are completely separate. Our organization does not have the authority to access the admin authority of any of the public SNS accounts of "Xiyu", nor does it have the ability to respond in a timely manner. Again, this was a mistake on the part of our organization, and we apologize for it.
 
-4. As a result of the above, our organization is no longer capable of supervising and managing the public affairs of the "Translation/Selected" accounts. Therefore, with immediate effect, our organization is relieved of its affiliation with the "Xiyu" team. Once again, we apologize profusely to the creators and the public involved in this matter. We have always emphasized respect for the rights of creators to express themselves and for community rules in online communities such as Fediverse, and we will continue to do so in our future work. We will reflect deeply on this mistake and try to avoid such mistakes in our future work. In particular, we apologize to Ms. Ai Daxun on Douban, and to @ziwendong on Fediverse, who was concerned about this matter.
+4. As a result of the above, our organization is no longer capable of supervising and managing the public affairs of the "Translation/Selected" accounts. Therefore, with immediate effect, our organization is relieved of its affiliation with the "Xiyu" team. Once again, we apologize profusely to the creators and the public involved in this matter. We have always emphasized respect for the rights of creators to express themselves and for community rules in online communities such as Fediverse, and we will continue to do so in our future work. We will reflect deeply on this mistake and try to avoid such mistakes in our future work. In particular, we apologize to Ms. Ai Daxun on Douban, who claimed to be hurt from this.
 
 One Among Us Transgender Support
 
@@ -27,7 +27,7 @@ One Among Us Transgender Support
 
 3. 除了以上公共事务和督导之外，我机构和「细雨」的账目和运营都是完全分离的。我机构并未掌握「细雨」任何公共平台账号的管理权限，也没有办法及时响应。这同样是我机构的工作失误，在此表示郑重道歉。
 
-4. 综上所述，我机构现在已经没有能力对翻译/精选账号进行督导和公共事务管理。因此，即日起我机构解除与翻译/精选小组的挂靠关系。我们再次对这件事情中涉及的创作者和公众表示深刻道歉。我们一贯强调尊重创作者的权利表达，在各 Fediverse 等网络社群中尊重社群规定，并且在之后的工作中将会持续对这一点的坚持。这次的失误我们将深刻反省，并且会在之后的工作中尽力避免此类错误。尤其是对被伤害到的豆瓣友邻艾大荀女士，以及关心此事的子文东老师表示诚恳道歉。
+4. 综上所述，我机构现在已经没有能力对翻译/精选账号进行督导和公共事务管理。因此，即日起我机构解除与翻译/精选小组的挂靠关系。我们再次对这件事情中涉及的创作者和公众表示深刻道歉。我们一贯强调尊重创作者的权利表达，在各 Fediverse 等网络社群中尊重社群规定，并且在之后的工作中将会持续对这一点的坚持。这次的失误我们将深刻反省，并且会在之后的工作中尽力避免此类错误。尤其是对被伤害到的豆瓣友邻艾大荀女士表示诚恳道歉。
 
 One Among Us Transgender Support
 
