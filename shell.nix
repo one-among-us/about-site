@@ -1,8 +1,11 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-23.05.tar.gz") { } }:
+{ pkgs ? <nixpkgs> { } }:
 pkgs.mkShell {
   buildInputs = with pkgs;[
-    git
     nodejs
-    fish
   ];
+  shellHook = ''
+    mkdir -p $TMPDIR/bin
+    corepack enable --install-directory=$TMPDIR/bin
+    export PATH=$TMPDIR/bin:$PATH
+  '';
 }
