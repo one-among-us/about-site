@@ -359,7 +359,7 @@ uglyURLs = false
     siteLogo = "https://one-among.us/favicon-large.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "One Among Us is a Chinese-Canadian not-for-profit corporation for transgender rights."
+    siteDescription = "One Among Us is an East Asian-Canadian not-for-profit corporation for transgender rights."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 

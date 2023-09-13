@@ -3,12 +3,13 @@
     <template #home-hero-after>
       <div :class="$style.outerContent">
         <div :class="$style.content">
-          One Among Us is a registered not-for-profit organization located in Toronto, Ontario,
-          Canada. We are an organization <strong>of</strong>, <strong>by</strong>, and
-          <strong>for</strong> Asian-Canadian transgender and gender non-conforming people. We aim
-          to <strong>advocate rights</strong> of and <strong>provide community services</strong> to
-          transgender, gender non-conforming people and their allies, and
-          <strong>commemorate</strong> those who passed away.
+	  Hi! We are One Among Us, proudly a registered not-for-profit organization, but more
+	  proudly a <strong>community</strong> of the great East Asian and East Asian-Canadian
+	  transgender and gender diverse family. We provide peer and community support for our
+	  fellows, aiming to build connection between travelers and those in our hometown.
+	  <br/>We started as a memorial site for Chinese transgender people and allies who
+	  passed away. We believe that both those who are still living and those who had
+	  passed away are important members of our community, are the “Ones” Among Us.
         </div>
       </div>
     </template>
