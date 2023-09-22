@@ -27,10 +27,17 @@ const works: MyWorks = {
       icon: { src: 'https://www.one-among.us/favicon-large.png', height: '15px' },
     },
     {
-      title: 'Trans in Academia!',
+      title: 'Trans in Academia! Bulletin',
       details:
         'A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.',
       link: 'https://oau.edu.kg',
+      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
+    },
+    {
+      title: 'Trans in Academia! Broadcast',
+      details:
+        'Join the Telegram channel of Trans in Academia! and view its discussion (mainly in Chinese).',
+      link: 'https://t.me/transacademicorg',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
     {
@@ -40,6 +47,12 @@ const works: MyWorks = {
       link: 'https://uniguide.transacademic.org/',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
+    {
+      title: 'OAU Greater Toronto Area Gathering',
+      details:
+        'Join the Telegram group via this broadcast.',
+      link: 'https://t.me/transacademicorg/775',
+    },
   ],
   Friends: [
     {
@@ -47,7 +60,7 @@ const works: MyWorks = {
       details:
         'Project Trans (formerly known as MtF.wiki) aims to better maintain multiple projects including MtF wiki, FtM wiki and more.',
       link: 'https://about.project-trans.org/en/',
-      icon: { src: 'https://about.project-trans.org/en/home/en.png', height: '15px' },
+      icon: { src: 'https://about.project-trans.org/en/home/logo.png', height: '15px' },
     },
     {
       title: '2345.LGBT',
