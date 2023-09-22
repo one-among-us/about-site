@@ -12,7 +12,7 @@ date: 2023-04-07T00:32:40-04:00
 **Board of Directors**: [board@oneamongus.ca](mailto:board@oneamongus.ca)
 
 
-## Business Hours (Zoom by Appointment)
+## Office Hours (Zoom by Appointment)
 
 **Canada Eastern Time**: Saturdays 16:00-17:00
 
