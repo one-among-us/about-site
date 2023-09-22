@@ -9,6 +9,16 @@ export default defineConfig({
   title: 'One Among Us',
   description: 'A not-for-profit organization which operates one-among.us and other projects.',
   cleanUrls: true,
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+    },
+    'zh-cn': {
+      label: '简体中文',
+      lang: 'zh-cn',
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -23,13 +33,19 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>',
-      copyright: 'Copyright © 2023 One Among Us Transgender Support'
+      message:
+        'Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>',
+      copyright: 'Copyright © 2023 One Among Us Transgender Support',
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/one-among-us' }],
   },
-  rewrites: { 'posts/index.md': 'posts.md', 'links/index.md': 'links.md' },
+  rewrites: {
+    'posts/index.md': 'posts.md',
+    'links/index.md': 'links.md',
+    'zh-cn/posts/index.md': 'zh-cn/posts.md',
+    'zh-cn/links/index.md': 'zh-cn/links.md',
+  },
   vite: { plugins: [VueJsx(), Unocss()], server: { host: '0.0.0.0' } },
   markdown: {
     config: (md) => {
