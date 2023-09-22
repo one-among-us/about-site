@@ -16,13 +16,13 @@ hero:
     #  link: /api-examples
     - theme: brand
       text: Posts
-      link: /zh-cn/posts
+      link: /zh-Hans/posts
     - theme: alt
       text: Links
-      link: /zh-cn/links
+      link: /zh-Hans/links
     - theme: alt
       text: Contact
-      link: /zh-cn/contact
+      link: /zh-Hans/contact
     - theme: brand
       text: Support .us
       link: https://github.com/sponsors/one-among-us/

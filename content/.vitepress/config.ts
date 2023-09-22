@@ -14,9 +14,19 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
     },
-    'zh-cn': {
+    'zh-Hans': {
       label: '简体中文',
-      lang: 'zh-cn',
+      lang: 'zh-Hans',
+      themeConfig: {
+        nav: [
+          { text: '文章', link: '/zh-Hans/posts' },
+          { text: '友情链接', link: '/zh-Hans/links' },
+          {
+            text: '联系我们',
+            link: '/zh-Hans/contact',
+          },
+        ],
+      },
     },
   },
   themeConfig: {
@@ -43,8 +53,8 @@ export default defineConfig({
   rewrites: {
     'posts/index.md': 'posts.md',
     'links/index.md': 'links.md',
-    'zh-cn/posts/index.md': 'zh-cn/posts.md',
-    'zh-cn/links/index.md': 'zh-cn/links.md',
+    'zh-Hans/posts/index.md': 'zh-Hans/posts.md',
+    'zh-Hans/links/index.md': 'zh-Hans/links.md',
   },
   vite: { plugins: [VueJsx(), Unocss()], server: { host: '0.0.0.0' } },
   markdown: {
