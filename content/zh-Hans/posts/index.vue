@@ -18,7 +18,7 @@
 </template>
 <script setup lang="ts">
 // @ts-expect-error load data from .data files
-import { data as posts } from '../../.vitepress/theme/utils/getPostList.data';
+import { data as posts } from '../../.vitepress/theme/utils/getPostList.zh-Hans.data';
 import type PostData from '../../.vitepress/types/PostData';
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue';
 
