@@ -1,23 +1,28 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import metadataParser from 'markdown-yaml-metadata-parser';
 
-const getPostList = () =>
-  readdirSync('./content/posts')
+const getPostList = (locale?: string) =>
+  readdirSync(locale ? `./content/${locale}/posts` : './content/posts')
     .map((file) => {
       const [fileName, ext] = file.split('.');
       if (ext !== 'md') return null;
-      const fileContent = readFileSync(`./content/posts/${file}`, 'utf-8');
+      const fileContent = readFileSync(
+        locale ? `./content/${locale}/posts/${file}` : `./content/posts/${file}`,
+        'utf-8',
+      );
       const { metadata } = metadataParser(fileContent);
       if (!metadata?.title) return null;
       let date;
       if (metadata?.date) {
         date = Number(new Date(metadata.date));
       } else {
-        date = statSync(`./content/posts/${file}`).ctimeMs;
+        date = statSync(
+          locale ? `./content/${locale}/posts/${file}` : `./content/posts/${file}`,
+        ).ctimeMs;
       }
       return {
         text: metadata.title as string,
-        link: `/posts/${fileName}`,
+        link: locale ? `/${locale}/posts/${fileName}` : `/posts/${fileName}`,
         time: date,
       };
     })
