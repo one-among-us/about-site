@@ -3,6 +3,7 @@ import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
 import imgPlugin from './plugins/imgPlugin';
 import getPostList from './theme/utils/getPostList';
+import getZhPostList from './theme/utils/getPostList.zh-Hans';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -40,6 +41,7 @@ export default defineConfig({
 
     sidebar: {
       '/posts': getPostList(),
+      '/zh-Hans/posts': getZhPostList(),
     },
 
     footer: {
