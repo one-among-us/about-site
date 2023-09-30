@@ -26,6 +26,9 @@ export default defineConfig({
             link: '/zh-Hans/contact',
           },
         ],
+        sidebar: {
+          '/zh-Hans/posts': getPostList('zh-Hans'),
+        },
       },
     },
   },
