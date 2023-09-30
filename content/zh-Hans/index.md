@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: One Among Us 那些秋叶
-  text: ''
+  name: One Among Us
+  text: 那些秋叶
   tagline: 非营利组织，促进东亚和海外跨性别的交流互助。
   image: https://www.one-among.us/favicon-large.png
   actions:
