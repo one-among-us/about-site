@@ -20,7 +20,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '文章', link: '/zh-Hans/posts' },
-          { text: '友情链接', link: '/zh-Hans/links' },
+          { text: '链接', link: '/zh-Hans/links' },
           {
             text: '联系我们',
             link: '/zh-Hans/contact',

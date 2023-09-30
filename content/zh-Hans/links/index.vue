@@ -19,52 +19,52 @@ interface MyWorks {
 }
 
 const works: MyWorks = {
-  'One Among Us Projects': [
+  '链接': [
     {
-      title: 'One Among Us',
-      details: '跨性别者及其盟友的纪念网站',
+      title: '那些秋叶 One Among Us',
+      details: '去世跨性别者及友跨人士的纪念网站。',
       link: 'https://one-among.us',
       icon: { src: 'https://www.one-among.us/favicon-large.png', height: '15px' },
     },
     {
-      title: 'Trans in Academia! Bulletin',
+      title: 'Trans in Academia! 跨性别学术小组公告板（英文）',
       details:
         'A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.',
       link: 'https://oau.edu.kg',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
     {
-      title: 'Trans in Academia! Broadcast',
+      title: 'Trans in Academia! 跨性别学术小组广播（中文）',
       details:
-        'Join the Telegram channel of Trans in Academia! and view its discussion (mainly in Chinese).',
+        '一个 Telegram 频道（含附属讨论群）。分享与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。',
       link: 'https://t.me/transacademicorg',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
     {
-      title: 'Transgender University Guidance',
+      title: '跨性别选校手册（中、英文）',
       details:
-        'A collective effort aimed at providing valuable resources and support for transgender individuals pursuing higher education.',
-      link: 'https://uniguide.transacademic.org/',
+        '共同编辑的资料库，为跨性别者求学海内外提供信息。',
+      link: 'https://uniguide.transacademic.org/zh-hans/',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
     {
-      title: 'OAU Greater Toronto Area Gathering',
-      details: 'Join the Telegram group via this broadcast.',
+      title: 'OAU 大多伦多地区跨性别和性别多元人士社群（中文）',
+      details: '活动/医疗资源/出二手/生活分享/约饭/RLE/非在籍移民互助。点击链接查阅加群方式。',
       link: 'https://t.me/transacademicorg/775',
     },
   ],
-  Friends: [
+  '朋友们': [
     {
-      title: 'Project trans',
+      title: '跨儿计划 Project trans',
       details:
-        'Project Trans (formerly known as MtF.wiki) aims to better maintain multiple projects including MtF wiki, FtM wiki and more.',
-      link: 'https://about.project-trans.org/en/',
-      icon: { src: 'https://about.project-trans.org/en/home/logo.png', height: '15px' },
+        'MtF.wiki, FtM.wiki, RLE.wiki 等诸多知识站的运营方。',
+      link: 'https://about.project-trans.org/zh-hans/',
+      icon: { src: 'https://about.project-trans.org/zh-hans/home/logo.png', height: '15px' },
     },
     {
-      title: '2345.LGBT',
-      details: 'A transgender navigation site owned and maintained by Project Trans.',
-      link: 'https://2345.lgbt/en/',
+      title: '2345.LGBT 跨性别导航',
+      details: '跨性别相关网站集结。',
+      link: 'https://2345.lgbt/zh-cn/',
       icon: { src: 'https://2345.lgbt/brand.svg', height: '15px' },
     },
   ],
