@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'One Among Us'
   text: ''
-  tagline: A not-for-profit organization which operates one-among.us and other projects.
+  tagline: A community for East-Asian and East-Asian Canadian transgender and gender diverse people.
   image: https://www.one-among.us/favicon-large.png
   actions:
     #- theme: brand
