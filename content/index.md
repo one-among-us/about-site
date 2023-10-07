@@ -39,8 +39,9 @@ features:
   - title: 'Arts Among Us: An epiphanic library of creativity.'
     details: An online gallery showcasing Asian-Canadian trans and queer arts.
   - icon: <img src="https://oau.edu.kg/rxn-logo.jpg" style="mix-blend-mode:multiply;">
-    title: Reaction Group
-    details: A reaction group (not accepting requests).
+    title: Local Services
+    details: Local service groups.
+    link: contact#local-service-groups
 ---
 
 <div :class="$style.outerContent">

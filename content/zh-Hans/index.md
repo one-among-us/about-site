@@ -39,8 +39,9 @@ features:
   - title: 'Arts Among Us'
     details: 关于跨性别和酷儿艺术的线上展览馆，筹建中。
   - icon: <img src="https://oau.edu.kg/rxn-logo.jpg" style="mix-blend-mode:multiply;">
-    title: 行动组
+    title: 在地服务组
     details: 提供一些简单的社区互助服务。
+    link: zh-Hans/contact#在地服务组
 ---
 
 <div :class="$style.outerContent">
