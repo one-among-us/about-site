@@ -34,7 +34,7 @@ const works: MyWorks = {
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
     {
-      title: 'グレータートロントトランスコミュニティー',
+      title: 'グレータートロントトランスコミュニティ',
       details: 'イベント・医療・中古品・ヘルプ・ＲＬＥ・その他（いま中国語は大部分、日本語を使用する方が大歓迎）。',
       link: 'https://t.me/transacademicorg/775',
     },
