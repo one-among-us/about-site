@@ -31,6 +31,23 @@ export default defineConfig({
         },
       },
     },
+    'ja': {
+      label: '日本語',
+      lang: 'ja',
+      themeConfig: {
+        nav: [
+          { text: 'ニューズ', link: '/ja/posts' },
+          { text: 'リンク', link: '/ja/links' },
+          {
+	    text: '連絡先',
+	    link: '/ja/contact',
+	  },
+        ],
+	sidebar: {
+          '/ja/posts': getPostList('ja'),
+        },
+      },
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -58,6 +75,8 @@ export default defineConfig({
     'links/index.md': 'links.md',
     'zh-Hans/posts/index.md': 'zh-Hans/posts.md',
     'zh-Hans/links/index.md': 'zh-Hans/links.md',
+    'ja/posts/index.md': 'ja/posts.md',
+    'ja/links/index.md': 'ja/links.md',
   },
   vite: { plugins: [VueJsx(), Unocss()], server: { host: '0.0.0.0' } },
   markdown: {
