@@ -19,7 +19,7 @@ interface MyWorks {
 }
 
 const works: MyWorks = {
-  '链接': [
+  '项目': [
     {
       title: '那些秋叶 One Among Us',
       details: '去世跨性别者及友跨人士的纪念网站。',
