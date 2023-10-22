@@ -19,23 +19,43 @@ interface MyWorks {
 }
 
 const works: MyWorks = {
-  'リンク': [
+  'プロジェクト': [
     {
       title: '秋の葉ものがたり One Among Us(いま中国語・英語のみ)',
       details: 'トランスジェンダーとそのアライたちの追悼サイト。',
       link: 'https://one-among.us',
-      icon: { src: 'https://www.one-among.us/favicon-large.png', height: '15px' },
+      icon: { src: 'https://www.one-among.us/favicon-large.png' },
     },
     {
       title: 'トランスアカデミー 掲示版(英)',
       details:
-        '学術を追求するトランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のコミュニティ',
+        '学術を追求するトランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のコミュニティー',
       link: 'https://oau.edu.kg',
       icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
     },
+  ],
+  'SNS': [
     {
-      title: 'グレータートロントトランスコミュニティ',
-      details: 'イベント・医療・中古品・ヘルプ・ＲＬＥ・その他（いま中国語は大部分、日本語を使用する方が大歓迎）。',
+      title: 'Telegram チャネル(中国語・日本語)',
+      details: 'トランスアカデミーチャネル。',
+      link: 'https://t.me/transacademicorg',
+    },
+    {
+      title: 'Instagram',
+      details: '主にトロントのイベントの広報。',
+      link: 'https://instagram.com/oneamongus_ca',
+    },
+    {
+      title: 'Fediverse (Pleroma)',
+      details:
+        'Fediverseを実装するkazv.moeで架かるトランスアカデミーチャネル。Mastodon・Misskeyなどのプラットフォーム間の相互運用が可能。',
+      link: 'https://kazv.moe/users/tia',
+    },
+  ],
+  'ローカルコミュニティー': [
+    {
+      title: 'グレーター・トロント(GTA)に集まれ!',
+      details: 'イベント・医療・中古品・ヘルプ・ＲＬＥ・その他(いま中国語は大部分、日本語を使用する方が大歓迎)。',
       link: 'https://t.me/transacademicorg/775',
     },
   ],
@@ -45,13 +65,13 @@ const works: MyWorks = {
       details:
         'プロジェクト・トランス（Project Trans）は、MtF wiki チームがリニューアルし、MtF wiki も FtM wiki などのプロジェクトをより良く維持するために作成されました。',
       link: 'https://about.project-trans.org/ja/',
-      icon: { src: 'https://about.project-trans.org/ja/home/logo.png', height: '15px' },
+      icon: { src: 'https://about.project-trans.org/ja/home/logo.png' },
     },
     {
       title: '2345.LGBT',
       details: 'トランス・ジェンダーのすべて。',
       link: 'https://2345.lgbt/ja/',
-      icon: { src: 'https://2345.lgbt/brand.svg', height: '15px' },
+      icon: { src: 'https://2345.lgbt/brand.svg' },
     },
   ],
 };

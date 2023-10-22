@@ -24,29 +24,50 @@ const works: MyWorks = {
       title: '那些秋叶 One Among Us',
       details: '去世跨性别者及友跨人士的纪念网站。',
       link: 'https://one-among.us',
-      icon: { src: 'https://www.one-among.us/favicon-large.png', height: '15px' },
+      icon: { src: 'https://www.one-among.us/favicon-large.png' },
     },
     {
-      title: 'Trans in Academia! 跨性别学术小组公告板（英文）',
+      title: 'Trans in Academia! 跨性别学术小组',
       details:
-        'A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.',
+        '分享与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。',
       link: 'https://oau.edu.kg',
-      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
+      icon: { src: 'https://oau.edu.kg/TIA_LogoD@3x.png' },
     },
     {
-      title: 'Trans in Academia! 跨性别学术小组广播（中文）',
-      details:
-        '一个 Telegram 频道（含附属讨论群）。分享与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。',
-      link: 'https://t.me/transacademicorg',
-      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
-    },
-    {
-      title: '跨性别选校手册（中、英文）',
+      title: '跨性别选校手册',
       details:
         '共同编辑的资料库，为跨性别者求学海内外提供信息。',
       link: 'https://uniguide.transacademic.org/zh-hans/',
-      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
+      icon: '<img src="https://oau.edu.kg/logo.png" style="filter:brightness(90%);">',
     },
+  ],
+  '社交媒体': [
+    {
+      title: 'Telegram（电报）频道',
+      details:
+        '跨性别学术小组 Telegram 频道（含附属讨论群）。',
+      link: 'https://t.me/transacademicorg',
+    },
+        {
+      title: 'Instagram',
+      details:
+        '我们的 Instagram 账号，以多伦多在地内容为主。',
+      link: 'https://instagram.com/oneamongus_ca',
+    },
+    {
+      title: 'Fediverse 邦联宇宙（Pleroma）',
+      details:
+        '架设在 kazv.moe 飞升星上的跨性别学术广播。Fediverse 内各网站（Pleroma/Mastodon/Misskey 等）皆可互通。',
+      link: 'https://kazv.moe/users/tia',
+    },
+    {
+      title: 'X（以前叫 Twitter）',
+      details:
+        '我们谴责 X 对平台泛滥反跨内容的纵容。',
+      link: 'https://twitter.com/oneamong_us',
+    },
+  ],
+  '在地社群': [
     {
       title: 'OAU 大多伦多地区跨性别和性别多元人士社群（中文）',
       details: '活动/医疗资源/出二手/生活分享/约饭/RLE/非在籍移民互助。点击链接查阅加群方式。',

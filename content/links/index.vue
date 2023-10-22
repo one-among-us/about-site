@@ -24,29 +24,50 @@ const works: MyWorks = {
       details:
         'A memorial website dedicated to transgender individuals and their allies who had passed away.',
       link: 'https://one-among.us',
-      icon: { src: 'https://www.one-among.us/favicon-large.png', height: '15px' },
+      icon: { src: 'https://www.one-among.us/favicon-large.png' },
     },
     {
-      title: 'Trans in Academia! Bulletin',
+      title: 'Trans in Academia!',
       details:
         'A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.',
       link: 'https://oau.edu.kg',
-      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
-    },
-    {
-      title: 'Trans in Academia! Broadcast',
-      details:
-        'Join the Telegram channel of Trans in Academia! and view its discussion (mainly in Chinese).',
-      link: 'https://t.me/transacademicorg',
-      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
+      icon: { src: 'https://oau.edu.kg/TIA_LogoD@3x.png' },
     },
     {
       title: 'Transgender University Guidance',
       details:
         'A collective effort aimed at providing valuable resources and support for transgender individuals pursuing higher education.',
       link: 'https://uniguide.transacademic.org/',
-      icon: '<img src="https://oau.edu.kg/logo.jpg" style="padding:0px;mix-blend-mode:multiply;filter:brightness(110%);clip-path:polygon(0% 0%, 90% 0%, 90% 80%, 0% 80%);position:relative;top:4px;">',
+      icon: '<img src="https://oau.edu.kg/logo.png" style="filter:brightness(90%);">',
     },
+  ],
+  'Social Media': [
+    {
+      title: 'Telegram Channel & Group',
+      details:
+        'Trans in Academia! Broadcast with discussion group (mainly in Chinese).',
+      link: 'https://t.me/transacademicorg',
+    },
+    {
+      title: 'Instagram',
+      details:
+        'Instagram account for One Among Us Toronto.',
+      link: 'https://instagram.com/oneamongus_ca',
+    },
+    {
+      title: 'Fediverse (Pleroma)',
+      details:
+        'Trans in Academia! Fediverse account on kazv.moe. Follow with your Pleroma/Mastodon/Misskey/etc. account!',
+      link: 'https://kazv.moe/users/tia',
+    },
+    {
+      title: 'X (Formerly Twitter)',
+      details:
+        'We condemn X of their ignorance of transphobic contents.',
+      link: 'https://twitter.com/oneamong_us_en',
+    },
+  ],
+  'Local Communities': [
     {
       title: 'OAU Greater Toronto Area Gathering',
       details:
@@ -60,13 +81,13 @@ const works: MyWorks = {
       details:
         'Project Trans (formerly known as MtF.wiki) aims to better maintain multiple projects including MtF wiki, FtM wiki and more.',
       link: 'https://about.project-trans.org/en/',
-      icon: { src: 'https://about.project-trans.org/en/home/logo.png', height: '15px' },
+      icon: { src: 'https://about.project-trans.org/en/home/logo.png' },
     },
     {
       title: '2345.LGBT',
       details: 'A transgender navigation site owned and maintained by Project Trans.',
       link: 'https://2345.lgbt/en/',
-      icon: { src: 'https://2345.lgbt/brand.svg', height: '15px' },
+      icon: { src: 'https://2345.lgbt/brand.svg' },
     },
   ],
 };
