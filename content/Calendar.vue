@@ -64,12 +64,12 @@ onMounted(fetchIcal);
         <div class="event" v-for="ev in evs" :key="ev.summary">
             <div class="date">
                 <span class="month">{{ ev.start.toLocaleString('default', { month: 'short' }) }}</span>
-                <span class="day">{{ ev.start.getDate() }}</span>
+                <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
                 <span class="dow">{{ ev.start.toLocaleString('default', { weekday: 'long' }) }}</span>
             </div>
             <div class="info">
                 <div class="summary">{{ ev.summary }}</div>
-                <div class="time">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} - {{ ev.end.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</div>
+                <div class="time">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} - {{ ev.end.toLocaleString('default', { hour: '2-digit', minute: '2-digit', timeZoneName: 'long' }) }}</div>
                 <div class="location">{{ ev.location }}</div>
                 <div class="description" v-html="ev.description"></div>
             </div>
