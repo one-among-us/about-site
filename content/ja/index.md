@@ -47,6 +47,12 @@ features:
 <div :class="$style.outerContent">
 <div :class="$style.content" class="vp-doc">
 
+## 活動カレンダー
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+[Google Calendarに登録する](https://calendar.google.com/calendar/u/1?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)・[ICal(ics)ファイルダウンロード](https://calendar.google.com/calendar/ical/c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com/public/basic.ics)。
+
 </div>
 </div>
 
