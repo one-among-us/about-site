@@ -38,7 +38,16 @@ const fetchIcal = async () => {
 
         const _tmp = []
         for (let k in cal) _tmp.push(cal[k]);
-        evs.value = _tmp.filter(ev => ev.type == 'VEVENT' && ev.start > now)
+        const events = _tmp.filter(ev => ev.type == 'VEVENT' && ev.start > now)
+
+        // If there are no upcoming events, show one from the past
+        if (events.length == 0) {
+            const pastEvents = _tmp.filter(ev => ev.type == 'VEVENT' && ev.start < now)
+            if (pastEvents.length > 0) events.push(pastEvents[pastEvents.length - 1])
+        }
+
+        evs.value = events
+
     } catch (error) {
         console.error("There was a problem with the fetch operation:", error.message);
     }
@@ -51,17 +60,19 @@ onMounted(fetchIcal);
 
 
 <template>
-    <div class="event" v-for="ev in evs" :key="ev.summary">
-        <div class="date">
-            <span class="month">{{ ev.start.toLocaleString('default', { month: 'short' }) }}</span>
-            <span class="day">{{ ev.start.getDate() }}</span>
-            <span class="dow">{{ ev.start.toLocaleString('default', { weekday: 'long' }) }}</span>
-        </div>
-        <div class="info">
-            <div class="summary">{{ ev.summary }}</div>
-            <div class="time">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} - {{ ev.end.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</div>
-            <div class="location">{{ ev.location }}</div>
-            <div class="description" v-html="ev.description"></div>
+    <div class="events">
+        <div class="event" v-for="ev in evs" :key="ev.summary">
+            <div class="date">
+                <span class="month">{{ ev.start.toLocaleString('default', { month: 'short' }) }}</span>
+                <span class="day">{{ ev.start.getDate() }}</span>
+                <span class="dow">{{ ev.start.toLocaleString('default', { weekday: 'long' }) }}</span>
+            </div>
+            <div class="info">
+                <div class="summary">{{ ev.summary }}</div>
+                <div class="time">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} - {{ ev.end.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</div>
+                <div class="location">{{ ev.location }}</div>
+                <div class="description" v-html="ev.description"></div>
+            </div>
         </div>
     </div>
 </template>
@@ -86,6 +97,11 @@ a
 
 .event:hover
     border-color: var(--vp-c-brand-1)
+
+.events
+    display: flex
+    flex-direction: column
+    gap: 1em
 
 .date
     display: flex
@@ -120,6 +136,5 @@ a
         align-items: flex-end
 
         .dow
-
-
+            line-height: normal
 </style>
