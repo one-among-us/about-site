@@ -5,3 +5,6 @@ node_modules
 # output
 content/.vitepress/dist
 content/.vitepress/cache
+
+.idea
+yarn-error.log
