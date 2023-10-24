@@ -63,9 +63,12 @@ onMounted(fetchIcal);
     <div class="events">
         <div class="event" v-for="ev in evs" :key="ev.summary">
             <div class="date">
-                <span class="month">{{ ev.start.toLocaleString('default', { month: 'short' }) }}</span>
-                <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
-                <span class="dow">{{ ev.start.toLocaleString('default', { weekday: 'long' }) }}</span>
+                <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
+                <div class="actual-date">
+                    <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
+                    <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
+                    <span class="dow">{{ ev.start.toLocaleDateString('zh-CN', { weekday: 'long' }) }}</span>
+                </div>
             </div>
             <div class="info">
                 <div class="summary">{{ ev.summary }}</div>
@@ -103,16 +106,39 @@ a
     gap: 1em
 
 .date
-    display: flex
-    writing-mode: sideways-lr
-    gap: 0.5em
-    justify-content: flex-end
-
     .month, .day
         font-size: 1.5em
 
     .dow
         font-size: 1.2em
+
+    // BEGIN sideways-lr COMPATIBILITY WORKAROUND
+    // It's okay if you don't understand this whole ordeal, css is awesome right?
+    // Check https://stackoverflow.com/q/77353660/7346633
+    writing-mode: vertical-rl
+    position: relative
+
+    .month
+        opacity: 0
+
+    .actual-date
+        position: absolute
+        top: 0
+        left: 0
+
+        writing-mode: lr
+        width: max-content
+        transform: rotate(-90deg) translateX(-100%)
+        transform-origin: top left
+
+        display: flex
+        gap: 0.5em
+        justify-content: flex-end
+        color: unset
+
+        .month
+            opacity: unset
+    // END sideways-lr COMPATIBILITY WORKAROUND
 
 .dow, .time
     color: var(--vp-c-brand-1)
