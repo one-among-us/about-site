@@ -54,8 +54,15 @@ const fetchIcal = async () => {
             {
                 e.googleMeet = e['GOOGLE-CONFERENCE']
                 delete e['GOOGLE-CONFERENCE']
-                if (e.description.includes('<br>'))
-                    e.description = e.description.substring(0, e.description.lastIndexOf('<br>'))
+                // Typically, the description uses HTML <br> for line breaks, and only the Google Meet line
+                // uses \n. So the first \n we see indicate the start of the Google Meet line.
+                // TODO: This might need more testing
+
+                if (e.description.includes('\n'))
+                    e.description = e.description.substring(0, e.description.indexOf('\n'))
+                
+                // if (e.description.includes('<br>'))
+                //     e.description = e.description.substring(0, e.description.lastIndexOf('<br>'))
             }
         })
 
