@@ -93,7 +93,6 @@ a
     transition: border-color 0.25s, background-color 0.25s
 
     padding: 1em
-    cursor: pointer
 
 .event:hover
     border-color: var(--vp-c-brand-1)
