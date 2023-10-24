@@ -20,6 +20,8 @@ interface CalEvent {
     location: string;
     description: string;
     url: string;
+
+    googleMeet?: string;
 }
 
 // Function to fetch and parse the ical
@@ -45,6 +47,17 @@ const fetchIcal = async () => {
             const pastEvents = _tmp.filter(ev => ev.type == 'VEVENT' && ev.start < now)
             if (pastEvents.length > 0) events.push(pastEvents[pastEvents.length - 1])
         }
+
+        // Remove the terrible line added by Google Meet
+        events.forEach(e => {
+            if (e['GOOGLE-CONFERENCE'])
+            {
+                e.googleMeet = e['GOOGLE-CONFERENCE']
+                delete e['GOOGLE-CONFERENCE']
+                if (e.description.includes('<br>'))
+                    e.description = e.description.substring(0, e.description.lastIndexOf('<br>'))
+            }
+        })
 
         evs.value = events
 
@@ -75,6 +88,12 @@ onMounted(fetchIcal);
             <div class="info">
                 <div class="summary">{{ ev.summary }}</div>
                 <div class="time">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} - {{ ev.end.toLocaleString('default', { hour: '2-digit', minute: '2-digit', timeZoneName: 'long' }) }}</div>
+
+                <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet">
+                    <img src="./assets/google-meet.svg" alt="google meet icon" />
+                    <span>Google Meet</span>
+                </a>
+
                 <div class="location">{{ ev.location }}</div>
                 <div class="description" v-html="ev.description"></div>
             </div>
@@ -85,6 +104,9 @@ onMounted(fetchIcal);
 <style scoped lang="sass">
 a
     text-decoration: none
+    color: inherit
+
+a:hover
     color: inherit
 
 // Event box (this card style is copied from VitePress homepage theme)
@@ -152,6 +174,35 @@ a
 
 .description
     margin-top: 1em
+
+// Google Meet button (The button style is copied from VitePress homepage theme)
+.googleMeetBtn
+    display: flex
+    align-items: center
+    gap: 0.5em
+    margin-top: 1em
+
+    width: max-content
+
+    border-color: var(--vp-button-alt-border)
+    color: var(--vp-button-alt-text)
+    background-color: var(--vp-button-alt-bg)
+
+    border-radius: 20px
+    padding: 0 20px
+    line-height: 38px
+    font-size: 14px
+
+    transition: all 0.5s ease
+
+    img
+        width: 1.5em
+        height: 1.5em
+
+.googleMeetBtn:hover
+    border-color: var(--vp-button-alt-hover-border)
+    color: var(--vp-button-alt-hover-text)
+    background-color: var(--vp-button-alt-hover-bg)
 
 // Phone
 @media(max-width: 600px)
