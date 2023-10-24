@@ -112,6 +112,9 @@ a
     .month, .day
         font-size: 1.5em
 
+    .dow
+        font-size: 1.2em
+
 .dow, .time
     color: var(--vp-c-brand-1)
 
@@ -119,7 +122,8 @@ a
     font-weight: bold
     font-size: 1.2em
 
-    margin-bottom: 1em
+.description
+    margin-top: 1em
 
 // Phone
 @media(max-width: 600px)
