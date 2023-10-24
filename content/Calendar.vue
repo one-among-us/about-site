@@ -104,8 +104,7 @@ a
 
 .date
     display: flex
-    writing-mode: vertical-rl
-    transform: scale(-1)
+    writing-mode: sideways-lr
     gap: 0.5em
     justify-content: flex-end
 
