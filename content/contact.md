@@ -1,6 +1,6 @@
 ---
 title: 'Contact'
-date: 2023-10-07T00:32:40-04:00
+date: 2023-11-14T14:40:00-05:00
 ---
 
 **General Enquiries**:  [info@oneamongus.ca](mailto:info@oneamongus.ca)
@@ -9,7 +9,7 @@ date: 2023-10-07T00:32:40-04:00
 
 ## Online Service Groups
 
-**Memorial Website**: [remembrance@oneamongus.ca](mailto:remembrance@oneamongus.ca) , [info@one-among.us](mailto:info@one-among.us)
+**Memorial Website**: [remembrance@oneamongus.ca](mailto:remembrance@oneamongus.ca), [info@one-among.us](mailto:info@one-among.us)
 
 **Trans in Academia!, Transgender University Guide**: [tia@oneamongus.ca](mailto:tia@oneamongus.ca)
 
@@ -17,7 +17,7 @@ date: 2023-10-07T00:32:40-04:00
 
 ## Local Service Groups
 
-**Toronto Events and Services**: [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca)
+**Toronto Events and Services**: [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca) (See our [**Land Acknowledgment**](land-ack))
 
 **The "Rabbit Hole" Service Group**: [hk@oneamongus.ca](mailto:hk@oneamongus.ca)
 
