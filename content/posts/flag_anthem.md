@@ -17,28 +17,30 @@ We released the flag and anthem of our organization recently.
 
 ![Star Tour Song, from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō](./hoshi-meguri-no-uta.png 'Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo')
 
-あかいめだまの　さそり
+Can you see the red eyed Scorpion?
 
-ひろげた鷲の　　つばさ
+And the Eagle spreads his wings so wide
 
-あをいめだまの　小いぬ、
+Over there the blue-eyed young Puppy
 
-ひかりのへびの　とぐろ。
+See the coiled up Serpent of the light
 
-オリオンは高く　うたひ
+Orion sings from far away
 
-つゆとしもとを　おとす、
+It drops it’s dew and frost from the sky
 
-<br />
+<br/>
 
-アンドロメダの　くもは
+Can you see the cloud of Andromeda
 
-さかなのくちの　かたち。
+Looking just like the lips of a fish
 
-大ぐまのあしを　きたに
+See the Mama Bear’s pawn up in the north,
 
-五つのばした　　ところ。
+Take five steps south and you will find
 
-小熊のひたいの　うへは
+The shining Little Cub’s head is the key
 
-そらのめぐりの　めあて。
+Guiding us to the soul of the sky
+
+(English translated by Lindsay)
