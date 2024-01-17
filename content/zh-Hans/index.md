@@ -31,17 +31,18 @@ features:
   - icon: <img src="https://www.one-among.us/favicon-large.png" style="padding:8px;">
     title: 那些秋叶 One Among Us
     details: 去世跨性别者及友跨人士的纪念网站。
-    link: https://one-among.us
+    link: ./#我们的纪念
   - icon: <img src="https://oau.edu.kg/logo.png">
     title: Trans in Academia! 跨性别学术小组
     details: 交流与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。
-    link: https://oau.edu.kg
+    link: ./#跨性别学术小组-trans-in-academia
   - title: 'Arts Among Us'
     details: 关于跨性别和酷儿艺术的线上展览馆，筹建中。
+    link: ./#arts-among-us
   - icon: <img src="https://oau.edu.kg/rxn-logo.jpg" style="mix-blend-mode:multiply;">
     title: 在地服务组
     details: 提供一些简单的社区互助服务。
-    link: zh-Hans/contact#在地服务组
+    link: ./#在地社群
 ---
 
 <div :class="$style.outerContent">
