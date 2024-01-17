@@ -1,39 +1,54 @@
 ---
 title: Member Zone
-date: 2023-11-14T14:40:00-05:00
 ---
 
-Workspace Login:
+### 常用工作平台
 
-- Email [mail.oneamongus.ca](https://mail.oneamongus.ca)
+1. Google
 
-- Calendar [cal.oneamongus.ca](https://cal.oneamongus.ca)
+- Email [mail.oneamongus.ca](http://mail.oneamongus.ca)
 
-- Drive [drive.oneamongus.ca](https://drive.oneamongus.ca)
+- Calendar [cal.oneamongus.ca](http://cal.oneamongus.ca)
 
-- Online Conference [conf.oau.app](https://conf.oau.app) mod password required to start a new conference room
+- Drive [drive.oneamongus.ca](http://drive.oneamongus.ca) 点左侧 Shared Drive - One Among Us 进公用网盘
 
-- [Tailscale](https://login.tailscale.com/admin)
+- Workspace Admin [admin.google.com](https://admin.google.com)
 
-- [Cloudflare Dashboard](https://dash.cloudflare.com/login)
+2. [Telegram](https://web.telegram.org)
 
-- [GitHub](https://github.com/one-among-us)
+3. [GitHub](https://github.com/one-among-us)
 
-- [Telegram](https://web.telegram.org)
+4. Online Conference [conf.oau.app](https://conf.oau.app) 管理员密码请在群里问
 
----
+### 常用填写表格
 
-Services Running:
+1. [简报和项目进度表（需要权限）](https://docs.google.com/spreadsheets/d/10HKV6kVFKswh-iUC-Vktxkzf0lY9CMzMm8JINPIgKOU/)
 
-- [heartbeat.oau](https://artefaritakuniklo.github.io/heartbeat.oau/)
+2. [报销表格](https://docs.google.com/forms/d/1QaUSCT4xow_sVLWj5dmLt73VVgpymNTFWHPek1tZT_8/edit)
+
+3. [会计总表（需要权限，会填可以直接填里面不用走报销表格）](https://docs.google.com/spreadsheets/d/1TnYa_khIeI1iVL4_udp88FQ5i_QysFt6jpROkrC4kvc/edit#gid=972494132)
+
+4. [工作细则 GitHub How-We-Work](https://github.com/one-among-us/how-we-work/) 有新的总结记得填写
+
+5. [成员名单 GitHub（需要权限）](https://github.com/one-among-us/.github-private/blob/main/memo/members.md) 我在考虑要不要转到 Google Workspace 上
+
+### 网络维护
+
+1. [Tailscale](https://login.tailscale.com/admin) 用自己的 GitHub 账号登录并且授权访问组织，可以进入内网
+
+2. [Cloudflare Dashboard](https://dash.cloudflare.com/login)
+
+
+3. Monitors:
+
+- [heartbeat.oau](https://artefaritakuniklo.github.io/heartbeat.oau/) 看看 One Among Us 服务器过得怎么样
 
 - [Matrix Server](https://oau.app/_matrix/client/versions), [Matrix-Telegram Relay Bot](https://t.me/oaumsgfwdbot)
 
 - [GitHub Updates Lookup](https://t.me/oau_github)
 
----
 
-Servers:
+4. How to Log into Servers:
 
 when connected tailscale, `ssh <account>@<hostname>`
 
