@@ -31,7 +31,7 @@ features:
   - icon: <img src="https://www.one-among.us/favicon-large.png" style="padding:8px;">
     title: 那些秋叶 One Among Us
     details: 去世跨性别者及友跨人士的纪念网站。
-    link: ./#我们的纪念
+    link: ./#珍藏那些飘落的秋叶
   - icon: <img src="https://oau.edu.kg/logo.png">
     title: Trans in Academia! 跨性别学术小组
     details: 交流与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。
@@ -58,7 +58,7 @@ import Calendar from '../Calendar.vue'
 
 可以 [添加到你的 Google Calendar](https://calendar.google.com/calendar/u/1?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) 或者使用 [ICal (ics) 格式链接](https://calendar.google.com/calendar/ical/c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com/public/basic.ics)。
 
-## 我们的纪念
+## 珍藏那些飘落的秋叶
 
 2021 年 11 月 20 日跨性别纪念日前夕，纪念网站「那些秋叶」上线。
 网站的中文名「那些秋叶」是桂桂起的，而英文名 One Among Us 则是 Maura 的创作。
