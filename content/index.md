@@ -21,6 +21,9 @@ hero:
       text: Links
       link: /links
     - theme: alt
+      text: People
+      link: /people
+    - theme: alt
       text: Contact
       link: /contact
     - theme: brand

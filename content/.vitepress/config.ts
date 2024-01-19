@@ -57,6 +57,7 @@ export default defineConfig({
     nav: [
       { text: 'Posts', link: '/posts' },
       { text: 'Links', link: '/links' },
+      { text: 'People', link: '/people' },
       { text: 'Contact', link: '/contact' },
       { text: '<b>Member Login</b>', link: '/res' },
     ],
@@ -76,6 +77,7 @@ export default defineConfig({
   },
   rewrites: {
     'posts/index.md': 'posts.md',
+    'people/index.md': 'people.md',
     'links/index.md': 'links.md',
     'zh-Hans/posts/index.md': 'zh-Hans/posts.md',
     'zh-Hans/links/index.md': 'zh-Hans/links.md',
