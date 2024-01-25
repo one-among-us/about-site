@@ -32,7 +32,7 @@ features:
     title: 秋の葉ものがたり One Among Us
     details: トランスジェンダーとそのアライたちの追悼サイト。
     link: https://one-among.us
-  - icon: <img src="https://oau.edu.kg/logo.png">
+  - icon: <img src="https://oau.edu.kg/TIA_LogoLA@3x.png">
     title: トランスアカデミー Trans in Academia!
     details: 学術を追求するトランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のコミュニティ（いま中国語は大部分、日本語を使用する方が大歓迎）。
     link: https://oau.edu.kg

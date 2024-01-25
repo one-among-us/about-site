@@ -32,7 +32,7 @@ features:
     title: 那些秋叶 One Among Us
     details: 去世跨性别者及友跨人士的纪念网站。
     link: ./#珍藏那些飘落的秋叶
-  - icon: <img src="https://oau.edu.kg/logo.png">
+  - icon: <img src="https://oau.edu.kg/TIA_LogoLA@3x.png">
     title: Trans in Academia! 跨性别学术小组
     details: 交流与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。
     link: ./#跨性别学术小组-trans-in-academia

@@ -31,14 +31,14 @@ const works: MyWorks = {
       details:
         '分享与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。',
       link: 'https://oau.edu.kg',
-      icon: { src: 'https://oau.edu.kg/TIA_LogoD@3x.png' },
+      icon: { src: 'https://oau.edu.kg/TIA_LogoLA@3x.png' },
     },
     {
       title: '跨性别选校手册',
       details:
         '共同编辑的资料库，为跨性别者求学海内外提供信息。',
       link: 'https://uniguide.transacademic.org/zh-hans/',
-      icon: '<img src="https://oau.edu.kg/logo.png" style="filter:brightness(90%);">',
+      icon: '<img src="https://oau.edu.kg/community-logo.png" style="filter:brightness(90%);">',
     },
   ],
   '社交媒体': [

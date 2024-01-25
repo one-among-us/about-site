@@ -35,7 +35,7 @@ features:
     title: One Among Us
     details: A memorial website dedicated to transgender individuals and their allies who had passed away.
     link: /#our-memorial
-  - icon: <img src="https://oau.edu.kg/logo.png">
+  - icon: <img src="https://oau.edu.kg/TIA_LogoLA@3x.png">
     title: Trans in Academia!
     details: A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.
     link: /#trans-in-academia

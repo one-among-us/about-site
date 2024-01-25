@@ -31,14 +31,14 @@ const works: MyWorks = {
       details:
         'A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.',
       link: 'https://oau.edu.kg',
-      icon: { src: 'https://oau.edu.kg/TIA_LogoD@3x.png' },
+      icon: { src: 'https://oau.edu.kg/TIA_LogoLA@3x.png' },
     },
     {
       title: 'Transgender University Guidance',
       details:
         'A collective effort aimed at providing valuable resources and support for transgender individuals pursuing higher education.',
       link: 'https://uniguide.transacademic.org/',
-      icon: '<img src="https://oau.edu.kg/logo.png" style="filter:brightness(90%);">',
+      icon: '<img src="https://oau.edu.kg/community-logo.png" style="filter:brightness(90%);">',
     },
   ],
   'Social Media': [
