@@ -31,7 +31,7 @@ const works: MyWorks = {
       details:
         '学術を追求するトランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のコミュニティー',
       link: 'https://oau.edu.kg',
-      icon: '<img src="https://oau.edu.kg/TIA_LogoLA@3x.jpg">',
+      icon: '<img src="https://oau.edu.kg/TIA_LogoLA@ico.png">',
     },
   ],
   'SNS': [
