@@ -25,7 +25,7 @@ export default defineConfig({
             text: '联系我们',
             link: '/zh-Hans/contact',
           },
-	  { text: '<b>会员登录</b>', link: '/res' },
+	  { text: '会员登录', link: '/res' },
 
         ],
         sidebar: {
@@ -44,7 +44,7 @@ export default defineConfig({
 	    text: '連絡先',
 	    link: '/ja/contact',
 	  },
-	  { text: '<b>会員ログイン</b>', link: '/res' },
+	  { text: '会員ログイン', link: '/res' },
         ],
 	sidebar: {
           '/ja/posts': getPostList('ja'),
@@ -59,7 +59,7 @@ export default defineConfig({
       { text: 'Links', link: '/links' },
       { text: 'People', link: '/people' },
       { text: 'Contact', link: '/contact' },
-      { text: '<b>Member Login</b>', link: '/res' },
+      { text: 'Member Login', link: '/res' },
     ],
     logo: 'https://www.one-among.us/favicon-large.png',
 
