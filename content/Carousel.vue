@@ -1,14 +1,17 @@
 <script lang="tsx">
 import '@splidejs/vue-splide/css/skyblue';
-import { defineClientComponent } from 'vitepress';
+import { defineClientComponent, useData } from 'vitepress';
+import { computed } from 'vue';
 
 const photos = [
-  'https://www.one-among.us/favicon-large.png',
-  '/people/beiyan-shu.png',
-  '/people/vapaa.jpg',
+  { url: 'https://www.one-among.us/favicon-large.png', alt: { en: '234', 'zh-Hans': '123' } },
+  { url: '/people/beiyan-shu.png', alt: { en: '', 'zh-Hans': '' } },
+  { url: '/people/vapaa.jpg', alt: { en: '', 'zh-Hans': '' } },
 ];
 
 export default defineClientComponent(async () => {
+  const data = useData();
+  const locale = computed(() => data.lang.value);
   const res = await import('@splidejs/vue-splide');
   const { Splide, SplideSlide } = res;
   return (
@@ -21,8 +24,8 @@ export default defineClientComponent(async () => {
       }}
     >
       {photos.map((photo) => (
-        <SplideSlide key={photo}>
-          <img src={photo} />
+        <SplideSlide key={photo.url}>
+          <img src={photo.url} alt={photo.alt[locale.value] || photo.alt.en} />
         </SplideSlide>
       ))}
     </Splide>
