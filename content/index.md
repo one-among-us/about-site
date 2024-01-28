@@ -55,6 +55,7 @@ features:
 
 <script setup>
 import Calendar from './Calendar.vue'
+import Carousel from './Carousel.vue'
 </script>
 
 <Calendar url="https://calendar.google.com/calendar/ical/c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com/public/basic.ics"></Calendar>
@@ -83,6 +84,8 @@ We serve and gather people wherever we live, either in Toronto or somewhere.
 
 Visit our [Linktree](https://linktr.ee/oneamongus) or [Instagram](https://www.instagram.com/oneamongus_ca/) for more events information.
 
+<Carousel />
+
 ## Trans in Academia!
 
 Trans in Academia! is our branch for diasporic East Asian and Canadian scholars, students and enthusiasts. Visit their [website](https://oau.edu.kg).
@@ -91,7 +94,7 @@ Trans in Academia! is our branch for diasporic East Asian and Canadian scholars,
 
 On 2023 Mar 13, we lost our beloved member, ArtsEpiphany, to her mental health condition.
 We named our new online-arts-gallery project “Arts Among Us” in memory of her.
-Please keep up with our further updates. 
+Please keep up with our further updates.
 
 </div>
 </div>

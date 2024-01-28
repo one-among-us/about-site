@@ -1,7 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
+import 'uno.css';
 import Theme from 'vitepress/theme';
 import MyLayout from './MyLayout.vue';
-import 'uno.css';
 import './style.css';
 // import './scss/main.scss';
 
@@ -10,7 +10,5 @@ export default {
   Layout: () => {
     return <MyLayout />;
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  },
+  enhanceApp({ app, router, siteData }) {},
 };

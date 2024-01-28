@@ -25,15 +25,14 @@ export default defineConfig({
             text: '联系我们',
             link: '/zh-Hans/contact',
           },
-	  { text: '会员登录', link: '/res' },
-
+          { text: '会员登录', link: '/res' },
         ],
         sidebar: {
           '/zh-Hans/posts': getPostList('zh-Hans'),
         },
       },
     },
-    'ja': {
+    ja: {
       label: '日本語',
       lang: 'ja',
       themeConfig: {
@@ -41,12 +40,12 @@ export default defineConfig({
           { text: 'ニューズ', link: '/ja/posts' },
           { text: 'リンク', link: '/ja/links' },
           {
-	    text: '連絡先',
-	    link: '/ja/contact',
-	  },
-	  { text: '会員ログイン', link: '/res' },
+            text: '連絡先',
+            link: '/ja/contact',
+          },
+          { text: '会員ログイン', link: '/res' },
         ],
-	sidebar: {
+        sidebar: {
           '/ja/posts': getPostList('ja'),
         },
       },

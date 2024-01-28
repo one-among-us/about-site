@@ -1,111 +1,117 @@
 <script setup lang="ts">
-import { defineProps, ref, onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 import ICAL from 'ical';
 
 // Props
 const props = defineProps({
-    url: {
-        type: String,
-        required: true,
-    },
+  url: {
+    type: String,
+    required: true,
+  },
 });
 
 // Reactive properties
 const evs = ref<CalEvent[]>([]);
 
 interface CalEvent {
-    summary: string;
-    start: Date;
-    end: Date;
-    location: string;
-    description: string;
-    url: string;
+  summary: string;
+  start: Date;
+  end: Date;
+  location: string;
+  description: string;
+  url: string;
 
-    googleMeet?: string;
+  googleMeet?: string;
 }
 
 // Function to fetch and parse the ical
 const fetchIcal = async () => {
-    try {
-        const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(props.url)}`);
-        if (!response.ok)
-            throw new Error('Network response was not ok');
+  try {
+    const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(props.url)}`);
+    if (!response.ok) throw new Error('Network response was not ok');
 
-        const data = await response.text();
-        const cal = ICAL.parseICS(data);
+    const data = await response.text();
+    const cal = ICAL.parseICS(data);
 
-        // Get the events
-        const now = new Date();
-        console.log(cal);
+    // Get the events
+    const now = new Date();
+    console.log(cal);
 
-        const _tmp = []
-        for (let k in cal) _tmp.push(cal[k]);
-        const events = _tmp.filter(ev => ev.type == 'VEVENT' && ev.start > now)
+    const _tmp = [];
+    for (let k in cal) _tmp.push(cal[k]);
+    const events = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start > now);
 
-        // If there are no upcoming events, show one from the past
-        if (events.length == 0) {
-            const pastEvents = _tmp.filter(ev => ev.type == 'VEVENT' && ev.start < now)
-            if (pastEvents.length > 0) events.push(pastEvents[pastEvents.length - 1])
-        }
-
-        // Remove the terrible line added by Google Meet
-        events.forEach(e => {
-            if (e['GOOGLE-CONFERENCE'])
-            {
-                e.googleMeet = e['GOOGLE-CONFERENCE']
-                delete e['GOOGLE-CONFERENCE']
-                // Typically, the description uses HTML <br> for line breaks, and only the Google Meet line
-                // uses \n. So the first \n we see indicate the start of the Google Meet line.
-                // TODO: This might need more testing
-
-                if (e.description.includes('\n'))
-                    e.description = e.description.substring(0, e.description.indexOf('\n'))
-                
-                // if (e.description.includes('<br>'))
-                //     e.description = e.description.substring(0, e.description.lastIndexOf('<br>'))
-            }
-        })
-
-        evs.value = events
-
-    } catch (error) {
-        console.error("There was a problem with the fetch operation:", error.message);
+    // If there are no upcoming events, show one from the past
+    if (events.length == 0) {
+      const pastEvents = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start < now);
+      if (pastEvents.length > 0) events.push(pastEvents[pastEvents.length - 1]);
     }
+
+    // Remove the terrible line added by Google Meet
+    events.forEach((e) => {
+      if (e['GOOGLE-CONFERENCE']) {
+        e.googleMeet = e['GOOGLE-CONFERENCE'];
+        delete e['GOOGLE-CONFERENCE'];
+        // Typically, the description uses HTML <br> for line breaks, and only the Google Meet line
+        // uses \n. So the first \n we see indicate the start of the Google Meet line.
+        // TODO: This might need more testing
+
+        if (e.description.includes('\n'))
+          e.description = e.description.substring(0, e.description.indexOf('\n'));
+
+        // if (e.description.includes('<br>'))
+        //     e.description = e.description.substring(0, e.description.lastIndexOf('<br>'))
+      }
+    });
+
+    evs.value = events;
+  } catch (error) {
+    console.error('There was a problem with the fetch operation:', error.message);
+  }
 };
 
 // Execute the fetch function on component mount
 onMounted(fetchIcal);
-
 </script>
 
-
 <template>
-    <div class="events">
-        <div class="event" v-for="ev in evs" :key="ev.summary">
-            <div class="date">
-                <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
-                <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
-                <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
-                <div class="actual-date">
-                    <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
-                    <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
-                    <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
-                </div>
-            </div>
-            <div class="info">
-                <div class="summary">{{ ev.summary }}</div>
-                <div class="time">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} - {{ ev.end.toLocaleString('default', { hour: '2-digit', minute: '2-digit', timeZoneName: 'long' }) }}</div>
-
-                <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet">
-                    <img src="./assets/google-meet.svg" alt="google meet icon" />
-                    <span>Google Meet</span>
-                </a>
-
-                <div class="location">{{ ev.location }}</div>
-                <div class="description" v-html="ev.description"></div>
-            </div>
+  <div class="events">
+    <div class="event" v-for="ev in evs" :key="ev.summary">
+      <div class="date">
+        <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
+        <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
+        <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
+        <div class="actual-date">
+          <span class="month">{{
+            ev.start.toLocaleDateString('default', { month: 'short' })
+          }}</span>
+          <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
+          <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
         </div>
+      </div>
+      <div class="info">
+        <div class="summary">{{ ev.summary }}</div>
+        <div class="time">
+          {{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} -
+          {{
+            ev.end.toLocaleString('default', {
+              hour: '2-digit',
+              minute: '2-digit',
+              timeZoneName: 'long',
+            })
+          }}
+        </div>
+
+        <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet">
+          <img src="./assets/google-meet.svg" alt="google meet icon" />
+          <span>Google Meet</span>
+        </a>
+
+        <div class="location">{{ ev.location }}</div>
+        <div class="description" v-html="ev.description"></div>
+      </div>
     </div>
+  </div>
 </template>
 
 <style scoped lang="sass">
