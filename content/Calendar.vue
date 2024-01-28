@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import ICAL from 'ical';
+import ICAL, { CalendarComponent } from 'ical';
 
 // Props
 const props = defineProps({
@@ -11,18 +11,7 @@ const props = defineProps({
 });
 
 // Reactive properties
-const evs = ref<CalEvent[]>([]);
-
-interface CalEvent {
-  summary: string;
-  start: Date;
-  end: Date;
-  location: string;
-  description: string;
-  url: string;
-
-  googleMeet?: string;
-}
+const evs = ref<CalendarComponent[]>([]);
 
 // Function to fetch and parse the ical
 const fetchIcal = async () => {
@@ -39,11 +28,11 @@ const fetchIcal = async () => {
 
     const _tmp = [];
     for (let k in cal) _tmp.push(cal[k]);
-    const events = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start > now);
+    const events = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start && ev.start > now);
 
     // If there are no upcoming events, show one from the past
     if (events.length == 0) {
-      const pastEvents = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start < now);
+      const pastEvents = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start && ev.start < now);
       if (pastEvents.length > 0) events.push(pastEvents[pastEvents.length - 1]);
     }
 
@@ -56,7 +45,7 @@ const fetchIcal = async () => {
         // uses \n. So the first \n we see indicate the start of the Google Meet line.
         // TODO: This might need more testing
 
-        if (e.description.includes('\n'))
+        if (e.description?.includes('\n'))
           e.description = e.description.substring(0, e.description.indexOf('\n'));
 
         // if (e.description.includes('<br>'))
@@ -66,7 +55,7 @@ const fetchIcal = async () => {
 
     evs.value = events;
   } catch (error) {
-    console.error('There was a problem with the fetch operation:', error.message);
+    console.error('There was a problem with the fetch operation:', (error as Error).message);
   }
 };
 
@@ -77,7 +66,7 @@ onMounted(fetchIcal);
 <template>
   <div class="events">
     <div class="event" v-for="ev in evs" :key="ev.summary">
-      <div class="date">
+      <div class="date" v-if="ev.start">
         <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
         <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
         <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
@@ -91,7 +80,7 @@ onMounted(fetchIcal);
       </div>
       <div class="info">
         <div class="summary">{{ ev.summary }}</div>
-        <div class="time">
+        <div class="time" v-if="ev.start && ev.end">
           {{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} -
           {{
             ev.end.toLocaleString('default', {
@@ -102,7 +91,7 @@ onMounted(fetchIcal);
           }}
         </div>
 
-        <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet">
+        <a class="googleMeetBtn" v-if="ev.googleMeet" :href="(ev.googleMeet as string)">
           <img src="./assets/google-meet.svg" alt="google meet icon" />
           <span>Google Meet</span>
         </a>

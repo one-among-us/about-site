@@ -3,7 +3,7 @@ import '@splidejs/vue-splide/css/skyblue';
 import { defineClientComponent, useData } from 'vitepress';
 import { computed } from 'vue';
 
-const photos = [
+const photos: { url: string; alt: Record<string, string> }[] = [
   { url: 'https://www.one-among.us/favicon-large.png', alt: { en: '234', 'zh-Hans': '123' } },
   { url: '/people/beiyan-shu.png', alt: { en: '', 'zh-Hans': '' } },
   { url: '/people/vapaa.jpg', alt: { en: '', 'zh-Hans': '' } },
@@ -12,6 +12,7 @@ const photos = [
 export default defineClientComponent(async () => {
   const data = useData();
   const locale = computed(() => data.lang.value);
+  // @ts-expect-error TODO: Fix this
   const res = await import('@splidejs/vue-splide');
   const { Splide, SplideSlide } = res;
   return (
