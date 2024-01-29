@@ -2,20 +2,16 @@
   "compilerOptions": {
     "target": "esnext",
     "useDefineForClassFields": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "strict": true,
     "jsx": "preserve",
+    "jsxImportSource": "vue",
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"]
   },
-  "include": [
-    ".vitepress/**/*.ts",
-    ".vitepress/**/*.d.ts",
-    ".vitepress/**/*.tsx",
-    ".vitepress/**/*.vue"
-  ],
+  "include": ["content/**/*.ts", "content/**/*.d.ts", "content/**/*.tsx", "content/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

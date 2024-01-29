@@ -52,6 +52,7 @@ features:
 
 <script setup>
 import Calendar from '../Calendar.vue'
+import Carousel from '../Carousel.vue'
 </script>
 
 <Calendar url="https://calendar.google.com/calendar/ical/c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com/public/basic.ics"></Calendar>
@@ -66,7 +67,7 @@ import Calendar from '../Calendar.vue'
 
 > 那些因为各种原因过早离开我们的生命，那些跨性别者和我们的顺性别伙伴们（allies），仍然是我们中的一员（one among us），在默默照顾着、陪伴着我们，赋予我们继续生活的勇气。或许现实中的纪念碑上写着的并不是 ta 们所中意的姓名，也未必体现了 ta 们真实的认同，但我们仍然可以在自己的纪念中实现这一切。
 
-我们收集跨性别和性别多元社群内的逝者资料，为 ta 们编写条目，在网上立起 ta 们的纪念碑。请访问 [那些秋叶 one-among.us](https//one-among.us) 为那些逝去的生命献上您的哀思与祝福吧。您也可以通过我们的 [GitHub 仓库](https://github.com/one-among-us/data) 来贡献关于您不希望忘记的逝者的条目。
+我们收集跨性别和性别多元社群内的逝者资料，为 ta 们编写条目，在网上立起 ta 们的纪念碑。请访问 [那些秋叶 one-among.us](https://one-among.us) 为那些逝去的生命献上您的哀思与祝福吧。您也可以通过我们的 [GitHub 仓库](https://github.com/one-among-us/data) 来贡献关于您不希望忘记的逝者的条目。
 
 ## 在地社群
 
@@ -74,6 +75,8 @@ import Calendar from '../Calendar.vue'
 我们在哪，就要建立社群，生根发芽。无论在多伦多，还是在别处。
 
 请访问我们的 [Linktree](https://linktr.ee/oneamongus) 或者 [Instagram](https://www.instagram.com/oneamongus_ca/) 看看我们有哪些在地活动吧！
+
+<Carousel />
 
 ## 跨性别学术小组 Trans in Academia!
 
