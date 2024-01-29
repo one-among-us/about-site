@@ -4,9 +4,9 @@ import { defineClientComponent, useData } from 'vitepress';
 import { computed } from 'vue';
 
 const photos: { url: string; alt: Record<string, string> }[] = [
-  { url: 'https://www.one-among.us/favicon-large.png', alt: { en: '234', 'zh-Hans': '123' } },
-  { url: '/people/beiyan-shu.png', alt: { en: '', 'zh-Hans': '' } },
-  { url: '/people/vapaa.jpg', alt: { en: '', 'zh-Hans': '' } },
+  { url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/events/craft2023/DSCF2179.jpg', alt: { en: 'Events Photo', 'zh-Hans': '活动照片' } },
+  { url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/events/craft2023/DSCF2154.jpg', alt: { en: 'Events Photo', 'zh-Hans': '活动照片' } },
+  { url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/events/craft2023/DSCF2103.jpg', alt: { en: 'Events Photo', 'zh-Hans': '活动照片' } },
 ];
 
 export default defineClientComponent(async () => {
