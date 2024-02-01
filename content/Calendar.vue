@@ -12,7 +12,6 @@ const props = defineProps({
 
 // Reactive properties
 const evs = ref<CalendarComponent[]>([]);
-var noEvent = true;
 
 // Function to fetch and parse the ical
 const fetchIcal = async () => {
@@ -54,7 +53,6 @@ const fetchIcal = async () => {
       }
     });
 
-    noEvent = false;
     evs.value = events;
   } catch (error) {
     console.error('There was a problem with the fetch operation:', (error as Error).message);
@@ -66,7 +64,7 @@ onMounted(fetchIcal);
 </script>
 
 <template>
-  <div class="description" v-if="noEvent">There is no recent event(s).</div>
+  <div class="description" v-if="evs.length === 0">There is no recent event(s).</div>
   <div class="events">
     <div class="event" v-for="ev in evs" :key="ev.summary">
       <div class="date" v-if="ev.start">
