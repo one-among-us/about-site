@@ -32,9 +32,11 @@ title: Member Zone
 
 5. [成员名单 GitHub（需要权限）](https://github.com/one-among-us/.github-private/blob/main/memo/members.md) 我在考虑要不要转到 Google Workspace 上
 
+6. [事件/活动日历](https://calendar.google.com/calendar/u/2?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) 对这里的更改会同步到网站首页
+
 ### 网络维护
 
-1. [Tailscale](https://login.tailscale.com/admin) 用自己的 GitHub 账号登录并且授权访问组织，可以进入内网
+1. [Tailscale](https://login.tailscale.com/admin) 用自己的 GitHub 账号登录并且授权访问组织，可以进入内网——注意：登录受限了，正在搭 Headscale
 
 2. [Cloudflare Dashboard](https://dash.cloudflare.com/login)
 
