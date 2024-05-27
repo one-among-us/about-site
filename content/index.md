@@ -6,7 +6,7 @@ hero:
   name: 'One Among Us'
   text: ''
   tagline: A community for East-Asian and East-Asian Canadian transgender and gender diverse people.
-  image: https://www.one-among.us/favicon-large.png
+  image: /assets/favicon-new.png
   actions:
     #- theme: brand
     #  text: Markdown Examples
@@ -26,12 +26,15 @@ hero:
     - theme: alt
       text: Contact
       link: /contact
+    - theme: alt
+      text: Community Resource
+      link: /community-resource
     - theme: brand
       text: Support .us
       link: https://github.com/sponsors/one-among-us/
 
 features:
-  - icon: <img src="https://www.one-among.us/favicon-large.png" style="padding:8px;">
+  - icon: <img class="logo" style="padding:8px;">
     title: One Among Us
     details: A memorial website dedicated to transgender individuals and their allies who had passed away.
     link: /#our-memorial
@@ -106,5 +109,9 @@ Please keep up with our further updates.
 }
 .outerContent {
   padding: 0 1rem;
+}
+
+.logo img {
+  content: url("/assets/favicon-new.png");
 }
 </style>
