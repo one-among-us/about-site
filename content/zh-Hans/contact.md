@@ -3,6 +3,8 @@ title: '联系我们'
 date: 2023-09-30T03:30:00-04:00
 ---
 
+**冷线电话**：[1-8-555-ASK-OAU = +1 (855) 527-5628](tel:+18555275628)
+
 **一般问题**：[info@oneamongus.ca](mailto:info@oneamongus.ca)
 
 **理事会**：[board@oneamongus.ca](mailto:board@oneamongus.ca)
@@ -20,11 +22,3 @@ date: 2023-09-30T03:30:00-04:00
 **多伦多活动与服务**：[toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca)
 
 **「兔子洞」服务组**：[hk@oneamongus.ca](mailto:hk@oneamongus.ca)
-
-## 接待时间（线上，需预约）
-
-**加拿大东部时间**：每周六 16:00-17:00
-
-**中国标准时间**：每周六 11:00-12:00
-
-预约请联系 [yvette@oneamongus.ca](mailto:yvette@oneamongus.ca)

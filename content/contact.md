@@ -3,7 +3,9 @@ title: 'Contact'
 date: 2023-11-14T14:40:00-05:00
 ---
 
-**General Enquiries**:  [info@oneamongus.ca](mailto:info@oneamongus.ca)
+**Hotline**: [1-8-555-ASK-OAU = +1 (855) 527-5628](tel:+18555275628)
+
+**General Enquiries**: [info@oneamongus.ca](mailto:info@oneamongus.ca)
 
 **Board of Directors**: [board@oneamongus.ca](mailto:board@oneamongus.ca)
 
@@ -20,13 +22,3 @@ date: 2023-11-14T14:40:00-05:00
 **Toronto Events and Services**: [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca) (See our [**Land Acknowledgment**](land-ack))
 
 **The "Rabbit Hole" Service Group**: [hk@oneamongus.ca](mailto:hk@oneamongus.ca)
-
-
-## Online Office Hours (Google Meet by Appointment)
-
-**Canada Eastern Time**: Saturdays 16:00-17:00
-
-**China Standard Time**: Saturdays 11:00-12:00
-
-Contact [yvette@oneamongus.ca](mailto:yvette@oneamongus.ca) to set up a Google Meet.
-
