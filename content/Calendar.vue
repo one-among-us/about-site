@@ -16,7 +16,7 @@ const evs = ref<CalendarComponent[]>([]);
 // Function to fetch and parse the ical
 const fetchIcal = async () => {
   try {
-    const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(props.url)}`);
+      const response = await fetch(props.url);
     if (!response.ok) throw new Error('Network response was not ok');
 
     const data = await response.text();
@@ -64,7 +64,7 @@ onMounted(fetchIcal);
 </script>
 
 <template>
-  <div class="description" v-if="evs.length === 0">There is no recent event(s).</div>
+  <div class="description" v-if="evs.length === 0">Loading events...</div>
   <div class="events">
     <div class="event" v-for="ev in evs" :key="ev.summary">
       <div class="date" v-if="ev.start">
