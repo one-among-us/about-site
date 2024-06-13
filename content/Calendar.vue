@@ -16,7 +16,7 @@ const evs = ref<CalendarComponent[]>([]);
 // Function to fetch and parse the ical
 const fetchIcal = async () => {
   try {
-    const response = await fetch(`${encodeURIComponent(props.url)}`);
+    const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(props.url)}`);
     if (!response.ok) throw new Error('Network response was not ok');
 
     const data = await response.text();
