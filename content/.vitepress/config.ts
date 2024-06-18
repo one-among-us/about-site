@@ -1,3 +1,4 @@
+import { footnote } from '@mdit/plugin-footnote';
 import VueJsx from '@vitejs/plugin-vue-jsx';
 import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
@@ -87,6 +88,8 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(imgPlugin);
+      // @ts-expect-error
+      md.use(footnote);
     },
   },
 });
