@@ -15,20 +15,20 @@
   "dependencies": {
     "@mdit/plugin-footnote": "^0.12.0",
     "@splidejs/vue-splide": "^0.6.12",
-    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
     "ical": "^0.8.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
-    "sass": "^1.70.0",
-    "unocss": "^0.58.4",
-    "vitepress": "1.0.0-rc.40",
-    "vue": "^3.4.15"
+    "sass": "^1.77.6",
+    "unocss": "^0.61.0",
+    "vitepress": "1.2.3",
+    "vue": "^3.4.31"
   },
   "devDependencies": {
     "@types/ical": "^0.8.3",
-    "@types/markdown-it": "^13.0.7",
-    "@types/node": "^20.11.8"
+    "@types/markdown-it": "^14.1.1",
+    "@types/node": "^20.14.9"
   },
-  "packageManager": "pnpm@8.15.0",
+  "packageManager": "pnpm@9.4.0",
   "pnpm": {
     "overrides": {
       "has": "npm:@nolyfill/has@latest"
