@@ -5,6 +5,8 @@ date: 2023-11-14T14:40:00-05:00
 
 **Hotline**: [1-8-555-ASK-OAU = +1 (855) 527-5628](tel:+18555275628)
 
+**FAX**： [+1 (855) 644-3628](fax:+18556443628)
+
 **General Enquiries**: [info@oneamongus.ca](mailto:info@oneamongus.ca)
 
 **Board of Directors**: [board@oneamongus.ca](mailto:board@oneamongus.ca)
