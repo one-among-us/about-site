@@ -55,11 +55,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Posts', link: '/posts' },
-      { text: 'Links', link: '/links' },
+      { text: 'About', link: '/about' },
+      { text: 'Archives', link: '/posts' },
       { text: 'People', link: '/people' },
       { text: 'Contact', link: '/contact' },
-      { text: 'Member Login', link: '/res' },
     ],
     logo: 'https://www.one-among.us/favicon-large.png',
 
