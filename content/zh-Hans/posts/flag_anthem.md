@@ -7,7 +7,7 @@ date: 2023-06-05T10:00:00-04:00
 
 ## 会旗：重瓣樱
 
-![One Among Us 会歌](../../posts/flag.oau.png 'One Among Us 会旗')
+![One Among Us 会旗](../../posts/flag.oau.png 'One Among Us 会旗')
 
 ## 会歌：《巡星之歌》
 
