@@ -41,7 +41,7 @@ features:
     details: 提供一些简单的社区互助服务。
     link: /community-resource
   - icon: <img src="/assets/onechannel-compressed.jpg">
-    title: One Channel! 跨儿骄傲联合广播
+    title: One Channel! <nobr>跨儿骄傲联合广播</nobr>
     details: 由 Trans in Academia! 和 One Among Us 共同运营的华语跨儿信息分享频道。
     link: https://kazv.moe/users/tia
 friends:

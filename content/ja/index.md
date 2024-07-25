@@ -11,11 +11,11 @@ hero:
     # - theme: brand
     #   text: ニューズ
     #   link: /ja/posts
+    # - theme: alt
+    #   text: 私たちについて
+    #   link: /ja/about
     - theme: alt
-      text: 私たちについて
-      link: /ja/about
-    - theme: alt
-      text: ご連絡
+      text: 連絡先
       link: /ja/contact
     - theme: brand
       text: 会員ログイン
@@ -58,7 +58,7 @@ friends:
 
 私たちでは日本語サービスの品質向上に努めております。詳細についてはメールでお問い合わせください。
 
-## 活動カレンダー
+## カレンダー
 
 <script setup>
 import Calendar from '../Calendar.vue'
