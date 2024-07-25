@@ -26,7 +26,7 @@ export default defineClientComponent(async () => {
     >
       {photos.map((photo) => (
         <SplideSlide key={photo.url}>
-          <img src={photo.url} alt={photo.alt[locale.value] || photo.alt.en} />
+          <img class="splideimg" src={photo.url} alt={photo.alt[locale.value] || photo.alt.en} />
         </SplideSlide>
       ))}
     </Splide>
@@ -39,5 +39,15 @@ export default defineClientComponent(async () => {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.splideimg {
+  border: 1px solid var(--vp-c-bg-soft);
+  border-radius: 12px;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+.splideimg:hover {
+  border-color: var(--vp-c-brand-1);
 }
 </style>
