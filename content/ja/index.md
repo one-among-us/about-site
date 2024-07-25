@@ -33,7 +33,7 @@ features:
     title: トランスジェンダー同士への大学入学案内
     details: 学術および就職を追求するトランスジェンダーおよびジェンダー・ノンコンフォーミングの同士の大学入学案内(いま中国語および英語のみ)。
     link: https://uniguide.oneamongus.ca/
-  - icon: <img src="/assets/rxn-logo.jpg">
+  - icon: <img src="/assets/rxn-logo.png">
     title: ローカルサービス
     details: ローカルサービスチーム(日本語でお問い合わせもいい)。
     link: /community-resource

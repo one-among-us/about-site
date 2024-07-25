@@ -38,7 +38,7 @@ features:
     title: Transgender University Guidance
     details: A collective effort aimed at providing valuable resources and support for transgender individuals pursuing higher education.
     link: https://uniguide.oneamongus.ca/
-  - icon: <img src="/assets/rxn-logo.jpg">
+  - icon: <img src="/assets/rxn-logo.png">
     title: Local Services
     details: Local service groups. Mainly in Greater Toronto Area.
     link: /community-resource
