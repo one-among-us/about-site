@@ -24,7 +24,7 @@ hero:
       link: /community-resource
     - theme: brand
       text: Member Login
-      link: /res
+      link: /login
     - theme: brand
       text: Support .us
       link: https://github.com/sponsors/one-among-us/

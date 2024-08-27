@@ -22,7 +22,7 @@ hero:
       link: /community-resource
     - theme: brand
       text: 会员登录
-      link: /res
+      link: /login
     - theme: brand
       text: 支持我们
       link: https://github.com/sponsors/one-among-us/

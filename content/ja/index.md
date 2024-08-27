@@ -19,7 +19,7 @@ hero:
       link: /ja/contact
     - theme: brand
       text: 会員ログイン
-      link: /res
+      link: /login
     - theme: brand
       text: ご支援のお願い
       link: https://github.com/sponsors/one-among-us/
