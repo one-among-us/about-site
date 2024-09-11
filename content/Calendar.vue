@@ -93,7 +93,7 @@ onMounted(fetchIcal);
         </div>
 
         <a class="googleMeetBtn" v-if="ev.googleMeet" :href="(ev.googleMeet as string)">
-          <img src="./assets/google-meet.svg" alt="google meet icon" />
+          <img src="/assets/google-meet.svg" alt="google meet icon" />
           <span>Google Meet</span>
         </a>
 
