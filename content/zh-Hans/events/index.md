@@ -153,7 +153,7 @@ events:
                 </div-->
           </div>
           <div class="poster">
-            <img :src="`/assets/${item.image}`" :alt="`${name}`" />
+            <img :src="`/assets/events/${item.image}`" :alt="`${name}`" />
           </div>
         </div>
       </div>
