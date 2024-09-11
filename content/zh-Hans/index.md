@@ -9,6 +9,9 @@ hero:
   image: /assets/favicon-new.png
   actions:
     - theme: alt
+      text: 海报墙
+      link: /zh-Hans/events
+    - theme: alt
       text: 关于我们
       link: /zh-Hans/about
     - theme: alt

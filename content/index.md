@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: Contact
       link: /contact
+    - theme: alt
+      text: Events
+      link: /zh-Hans/events
     - theme: brand
       text: Community Resource
       link: /community-resource

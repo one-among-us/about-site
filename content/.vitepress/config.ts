@@ -21,7 +21,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '关于我们', link: '/zh-Hans/about' },
-          { text: '文章存档', link: '/zh-Hans/posts' },
+	  { text: '活动日历', link: '/zh-Hans/events' },
+          { text: '通知公告', link: '/zh-Hans/posts' },
           { text: '联系方式', link: '/zh-Hans/contact' },
         ],
         sidebar: {
@@ -58,8 +59,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'About', link: '/about' },
-      { text: 'Archives', link: '/posts' },
       { text: 'People', link: '/people' },
+      { text: 'Events', link: '/zh-Hans/events' },
+      { text: 'Archives', link: '/posts' },
       { text: 'Contact', link: '/contact' },
     ],
     logo: '/assets/favicon-new.png',
@@ -89,6 +91,7 @@ export default defineConfig({
     'zh-Hans/posts/index.md': 'zh-Hans/posts.md',
     'ja/posts/index.md': 'ja/posts.md',
     'ja/links/index.md': 'ja/links.md',
+    'zh-Hans/events/index.md': 'zh-Hans/events.md',
   },
   vite: { plugins: [VueJsx(), Unocss()], server: { host: '0.0.0.0' } },
   markdown: {
@@ -99,3 +102,4 @@ export default defineConfig({
     },
   },
 });
+
