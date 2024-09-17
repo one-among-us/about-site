@@ -49,7 +49,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GH_PERSONAL_TOKEN }}
-          publish_dir: ./content/public
+          publish_dir: ./content/.vitepress/dist
           publish_branch: deploy
           cname: oneamongus.ca
           destination_dir: ./.
