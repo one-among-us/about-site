@@ -1,0 +1,42 @@
+name: Deploy PR Previews
+
+on:
+  push:
+    branches:
+      - main # Set a branch to deploy
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm i
+      - name: Build page
+        run: pnpm docs:build
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1.4.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN}}
+          preview-branch: main
+          source-dir: .
+          umbrella-dir: pr-preview
+          action: auto
