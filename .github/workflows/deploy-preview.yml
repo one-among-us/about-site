@@ -8,21 +8,8 @@ on:
       - synchronize
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-  deployments: write
-
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  deploy-preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
