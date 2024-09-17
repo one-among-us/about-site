@@ -1,9 +1,6 @@
 name: Deploy PR previews
 
 on:
-  push:
-    branches:
-      - main # Set a branch to deploy
   pull_request:
     types:
       - opened
