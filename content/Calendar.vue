@@ -56,8 +56,7 @@ const fetchIcal = async () => {
       .sort((a, b) => {
         if (a.start && b.start) return a.start.getTime() - b.start.getTime();
         return 0;
-      })
-      .reverse();
+      });
   } catch (error) {
     console.error('There was a problem with the fetch operation:', (error as Error).message);
   }
