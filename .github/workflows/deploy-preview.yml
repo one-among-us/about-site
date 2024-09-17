@@ -35,7 +35,7 @@ jobs:
         uses: rossjrw/pr-preview-action@v1.4.3
         with:
           token: ${{ secrets.GH_PERSONAL_TOKEN }}
-          source_dir: ./content/.vitepress/dist
+          source-dir: ./content/.vitepress/dist
           preview-branch: deploy
           umbrella-dir: pr-preview
           action: auto
