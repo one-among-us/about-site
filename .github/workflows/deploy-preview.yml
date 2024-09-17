@@ -1,0 +1,57 @@
+name: Deploy PR previews
+
+on:
+  push:
+    branches:
+      - main # Set a branch to deploy
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  deployments: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm i
+      - name: Build page
+        run: pnpm docs:build
+
+      - name: Deploy Preview
+        uses: rossjrw/pr-preview-action@v1.4.3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          token: ${{ secrets.GH_PERSONAL_TOKEN }}
+          source_dir: ./content/.vitepress/dist
+          preview-branch: deploy
+          umbrella-dir: pr-preview
+          action: auto
