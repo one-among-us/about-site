@@ -7,6 +7,11 @@ on:
       - reopened
       - synchronize
   workflow_dispatch:
+  workflow_run:
+    workflows: 
+      - "GitHub Pages (Branch Invoked)"
+    types: 
+      - requested
 
 jobs:
   deploy-preview:
@@ -29,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pnpm i
       - name: Build page
-        run: pnpm docs:build
+        run: pnpm docs:build --base /pr-preview/pr-${{ github.event.number }}/
 
       - name: Deploy Preview
         uses: rossjrw/pr-preview-action@v1.4.3
