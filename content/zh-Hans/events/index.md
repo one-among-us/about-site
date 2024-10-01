@@ -4,7 +4,7 @@ layout: page
 events:
   东亚跨性别茶话会 第二次:
 	lang:
-	  - 普通话
+      - 普通话
 	  - English
 	  - 日本語
 	time: 2024-10-25T18:30:00-04:00
