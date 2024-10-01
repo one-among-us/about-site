@@ -17,7 +17,7 @@ events:
       - 普通话
       - English
       - 日本語
-    time: 2024-10-25T18:30:00-04:00
+    time: 2024-09-27T18:30:00-04:00
     location: The 519 (Toronto)
     community:
       - 多伦多社群
