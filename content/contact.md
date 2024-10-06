@@ -11,11 +11,15 @@ date: 2023-11-14T14:40:00-05:00
 
 **Board of Directors**: [board@oneamongus.ca](mailto:board@oneamongus.ca)
 
+**Operations, Finance, and Institutional Review**: [operations@oneamongus.ca](mailto:operations@oneamongus.ca)
+
 ## Online Service Groups
 
 **Memorial Website**: [remembrance@oneamongus.ca](mailto:remembrance@oneamongus.ca), [info@one-among.us](mailto:info@one-among.us)
 
-**Trans in Academia!, Transgender University Guide**: [tia@oneamongus.ca](mailto:tia@oneamongus.ca)
+**Transgender University Guide**: [uniguide@oneamongus.ca](mailto:uniguide@oneamongus.ca)
+
+**FOSS**: [foss@oneamongus.ca](mailto:foss@oneamongus.ca)
 
 **Arts Among Us (planning)**: [arts@oneamongus.ca](mailto:arts@oneamongus.ca)
 

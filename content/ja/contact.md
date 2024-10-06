@@ -9,11 +9,15 @@ date: 2023-10-07T03:30:00-04:00
 
 **取締役会**：[board@oneamongus.ca](mailto:board@oneamongus.ca)
 
+**運営、財務、機関審査**：[operations@oneamongus.ca](mailto:operations@oneamongus.ca)
+
 ## オンラインサービス
 
 **追悼サイト**：[remembrance@oneamongus.ca](mailto:remembrance@oneamongus.ca) , [info@one-among.us](mailto:info@one-among.us)
 
-**トランスアカデミー**：[tia@oneamongus.ca](mailto:tia@oneamongus.ca)
+**トランス進学指導**：[uniguide@oneamongus.ca](mailto:uniguide@oneamongus.ca)
+
+**FOSS**: [foss@oneamongus.ca](mailto:foss@oneamongus.ca)
 
 **Arts Among Us**：[arts@oneamongus.ca](mailto:arts@oneamongus.ca)
 

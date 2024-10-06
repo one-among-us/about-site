@@ -11,11 +11,15 @@ date: 2023-09-30T03:30:00-04:00
 
 **理事会**：[board@oneamongus.ca](mailto:board@oneamongus.ca)
 
+**运营、财务、伦理**：[operations@oneamongus.ca](mailto:operations@oneamongus.ca)
+
 ## 线上服务组
 
 **纪念网站相关**：[remembrance@oneamongus.ca](mailto:remembrance@oneamongus.ca) , [info@one-among.us](mailto:info@one-among.us)
 
-**跨性别学术小组、跨性别选校手册**：[tia@oneamongus.ca](mailto:tia@oneamongus.ca)
+**跨性别学术小组、跨性别选校手册**：[uniguide@oneamongus.ca](mailto:uniguide@oneamongus.ca)
+
+**FOSS**: [foss@oneamongus.ca](mailto:foss@oneamongus.ca)
 
 **Arts Among Us 艺术展览馆（筹）**：[arts@oneamongus.ca](mailto:arts@oneamongus.ca)
 
