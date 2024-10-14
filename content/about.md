@@ -21,7 +21,7 @@ As a not-for-profit organization, in order to better serve and meet the requirem
 
 We started a website to mourn their transgender friends since 2021 November.
 It was launched before 2021’s Transgender Day of Remembrance.
-The website was named by Maura “One Among Us.”
+The website was named “One Among Us.”
 — That name represents that both those who are still living and those who had passed away are members of our trans and gender non-conforming community.
 As we write on the front page:
 
