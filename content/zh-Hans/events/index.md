@@ -2,16 +2,15 @@
 title: Events
 layout: page
 events:
-  东亚跨性别茶话会 第二次:
+  "OAU × Studio DISSONANCE 性别多元化妆会 Gender-Diverse Free MakeUp Trial":
     lang:
       - 普通话
       - English
-      - 日本語
     time: 2024-10-25T18:30:00-04:00
     location: The 519 (Toronto)
     community:
       - 多伦多社群
-    image: 519EventsPosterZip.png
+    image: makeup-toronto.jpg
   东亚跨性别茶话会 第一次:
     lang:
       - 普通话
