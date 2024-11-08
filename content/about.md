@@ -1,5 +1,41 @@
 # About Us
 
+Hi! We are One Among Us, proudly a community of the proud East Asian and East Asian-Canadian transgender and gender-diverse family. We provide peer and community support for our fellows, aiming to build connections between travelers and those in our hometown.
+
+We started as a memorial site for our friends and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us. Now we have developed into an alliance of seven interconnected workgroups.
+
+We are a registered not-for-profit organization in Ontario, Canada.
+
+## Workgroups
+
+### <span style="display:flex;height:24px"><img src="/assets/oau01.svg"></img> &nbsp;Memorial</span>
+
+We are the starting point and the most important part at One Among Us. We maintain the [One Among Us memorial website](https://one-among.us).
+
+### <span style="display:flex;height:24px"><img src="/assets/oau02.svg"></img> &nbsp;Local</span>
+
+We started on 2023 July 12. We do community service, including medical support, peer support, community gatherings, etc. Most of us live in Toronto.
+
+### <span style="display:flex;height:24px"><img src="/assets/oau03.svg"></img> &nbsp;The Rabbit Hole</span>
+
+We started on 2023 September 27.
+
+### <span style="display:flex;height:24px"><img src="/assets/oau04.svg"></img> &nbsp;Operations</span>
+
+We started on 2024 January 15. We manage the operations, administration, and funds. We avoid success at all costs.
+
+### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;UniGuide</span>
+
+We started on 2022 December 11 and joined One Among Us on May 2023. We run the [Transgender University Guidance](https://uniguide.oau.edu.kg).
+
+### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;FOSS</span>
+
+We started on 2024 February 21 as a free/libre open-source software club. Join our Matrix group [`#foss:oau.app`](https://matrix.to/#/#foss:oau.app)!
+
+### <span style="display:flex;height:24px"><img src="/assets/oau07.svg"></img> &nbsp;Arts</span>
+
+We do trans arts and prepare for the upcoming gallery Arts Among Us.
+
 ## Our Mandate
 
 One Among Us began as, and is most importantly, in the business of honoring the memory of those in the transgender and gender diverse (TGD) community who have passed away, and that business will not change. This means that we are a transgender service organization and transgender community built around the deceased, or more accurately, around the relationship between the living and the deceased. Both the living and the deceased should be part of our diverse and spiritual trans community. We would not be able to come together and unite as an organization that serves the living without a common memory and remembrance of the deceased. Therefore, in every activity and business we do, we should try our best to involve both the living and the dead. Despite the lines between the two sides of the River Styx (or, say, the Galaxy), we must take into account the people who are silently watching over us on the other side. Our anthem, flag, and other symbols of our organization should all serve the purpose of connecting the living and the dead.

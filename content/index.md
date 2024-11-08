@@ -4,7 +4,7 @@ layout: ourhome
 hero:
   name: 'One Among Us'
   text: ''
-  tagline: A community for East-Asian and East-Asian Canadian transgender and gender diverse people.
+  tagline: A warm, strong and resilient community for East-Asian and East-Asian Canadian transgender and gender-diverse people.
   image: /assets/favicon-new.png
   actions:
     - theme: alt
@@ -14,7 +14,7 @@ hero:
       text: People
       link: /people
     - theme: alt
-      text: Archives
+      text: Posts
       link: /posts
     - theme: alt
       text: Contact
@@ -62,9 +62,11 @@ friends:
 
 ---
 
-Hi! We are One Among Us, proudly a registered not-for-profit organization, but more proudly a **community** of the great East Asian and East Asian-Canadian transgender and gender diverse family. We provide peer and community support for our fellows, aiming to build connection between travelers and those in our hometown.
+Hi! We are One Among Us, proudly a community of the proud East Asian and East Asian-Canadian transgender and gender-diverse family. We provide peer and community support for our fellows, aiming to build connections between travelers and those in our hometown.
 
-We started as a memorial site for Chinese transgender people and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us.
+We started as [a memorial site](https://one-among.us) for our friends and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us. Now we have developed into [an alliance of seven interconnected workgroups](./about).
+
+We are a registered not-for-profit organization in Ontario, Canada.
 
 ## Events Calendar
 
