@@ -5,7 +5,7 @@ layout: ourhome
 hero:
   name: One Among Us
   text: 那些秋叶
-  tagline: 东亚与海外跨性别之间的交流互助社群和非营利组织。
+  tagline: 想要温柔坚韧地支撑着彼此的人们，出于因缘际会走到一起，聚集各自微光的地方。
   image: /assets/favicon-new.png
   actions:
     - theme: alt
@@ -17,15 +17,6 @@ hero:
     - theme: alt
       text: 文章存档
       link: /zh-Hans/posts
-    - theme: alt
-      text: 联系方式
-      link: /zh-Hans/contact
-    - theme: brand
-      text: 社群资源
-      link: /community-resource
-    - theme: brand
-      text: 会员登录
-      link: /login
     - theme: brand
       text: 支持我们
       link: https://github.com/sponsors/one-among-us/
@@ -62,10 +53,12 @@ friends:
     icon: '<img src="/assets/tia-logo.png">'
 ---
 
-你好呀！我们是 One Among Us，是一个注册在加拿大的非营利组织，不过我们更喜欢用**社群**这个词来称呼自己。我们希望为东亚（现在主要是中国）以及在加拿大的跨性别/性别多元社群提供同辈互助和社群支持，增强两地跨儿之间的联系与互助。
+你好呀！我们是 One Among Us，是一个希望为东亚（现在主要是中国）以及在海外（主要是加拿大）的跨性别/性别多元朋友们提供同辈互助和社群支持，增强两地跨儿之间的联系与互助的组织。
 
-我们最初的起点，也是最重要的工作，是维护「那些秋叶」纪念网站。这份工作告诉我们，无论是活着的还是逝去的，都永远是我们中的一员，是 “One Among Us”。
-		  
+我们最初的起点，也是最重要的工作，是维护「[那些秋叶](https://one-among.us)」纪念网站。这份工作告诉我们，无论是活着的还是逝去的，都永远是我们中的一员，是 “One Among Us”。现在，我们渐渐因为这份最初的联系，发展成 [7 个融合在一起的工作组](./about)。
+
+我们是注册在加拿大安大略省的非营利组织。
+
 ## 活动日历
 
 <script setup>

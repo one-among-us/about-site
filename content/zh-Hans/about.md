@@ -1,32 +1,42 @@
 # 关于我们
 
+你好呀！我们是 One Among Us，是一个希望为东亚（现在主要是中国）以及在海外（主要是加拿大）的跨性别/性别多元朋友们提供同辈互助和社群支持，增强两地跨儿之间的联系与互助的组织。
+
+我们最初的起点，也是最重要的工作，是维护「那些秋叶」纪念网站。这份工作告诉我们，无论是活着的还是逝去的，都永远是我们中的一员，是 “One Among Us”。现在，我们渐渐因为这份最初的联系，发展成 7 个融合在一起的工作组。
+
+我们是注册在加拿大安大略省的非营利组织。
+
 ## 工作组
 
-### 01
+我们由 7 个融合在一起的工作组组成，平时更习惯用 OAU + 数字（01..07 组）来称呼自己。
 
-OAU 01 组负责 [跨性别纪念网站 那些秋叶](https://one-among.us) 的运营，是 One Among Us 最初的起点和最重要的工作组。
+### <span style="display:flex;height:24px"><img src="/assets/oau01.svg"></img> &nbsp;纪念</span> 
 
-### 02
+我们负责 [跨性别纪念网站 那些秋叶](https://one-among.us) 的运营，是 One Among Us 最初的起点和最重要的工作组。
 
-OAU 02 组成立于2023年7月12日，负责加拿大范围，主要是多伦多的在地社群建设，包括医疗资源、社群互助、社群活动等。
+### <span style="display:flex;height:24px"><img src="/assets/oau02.svg"></img> &nbsp;在地</span> 
 
-### 03
+我们成立于2023年7月12日，负责加拿大范围，主要是多伦多的在地社群建设，包括医疗资源、社群互助、社群活动等。
 
-OAU 03 组「兔子洞服务组」成立于2023年9月27日。
+### <span style="display:flex;height:24px"><img src="/assets/oau03.svg"></img> &nbsp;兔子洞</span> 
 
-### 04
+我们成立于2023年9月27日。
 
-OAU 04 组成立于2024年1月15日，负责和理事会沟通协作决定组织的具体运营、行政、财务等事项，以「最小限度专业化」的精神维护组织的存续。
+### <span style="display:flex;height:24px"><img src="/assets/oau04.svg"></img> &nbsp;运营</span> 
 
-### 05
+我们成立于2024年1月15日，负责和理事会沟通协作决定组织的具体运营、行政、财务等事项，以「最小限度专业化」的精神维护组织的存续。
 
-OAU 05 组负责 [跨性别升学指导网站](https://uniguide.oau.edu.kg) 的运营，于2022年12月11日成立，2023年5月加入 One Among Us。
+### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;升学指导</span> 
 
-### 06
-OAU 06 组（OAU FOSS）成立于2024年2月21日，是一个扎根跨性别社群的自由开源软件社群。你可以加入 [Matrix 群组 `#foss:oau.app`](https://matrix.to/#/#foss:oau.app) 参与讨论。
+我们于2022年12月11日成立，2023年5月加入 One Among Us，负责 [跨性别升学指导网站](https://uniguide.oau.edu.kg) 的运营。
 
-### 07
-OAU 07 组负责跨性别艺术相关的内容，以及筹备中的 Arts Among Us 项目。
+### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;自由开源软件</span> 
+
+我们成立于2024年2月21日，是一个扎根跨性别社群的自由开源软件同好会。你可以加入 Matrix 群组 [`#foss:oau.app`](https://matrix.to/#/#foss:oau.app) 参与讨论。
+
+### <span style="display:flex;height:24px"><img src="/assets/oau07.svg"></img> &nbsp;艺术</span> 
+
+我们负责跨性别艺术相关的内容，以及筹备中的 Arts Among Us 项目。
 
 ## 使命
 

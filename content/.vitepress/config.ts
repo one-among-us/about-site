@@ -23,7 +23,7 @@ export default defineConfig({
           { text: '关于我们', link: '/zh-Hans/about' },
 	  { text: '活动日历', link: '/zh-Hans/events' },
           { text: '通知公告', link: '/zh-Hans/posts' },
-          { text: '联系方式', link: '/zh-Hans/contact' },
+          { text: '联系·支持', link: '/zh-Hans/contact' },
         ],
         sidebar: {
           '/zh-Hans/posts': getPostList('zh-Hans'),
