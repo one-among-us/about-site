@@ -13,22 +13,23 @@
   "author": "One Among Us",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "@mdit/plugin-footnote": "^0.12.0",
+    "@mdit/plugin-footnote": "^0.13.1",
     "@splidejs/vue-splide": "^0.6.12",
-    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
     "ical": "^0.8.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
-    "sass": "^1.77.6",
-    "unocss": "^0.61.0",
-    "vitepress": "1.2.3",
-    "vue": "^3.4.31"
+    "sass": "^1.80.6",
+    "unocss": "^0.64.0",
+    "vitepress": "1.5.0",
+    "vue": "^3.5.12"
   },
   "devDependencies": {
     "@types/ical": "^0.8.3",
-    "@types/markdown-it": "^14.1.1",
-    "@types/node": "^20.14.9"
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3"
   },
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "pnpm": {
     "overrides": {
       "has": "npm:@nolyfill/has@latest"
