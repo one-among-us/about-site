@@ -2,7 +2,52 @@
 title: Events
 layout: page
 events:
-  "OAU × Studio DISSONANCE 性别多元化妆会 Gender-Diverse Free MakeUp Trial":
+  OAU 02 Local 跨性别纪念日故事分享-守夜-同伴支持小组:
+    lang:
+      - 普通话
+      - English
+      - 日本語
+    time: 2024-11-22T18:30:00-05:00
+    community:
+      - 多伦多社群
+    location: The 519 (Toronto)
+    image: 1120.png
+
+  2024 跨性别纪念日晚会:
+    lang:
+      - 普通话
+    time: 2024-11-23T20:00:00+08:00
+    link:
+      type: 点击查看直播 (YouTube)
+      url: "https://www.youtube.com/@OneAmongUsPride"
+    community:
+      - 线上
+      - Project Trans 联合举办
+      - 跨性别相关放送 联合举办
+    image: 11203.png
+
+  2024 跨性别纪念日晚会 留言征集:
+    time: 2024-11-18T12:00:00+08:00
+    link:
+      type: 点击留言
+      url: "https://one-among.us"
+    community:
+      - 线上
+      - Project Trans 联合举办
+      - 跨性别相关放送 联合举办
+    image: tdor20241.jpg
+
+  神经多样性酷儿座谈会:
+    lang:
+      - 普通话
+    location: 720 Spadina Ave, 2nd Fl (Toronto)
+    time: 2024-11-09T13:30-17:00-05:00
+    community: 
+      - 多伦多社群
+      - feat. Studio DISSONANCE
+    image: neuroqueer.jpg
+
+  性别多元化妆会 Gender-Diverse Free MakeUp Trial:
     lang:
       - 普通话
       - English
@@ -10,7 +55,9 @@ events:
     location: The 519 (Toronto)
     community:
       - 多伦多社群
+      - feat. Studio DISSONANCE
     image: makeup-toronto.jpg
+
   东亚跨性别茶话会 第一次:
     lang:
       - 普通话
@@ -21,6 +68,7 @@ events:
     community:
       - 多伦多社群
     image: 519EventsPosterZip.png
+
   多伦多社群中秋聚会:
     lang:
       - 普通话
@@ -31,7 +79,7 @@ events:
       - 多伦多社群
     image: toronto-midautumn.jpg
 
-  One Among Us 2024 组织年会:
+  One Among Us 2024 年会:
     lang:
       - 普通话
       - English
