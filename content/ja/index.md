@@ -37,7 +37,7 @@ features:
     title: ローカルサービス
     details: ローカルサービスチーム(日本語でお問い合わせもいい)。
     link: /community-resource
-	
+
 friends:
   - title: プロジェクト・トランス
     details: プロジェクト・トランス（Project Trans）は、MtF wiki チームがリニューアルし、MtF wiki も FtM wiki などのプロジェクトをより良く維持するために作成されました。
@@ -48,7 +48,6 @@ friends:
     link: https://2345.lgbt/ja/
     icon: <img src="/assets/2345brand.svg">
 ---
-
 
 こんにちは。
 

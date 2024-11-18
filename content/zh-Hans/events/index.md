@@ -19,7 +19,7 @@ events:
     time: 2024-11-23T20:00:00+08:00
     link:
       type: 点击查看直播 (YouTube)
-      url: "https://www.youtube.com/@OneAmongUsPride"
+      url: 'https://www.youtube.com/@OneAmongUsPride'
     community:
       - 线上
       - Project Trans 联合举办
@@ -30,7 +30,7 @@ events:
     time: 2024-11-18T12:00:00+08:00
     link:
       type: 点击留言
-      url: "https://one-among.us"
+      url: 'https://one-among.us'
     community:
       - 线上
       - Project Trans 联合举办
@@ -42,7 +42,7 @@ events:
       - 普通话
     location: 720 Spadina Ave, 2nd Fl (Toronto)
     time: 2024-11-09T13:30-17:00-05:00
-    community: 
+    community:
       - 多伦多社群
       - feat. Studio DISSONANCE
     image: neuroqueer.jpg
@@ -143,7 +143,7 @@ events:
     location: The 519 Community Centre (Toronto)
     link:
       type: 查看回放 (YouTube)
-      url: "https://www.youtube.com/watch?v=QbgYWXa5Pm8"
+      url: 'https://www.youtube.com/watch?v=QbgYWXa5Pm8'
 
   跨性别纪念日电影放映会:
     time: 2024-11-11
@@ -155,7 +155,7 @@ events:
     image: ruins-of-memorial.png
     location: Toronto Public Library - Northern District Branch
 
-  "学业与生活经验分享会 北欧与加拿大篇":
+  '学业与生活经验分享会 北欧与加拿大篇':
     lang:
       - 普通话
     community:
@@ -169,12 +169,11 @@ events:
     image: miyazawa-poster.jpg
     link:
       type: 回放（YouTube）
-      url: "https://www.youtube.com/watch?v=TGhNTd-2I3c"
+      url: 'https://www.youtube.com/watch?v=TGhNTd-2I3c'
     time: 2024-03-31T20:00:00+08:00
     description: >
       Livestream reading of Night of the Milky Way Railway on TDOV 2023, by One Among Us & Project Trans.
       Replay is available on YouTube.
-
 ---
 
 <div class="EventGrid">
@@ -227,8 +226,6 @@ events:
     </div>
   </div>
 </div>
-
-
 
 <style scoped lang="sass">
 // vitepress/VPFeatures

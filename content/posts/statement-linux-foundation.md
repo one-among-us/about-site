@@ -5,7 +5,6 @@ date: 2024-11-01T10:00:00-04:00
 
 # Statement on the Solidarity of the Free and Open Source Software Community -- One Among Us Free and Open Source Software Group (Group 06) & Project Trans
 
-
 On October 18, 2024, Greg Kroah-Hartman, a Linux Foundation fellow and a senior kernel maintainer, submitted a document change patch to the Linux kernel without any detailed explanation or prior public discussion, removing several maintainers, most of whose top-level email domains were.ru. A few days later, this patch, handled by Linus Torvalds, quietly made its way into the next release candidate, 6.12-rc4.
 
 On October 23, Kexy Biscuit, a contributor from the AOSC (Anthon Open Source Community), pointed out several questionable details about this incident, including a lack of transparency, and expressed concerns about the potential impact on kernel security if such unaudited changes were allowed. Kexy decided to submit a revert patch to the previous change. Instead of transparency, Linus Torvalds responded with personal attacks and name-calling. Several contributors, including members of the AOSC, were referred to as "paid actors" and "Russian trolls."

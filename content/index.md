@@ -59,7 +59,6 @@ friends:
     details: A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.
     link: https://oau.edu.kg
     icon: <img src="/assets/tia-logo.png">
-
 ---
 
 Hi! We are One Among Us, proudly a community of the proud East Asian and East Asian-Canadian transgender and gender-diverse family. We provide peer and community support for our fellows, aiming to build connections between travelers and those in our hometown.

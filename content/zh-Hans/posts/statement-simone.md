@@ -23,14 +23,23 @@ date: 2024-06-17T10:00:00-04:00
 呼吁「解放巴勒斯坦」，并非意味着要全盘接受巴勒斯坦的恐同恐跨实践。反而，这意味着我们不仅需要考察「恐同恐跨压迫」的不同表现形式，还需要考察使得这些压迫得以存续的可能性条件。只有当以色列对巴勒斯坦的殖民占领停止，只有当巴勒斯坦不再长期处在安全威胁之下，巴勒斯坦的酷儿和跨儿解放才能成为可能。
 
 [^1]: Michelle (@Michelle_Z2023), “An individual can’t be arrested for standing against genocide and university’s dirty dealings!…” Twitter, 13 Jun. 2024, <https://twitter.com/michelle_z2023/status/1801361686278115803>.
+
 [^2]: Emma (@emma20131621), “更新：Simone 已经通过她的委派律师与我联系上，其于 6.12 早上被警方暴力从家中带走，至今一直被拒绝与我联系。…” Twitter, 13 Jun. 2024, <https://twitter.com/emma20131621/status/1801246370918994237>.
+
 [^3]: Trans Rights China (@transrights_cn), “Attention!!!!!! Transgender pro-Palestine protester charged with attempted manslaughter!!!!!!…” Twitter, 13 Jun. 2024, <https://twitter.com/transrights_cn/status/1801280517809328273>.
+
 [^4]: Michelle (@Michelle_Z2023), ibid.
+
 [^5]: Enlightening. “发生在高等教育机构中的逮捕最直接地说明了跨国正义在全球北方的政治容忍度有多么低…….” 豆瓣, 23 Apr. 2024.
+
 [^6]: Nassar, Tamara. “Palestinian Child Says He Was Raped by Israeli Interrogator.” The Electronic Intifada, 19 Feb. 2021, <https://electronicintifada.net/blogs/tamara-nassar/palestinian-child-says-he-was-raped-israeli-interrogator/>
+
 [^7]: “‘Any Palestinian Is Exposed to Monitoring by the Israeli Big Brother.’” The Guardian, 12 Sept. 2014. The Guardian, <https://www.theguardian.com/world/2014/sep/12/israeli-intelligence-unit-testimonies>
+
 [^8]: Schulman, Sarah. “A Documentary Guide to ‘Brand Israel’ and the Art of Pinkwashing.” Mondoweiss, 30 Nov. 2011, <https://mondoweiss.net/2011/11/a-documentary-guide-to-brand-israel-and-the-art-of-pinkwashing/>
+
 [^9]: Papantonopoulou, Saffo. “‘Even a Freak Like You Would Be Safe in Tel Aviv’: Transgender Subjects, Wounded Attachments, and the Zionist Economy of Gratitude.” Women’s Studies Quarterly, vol. 42, no. 1/2, 2014, pp. 278–93.
+
 [^10]:
     Decolonize Palestine. “粉红清洗.” Trans in Academia! 文章资料库, <https://lib>.
     oau.edu.kg/docs/palestine/2_pinkwashing/. Accessed 17 June 2024.

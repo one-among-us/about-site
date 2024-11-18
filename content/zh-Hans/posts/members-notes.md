@@ -5,11 +5,11 @@ date: 2024-10-21T01:00:00-04:00
 
 # One Among Us 成员须知
 
-*修订于2024年10月21日。*
+_修订于2024年10月21日。_
 
-## 1  认识组织
+## 1 认识组织
 
-### 1.1  我们的社群使命、文化和艺术使命
+### 1.1 我们的社群使命、文化和艺术使命
 
 要认识我们的组织，首先就要从我们的使命（Mandate）开始。它为我们的行动准则起到了一个奠基的作用。也正因此，「使命」是形式主义的。大多数时候，它并不会提出某种特别具体的，关于「怎样做就是对的，怎样做就是错的」的叙述。但它给了我们一个思考我们的社群任务，以及文化和艺术任务的方向。「使命」是一个邀请、一个发问，是邀请我们每个人去思考 One Among Us 的意义是什么的发问。
 
@@ -32,14 +32,14 @@ date: 2024-10-21T01:00:00-04:00
 - 我们不期待对所有问题都有答案。需要拒绝一切「承诺给予所有问题答案」的意识形态的诱惑，拒绝思维上的懒惰。
 - 我们不应把成员当成一次性资源。需要注重对成员的心理呵护，以及工作之外友爱关系的建立。
 
-### 1.2  组织名称、格言、标志、会旗、会歌
+### 1.2 组织名称、格言、标志、会旗、会歌
 
 我们日常在社群工作中使用的组织名称如下表示：
 
-- 英文：  One Among Us
-- 中文：  One Among Us 那些秋叶
-- 日文：  One Among Us ～秋の葉ものがたり～
-- 法文：  One Among Us « les feuilles d’automne »
+- 英文： One Among Us
+- 中文： One Among Us 那些秋叶
+- 日文： One Among Us ～秋の葉ものがたり～
+- 法文： One Among Us « les feuilles d’automne »
 
 翻译成其他语言的时候，也要遵照如上的规律。该组织名称与我们在安大略省的注册机构名称 One Among Us Transgender Support 有一定区别，需要注意。
 
@@ -53,9 +53,9 @@ date: 2024-10-21T01:00:00-04:00
 
 我们目前有 5 个在使用的组织徽标（Logo），每种有各自的版本。你可以在 [视觉组的 Google Drive](https://drive.google.com/drive/u/0/folders/1vjQ5oOyw2OXCYmq5o0KIinLug_UnqHR_) 找到和使用它们。
 
-### 1.3  组织结构
+### 1.3 组织结构
 
-正如《使命》中所讲：「专业化、制度化本身并不是组织的目的，而只是一种维持组织存续和服务的工具；在资本主义尚未结束的时代，专业化、制度化不可避免地在某些方面阻碍人的自由全面发展。因此，我们遵循最小限度专业化的原则，避免不惜一切代价的成功。」为了保护我们的组织，于2022年12月15日，我们在加拿大安大略省成立了非营利公司，按照安省非营利公司法营业。根据非营利公司法的要求，以及我们组织的特殊性质，我们不得不设置一些职位，包括理事会理事（Directors）、主席（Chairperson）、参理事（Vice Directors）等。我们不得不登记自己具有成员大会投票权的成员。这些部分，请参见「第二章  安全与合规性」。然而，日常工作中，我们有属于自己的、符合法规的灵活安排。
+正如《使命》中所讲：「专业化、制度化本身并不是组织的目的，而只是一种维持组织存续和服务的工具；在资本主义尚未结束的时代，专业化、制度化不可避免地在某些方面阻碍人的自由全面发展。因此，我们遵循最小限度专业化的原则，避免不惜一切代价的成功。」为了保护我们的组织，于2022年12月15日，我们在加拿大安大略省成立了非营利公司，按照安省非营利公司法营业。根据非营利公司法的要求，以及我们组织的特殊性质，我们不得不设置一些职位，包括理事会理事（Directors）、主席（Chairperson）、参理事（Vice Directors）等。我们不得不登记自己具有成员大会投票权的成员。这些部分，请参见「第二章 安全与合规性」。然而，日常工作中，我们有属于自己的、符合法规的灵活安排。
 
 在日常运营中，我们采用项目工作组的制度。目前共有 7 个工作组：
 
@@ -68,20 +68,22 @@ date: 2024-10-21T01:00:00-04:00
 - 07 组负责跨性别艺术相关的内容，以及筹备中的 Arts Among Us 项目。
 
 除了 7 个工作组之外，（包括理事会在内）我们还有 4 个支援群，支援群的性质类似「讨论版」，是让在不同工作组之间类似的工作项目可以合作承担。这些支援群中，除了理事会之外，也可能是与其他一些组织（如跨性别学术小组）合并运行的：
+
 - 理事会
 - 技术群
 - 视觉群
 - 媒体群
 
-以上的 7 个工作组和 4 个支援群，除理事会之外，目前皆为自愿加入和退出（其组织形式主要依靠邮件、邮件列表、Telegram 群组等，细节见第三章  工作资源）。成员与这些组/群之间没有隶属关系。
+以上的 7 个工作组和 4 个支援群，除理事会之外，目前皆为自愿加入和退出（其组织形式主要依靠邮件、邮件列表、Telegram 群组等，细节见第三章 工作资源）。成员与这些组/群之间没有隶属关系。
 
 可以看到，相对传统的非营利组织而言，我们的组织形式有一定的区别。究其原因，是因为我们始于一个维护纪念性质的、一个基于友爱而成立的呵护团体，它是由东亚这片土地和东亚离散/流亡在海外的跨性别的特殊生存状况——而这种生存状况也不仅限于跨性别群体，就像我们的《使命》所说，「我们与所有尚未获得平等权利的个人及其社群站在一起，即使并没有一个统一的『身份』去标识它们」——而形成的。因此，我们无论做什么，也总是需要记得，自己拖带着这一份纪念、联系和开拓的责任。
 
-### 1.4  原住民土地承认
+### 1.4 原住民土地承认
 
 我们组织的注册地点，以及 02 组的主要活动地点位于多伦多。为了表明我们对于这一地点所蕴含的殖民历史和抗争历史的承认，我们按照此地组织的惯例，在每次线下活动之前宣读原住民土地承认（Land Acknowledgement）。和 02 组有关的一些线上内容同样也会使用这份文档。
 
 目前使用的原住民土地承认的具体文本如下：
+
 > We acknowledge here that One Among Us (Toronto) sits on the traditional territories of many nations, including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples, and within the lands protected by the “Dish With One Spoon” wampum agreement. The land is still home to many Indigenous Peoples within Turtle Island and what many understand as North America.
 >
 > We acknowledge the contributions of all Indian Residential school survivors, child apprehension survivors, Indigenous women, Trans Two Spirit and Queer peoples who were displaced from their territories, and all who have been displaced by generations of international colonialism and theft of people, communities, labour, and resources from the continent of Africa, South and East Asia, and around the world. We acknowledge the contributions of all who continue to work for justice and truth-telling against all forms of oppression in Canada, East Asia, and around the world. We commit ourselves to this ongoing work.
@@ -92,10 +94,10 @@ date: 2024-10-21T01:00:00-04:00
 
 该文本修订于2024年8月31日（第二届 One Among Us 年会）。可以使用第一段（简版）和包含第一、第二段的完整版。在宣读土地确认的同时，我们尤其要注意反思加拿大社会的独特真相与和解（truth and reconciliation）问题，与我们身处的东亚环境的关系。
 
-### 1.5  年度时间线
+### 1.5 年度时间线
 
 为了保障组织的顺畅运行和交接，在组织层面，我们遵照这个年度时间线来运行。每年有两次大型活动（11.20 跨性别纪念日和 3.31 跨性别现身日），每年 9 月左右召开年会，每年 12 月 15 日开始新一届理事的一年任期。
 
-## 2  ■■■■■■
+## 2 ■■■■■■
 
-*从第二章开始的内容为成员限定浏览，请点击 [链接](https://docs.google.com/document/d/1RpmH68yAPS9dxbAwiRh739zh4UlcA_OHTDjkmrEzYmE) 登录查看。本文档仍在持续完善中，请每位成员一同参与贡献。*
+_从第二章开始的内容为成员限定浏览，请点击 [链接](https://docs.google.com/document/d/1RpmH68yAPS9dxbAwiRh739zh4UlcA_OHTDjkmrEzYmE) 登录查看。本文档仍在持续完善中，请每位成员一同参与贡献。_

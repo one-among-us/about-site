@@ -16,7 +16,7 @@ const evs = ref<CalendarComponent[]>([]);
 // Function to fetch and parse the ical
 const fetchIcal = async () => {
   try {
-      const response = await fetch(props.url);
+    const response = await fetch(props.url);
     if (!response.ok) throw new Error('Network response was not ok');
 
     const data = await response.text();
@@ -52,11 +52,10 @@ const fetchIcal = async () => {
         //     e.description = e.description.substring(0, e.description.lastIndexOf('<br>'))
       }
     });
-    evs.value = events
-      .sort((a, b) => {
-        if (a.start && b.start) return a.start.getTime() - b.start.getTime();
-        return 0;
-      });
+    evs.value = events.sort((a, b) => {
+      if (a.start && b.start) return a.start.getTime() - b.start.getTime();
+      return 0;
+    });
   } catch (error) {
     console.error('There was a problem with the fetch operation:', (error as Error).message);
   }
@@ -95,7 +94,7 @@ onMounted(fetchIcal);
           }}
         </div>
 
-        <a class="googleMeetBtn" v-if="ev.googleMeet" :href="(ev.googleMeet as string)">
+        <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet as string">
           <img src="/assets/google-meet.svg" alt="google meet icon" />
           <span>Google Meet</span>
         </a>

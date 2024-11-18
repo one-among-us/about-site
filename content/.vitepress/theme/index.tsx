@@ -8,6 +8,6 @@ import './style.css';
 export default {
   ...Theme,
   enhanceApp({ app, router, siteData }) {
-    app.component('ourhome', OurHome)
+    app.component('ourhome', OurHome);
   },
 };

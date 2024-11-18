@@ -48,7 +48,8 @@ We are an "East Asian and Diaspora Transgender Community": our members are eithe
 
 Therefore, our organizations also need to blur the boundaries between the 'inside' and the 'outside', to recognize the intersectionality between organizational members, community partners, and service recipients, and to promote openness and inclusiveness, rather than creating a small circle that is only 'inside'. Of course, this does not mean that we tolerate any degree of violence against the community or members of the organization.
 
-As a not-for-profit organization, in order to better serve and meet the requirements of the place of registration for not-for-profit organizations, we must have considerable professional capacity to gain and reproduct knowledge on various aspects of community and peer support. However, we are also clearly aware that professionalization and institutionalization are not the purpose of an organization, but only a tool to maintain its existence and quality of services; and that in an era where capitalism has not yet ended, professionalization and institutionalization inevitably impede the free and comprehensive development of human beings in some ways. Therefore, we follow the principle of minimal specialization and avoid success at all costs. Professionalism must not give way to our ethics and integrity, to our collective will and expectations. 
+As a not-for-profit organization, in order to better serve and meet the requirements of the place of registration for not-for-profit organizations, we must have considerable professional capacity to gain and reproduct knowledge on various aspects of community and peer support. However, we are also clearly aware that professionalization and institutionalization are not the purpose of an organization, but only a tool to maintain its existence and quality of services; and that in an era where capitalism has not yet ended, professionalization and institutionalization inevitably impede the free and comprehensive development of human beings in some ways. Therefore, we follow the principle of minimal specialization and avoid success at all costs. Professionalism must not give way to our ethics and integrity, to our collective will and expectations.
+
 <p style="text-align:right;"> — “The Mandate of One Among Us,” 2023 Dec 19</p>
 
 ## Our History
@@ -75,7 +76,6 @@ We serve and gather people wherever we live, either in Toronto or somewhere.
 
 Visit our [Linktree](https://linktr.ee/oneamongus) or [Instagram](https://www.instagram.com/oneamongus_ca/) for more events information.
 
-
 ### Transgender University Guidance
 
 On 2023, Transgender University Guidance editing group joined Us. Visit our document through [uniguide.oneamongus.ca](https://uniguide.oneamongus.ca). We invite you to contribute that!
@@ -85,7 +85,6 @@ On 2023, Transgender University Guidance editing group joined Us. Visit our docu
 On 2023 Mar 13, we lost our beloved member, ArtsEpiphany, to her mental health condition.
 We named our new online-arts-gallery project “Arts Among Us” in memory of her.
 Please keep up with our further updates.
-
 
 ## Our Flag and Anthem
 

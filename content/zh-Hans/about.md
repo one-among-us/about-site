@@ -10,31 +10,31 @@
 
 我们由 7 个融合在一起的工作组组成，平时更习惯用 OAU + 数字（01..07 组）来称呼自己。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau01.svg"></img> &nbsp;纪念</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau01.svg"></img> &nbsp;纪念</span>
 
 我们负责 [跨性别纪念网站 那些秋叶](https://one-among.us) 的运营，是 One Among Us 最初的起点和最重要的工作组。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau02.svg"></img> &nbsp;在地</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau02.svg"></img> &nbsp;在地</span>
 
 我们成立于2023年7月12日，负责加拿大范围，主要是多伦多的在地社群建设，包括医疗资源、社群互助、社群活动等。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau03.svg"></img> &nbsp;兔子洞</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau03.svg"></img> &nbsp;兔子洞</span>
 
 我们成立于2023年9月27日。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau04.svg"></img> &nbsp;运营</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau04.svg"></img> &nbsp;运营</span>
 
 我们成立于2024年1月15日，负责和理事会沟通协作决定组织的具体运营、行政、财务等事项，以「最小限度专业化」的精神维护组织的存续。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;升学指导</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;升学指导</span>
 
 我们于2022年12月11日成立，2023年5月加入 One Among Us，负责 [跨性别升学指导网站](https://uniguide.oau.edu.kg) 的运营。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;自由开源软件</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;自由开源软件</span>
 
 我们成立于2024年2月21日，是一个扎根跨性别社群的自由开源软件同好会。你可以加入 Matrix 群组 [`#foss:oau.app`](https://matrix.to/#/#foss:oau.app) 参与讨论。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau07.svg"></img> &nbsp;艺术</span> 
+### <span style="display:flex;height:24px"><img src="/assets/oau07.svg"></img> &nbsp;艺术</span>
 
 我们负责跨性别艺术相关的内容，以及筹备中的 Arts Among Us 项目。
 
@@ -98,7 +98,7 @@ One Among Us 最初的起点以及最重要的业务是纪念逝去的跨性别�
 
 あかいめだまの さそり
 
-ひろげた鷲(わし)の  つばさ
+ひろげた鷲(わし)の つばさ
 
 あおいめだまの 小(こ)いぬ、
 
@@ -116,12 +116,11 @@ One Among Us 最初的起点以及最重要的业务是纪念逝去的跨性别�
 
 大(おお)ぐまのあしを きたに
 
-五(いつ)つのばした  ところ。
+五(いつ)つのばした ところ。
 
 小熊(こぐま)のひたいの うえは
 
 そらのめぐりの めあて。
-
 
 <br/>
 

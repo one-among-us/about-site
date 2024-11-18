@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import VPHomeHero from 'vitepress/dist/client/theme-default/components/VPHomeHero.vue'
-import VPHomeFeatures from 'vitepress/dist/client/theme-default/components/VPHomeFeatures.vue'
-import VPHomeContent from 'vitepress/dist/client/theme-default/components/VPHomeContent.vue'
-import VPHomeFriends from './VPHomeFriends.vue'
-import { useData } from 'vitepress'
+import VPHomeHero from 'vitepress/dist/client/theme-default/components/VPHomeHero.vue';
+import VPHomeFeatures from 'vitepress/dist/client/theme-default/components/VPHomeFeatures.vue';
+import VPHomeContent from 'vitepress/dist/client/theme-default/components/VPHomeContent.vue';
+import VPHomeFriends from './VPHomeFriends.vue';
+import { useData } from 'vitepress';
 
-const { frontmatter } = useData()
+const { frontmatter } = useData();
 </script>
 
 <template>
@@ -37,7 +37,6 @@ const { frontmatter } = useData()
         <VPHomeFriends />
       </div>
     </div>
-
   </div>
 </template>
 
@@ -52,7 +51,6 @@ const { frontmatter } = useData()
   }
 }
 </style>
-
 
 <style module>
 .content {
