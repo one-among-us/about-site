@@ -17,12 +17,10 @@
   </main>
 </template>
 <script setup lang="ts">
-// @ts-expect-error load data from .data files
-import { data as posts } from '../../.vitepress/theme/utils/getPostList.ja.data';
-import type PostData from '../../.vitepress/types/PostData';
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue';
+import { data as posts } from '../../.vitepress/theme/utils/getPostList.ja.data';
 
-const organizedPosts = (posts as PostData[])
+const organizedPosts = posts
   .filter(({ frontmatter }) => frontmatter.title)
   .sort((a, b) => {
     const aDate = new Date(a.frontmatter.date);

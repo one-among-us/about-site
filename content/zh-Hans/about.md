@@ -88,13 +88,13 @@ One Among Us 最初的起点以及最重要的业务是纪念逝去的跨性别�
 
 ### 会旗：重瓣樱
 
-![One Among Us 会旗](/posts/flag.oau.png 'One Among Us 会旗')
+![One Among Us 会旗](@/en/posts/flag.oau.png 'One Among Us 会旗')
 
 ### 会歌：《巡星之歌》
 
 **『星めぐりの歌』**　宮沢賢治 作詞/作曲
 
-![《巡星之歌》原稿，选自筑摩书房《宫泽贤治全集》](/posts/hoshi-meguri-no-uta.png '《巡星之歌》原稿，选自筑摩书房《宫泽贤治全集》')
+![《巡星之歌》原稿，选自筑摩书房《宫泽贤治全集》](@/en/posts/hoshi-meguri-no-uta.png '《巡星之歌》原稿，选自筑摩书房《宫泽贤治全集》')
 
 #### 日语歌词
 

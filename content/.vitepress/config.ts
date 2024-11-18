@@ -4,6 +4,7 @@ import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
 import { generateSidebar, VitePressSidebarOptions, withSidebar } from 'vitepress-sidebar';
 import imgPlugin from './plugins/imgPlugin';
+import { fileURLToPath } from 'node:url';
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig = defineConfig({
@@ -117,6 +118,11 @@ const vitePressConfig = defineConfig({
     plugins: [VueJsx(), Unocss()],
     server: { host: '0.0.0.0' },
     css: { preprocessorOptions: { sass: { api: 'modern' } } },
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('../', import.meta.url)),
+      },
+    },
   },
   markdown: {
     config: (md) => {

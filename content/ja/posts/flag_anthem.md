@@ -7,13 +7,13 @@ date: 2023-06-05T10:00:00-04:00
 
 ## 社旗：八重桜
 
-![One Among Us 社旗](../../posts/flag.oau.png 'One Among Us 社旗')
+![One Among Us 社旗](@/en/posts/flag.oau.png 'One Among Us 社旗')
 
 ## 社歌：星めぐりの歌
 
 **星めぐりの歌**　宮沢賢治 作詞/作曲
 
-![「星めぐりの歌」『宮沢賢治全集』筑摩書房](../../posts/hoshi-meguri-no-uta.png '「星めぐりの歌」『宮沢賢治全集』筑摩書房')
+![「星めぐりの歌」『宮沢賢治全集』筑摩書房](@/en/posts/hoshi-meguri-no-uta.png '「星めぐりの歌」『宮沢賢治全集』筑摩書房')
 
 あかいめだまの　さそり
 
