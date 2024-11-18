@@ -1,5 +1,5 @@
 ---
-title: Events
+title: 活动日历
 layout: page
 events:
   OAU 02 Local 跨性别纪念日故事分享-守夜-同伴支持小组:
@@ -204,7 +204,7 @@ events:
             <div class="community">
               <div v-for="c in item.community" :key="c" class="cclick" loading='lazy'> {{ c }}
               </div>
-              <div class="clink" v-if="item.link && item.link.type"> 
+              <div class="clink" v-if="item.link && item.link.type">
                 <a v-if="item.link && item.link.type" class="link-type" :href="`${item.link.url}`">
                   {{ item.link.type }}
                 </a>
@@ -277,7 +277,6 @@ $grid__cols: 12
 img
     border-radius: 12px
 
-
 .date, .actual-date
     display: flex
     gap: 0.5em
@@ -342,13 +341,11 @@ img
     white-space: nowrap
 
 .clink
-    border: 1px solid 
+    border: 1px solid
     border-radius: 12px
     padding: 2px 8px 0 8px
     color: var(--vp-c-red-1)
     background-color: var(--vp-c-red-soft)
-
-    
 
 // Phone
 @media(max-width: 600px)

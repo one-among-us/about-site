@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 通知公告
 ---
 
 <Page />
