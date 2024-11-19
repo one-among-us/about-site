@@ -1,10 +1,30 @@
 import { footnote } from '@mdit/plugin-footnote';
 import VueJsx from '@vitejs/plugin-vue-jsx';
+import { fileURLToPath } from 'node:url';
 import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
-import { generateSidebar, VitePressSidebarOptions, withSidebar } from 'vitepress-sidebar';
+import { generateSidebar, VitePressSidebarOptions } from 'vitepress-sidebar';
 import imgPlugin from './plugins/imgPlugin';
-import { fileURLToPath } from 'node:url';
+
+const rootLocale = 'en';
+const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
+  useTitleFromFrontmatter: true,
+  useFolderTitleFromIndexFile: true,
+  useFolderLinkFromIndexFile: true,
+  useTitleFromFileHeading: true,
+  collapsed: true,
+};
+
+const supportedLocales = [rootLocale, 'zh-Hans', 'ja'] as const;
+
+const sidebarConfigs = supportedLocales.map((lang) => {
+  return {
+    ...commonSidebarConfigs,
+    ...(rootLocale === lang ? {} : { basePath: `/${lang}/` }), // If using `rewrites` option
+    documentRootPath: `content/${lang}`,
+    resolvePath: rootLocale === lang ? '/' : `/${lang}/`,
+  };
+});
 
 // https://vitepress.dev/reference/site-config
 const vitePressConfig = defineConfig({
@@ -16,6 +36,7 @@ const vitePressConfig = defineConfig({
     root: {
       label: 'English',
       lang: 'en',
+      themeConfig: {},
     },
     'zh-Hans': {
       label: '简体中文',
@@ -62,10 +83,7 @@ const vitePressConfig = defineConfig({
     ],
     logo: '/assets/favicon-new.png',
 
-    sidebar: generateSidebar(),
-    // {
-    //   '/posts': getPostList(),
-    // },
+    sidebar: generateSidebar(sidebarConfigs),
 
     footer: {
       message:
@@ -107,21 +125,23 @@ const vitePressConfig = defineConfig({
   },
   rewrites: {
     'en/:rest*': ':rest*',
-    'posts/index.md': 'posts.md',
-    'people/index.md': 'people.md',
-    'zh-Hans/posts/index.md': 'zh-Hans/posts.md',
-    'ja/posts/index.md': 'ja/posts.md',
-    'ja/links/index.md': 'ja/links.md',
-    'zh-Hans/events/index.md': 'zh-Hans/events.md',
   },
+
   vite: {
     plugins: [VueJsx(), Unocss()],
     server: { host: '0.0.0.0' },
     css: { preprocessorOptions: { sass: { api: 'modern' } } },
     resolve: {
-      alias: {
-        '@': fileURLToPath(new URL('../', import.meta.url)),
-      },
+      alias: [
+        {
+          find: '@',
+          replacement: fileURLToPath(new URL('../', import.meta.url)),
+        },
+        {
+          find: /^.*\/VPHome\.vue$/,
+          replacement: fileURLToPath(new URL('./theme/OurHome.vue', import.meta.url)),
+        },
+      ],
     },
   },
   markdown: {
@@ -132,25 +152,6 @@ const vitePressConfig = defineConfig({
   },
 });
 
-const rootLocale = 'en';
-const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
-  useTitleFromFrontmatter: true,
-  useFolderTitleFromIndexFile: true,
-  useFolderLinkFromIndexFile: true,
-  useTitleFromFileHeading: true,
-  collapsed: true,
-};
-
-const supportedLocales = [rootLocale, 'zh-Hans', 'ja'] as const;
-
-const sidebarConfigs = supportedLocales.map((lang) => {
-  return {
-    ...commonSidebarConfigs,
-    ...(rootLocale === lang ? {} : { basePath: `/${lang}/` }), // If using `rewrites` option
-    documentRootPath: `content/${lang}`,
-    resolvePath: rootLocale === lang ? '/' : `/${lang}/`,
-  };
-});
 // http://localhost:5173/content/zh-Hans/posts/statement-linux-foundation
 // http://localhost:5173/zh-Hans/posts/statement-linux-foundation
-export default defineConfig(withSidebar(vitePressConfig, sidebarConfigs));
+export default vitePressConfig;
