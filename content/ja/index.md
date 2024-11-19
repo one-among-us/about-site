@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: ourhome
+layout: home
 
 hero:
   name: One Among Us

@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: ourhome
+layout: home
 hero:
   name: 'One Among Us'
   text: ''
@@ -70,8 +70,8 @@ We are a registered not-for-profit organization in Ontario, Canada.
 ## Events Calendar
 
 <script setup lang="ts">
-import Calendar from './Calendar.vue'
-import Carousel from './Carousel.vue'
+import Calendar from '@/Calendar.vue'
+import Carousel from '@/Carousel.vue'
 </script>
 
 <Calendar url="https://oau.app/calendar/ical/c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com/public/basic.ics"></Calendar>

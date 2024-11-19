@@ -90,13 +90,13 @@ Please keep up with our further updates.
 
 ### The Flag: Double-Flowered Cherry Blossom
 
-![The Flag of One Among Us](/posts/flag.oau.png 'The Flag of One Among Us')
+![The Flag of One Among Us](./posts/flag.oau.png 'The Flag of One Among Us')
 
 ### The Anthem: Star Tour Song
 
 **『星めぐりの歌』**　宮沢賢治 作詞/作曲
 
-![Star Tour Song, from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō](/posts/hoshi-meguri-no-uta.png 'Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo')
+![Star Tour Song, from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō](./posts/hoshi-meguri-no-uta.png 'Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo')
 
 Can you see the red eyed Scorpion?
 

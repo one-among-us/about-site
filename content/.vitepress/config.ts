@@ -1,12 +1,33 @@
 import { footnote } from '@mdit/plugin-footnote';
 import VueJsx from '@vitejs/plugin-vue-jsx';
+import { fileURLToPath } from 'node:url';
 import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
+import { generateSidebar, VitePressSidebarOptions } from 'vitepress-sidebar';
 import imgPlugin from './plugins/imgPlugin';
-import getPostList from './theme/utils/getPostList';
+
+const rootLocale = 'en';
+const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
+  useTitleFromFrontmatter: true,
+  useFolderTitleFromIndexFile: true,
+  useFolderLinkFromIndexFile: true,
+  useTitleFromFileHeading: true,
+  collapsed: true,
+};
+
+const supportedLocales = [rootLocale, 'zh-Hans', 'ja'] as const;
+
+const sidebarConfigs = supportedLocales.map((lang) => {
+  return {
+    ...commonSidebarConfigs,
+    ...(rootLocale === lang ? {} : { basePath: `/${lang}/` }), // If using `rewrites` option
+    documentRootPath: `content/${lang}`,
+    resolvePath: rootLocale === lang ? '/' : `/${lang}/`,
+  };
+});
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressConfig = defineConfig({
   title: 'One Among Us',
   description:
     'A community for East-Asian and East-Asian Canadian transgender and gender diverse people. An Ontario registered not-for-profit corporation.',
@@ -15,6 +36,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
+      themeConfig: {},
     },
     'zh-Hans': {
       label: '简体中文',
@@ -26,9 +48,6 @@ export default defineConfig({
           { text: '通知公告', link: '/zh-Hans/posts' },
           { text: '联系·支持', link: '/zh-Hans/contact' },
         ],
-        sidebar: {
-          '/zh-Hans/posts': getPostList('zh-Hans'),
-        },
         footer: {
           message:
             '若无特殊说明，本站内容以 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享 署名 4.0</a> 协议授权',
@@ -45,9 +64,6 @@ export default defineConfig({
           // { text: 'アーカイブ', link: '/ja/posts' },
           { text: '連絡先', link: '/ja/contact' },
         ],
-        sidebar: {
-          '/ja/posts': getPostList('ja'),
-        },
         footer: {
           message:
             '注があるものを除いて、このサイトの内容物は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0</a> ライセンスの下に提供されています。',
@@ -67,9 +83,7 @@ export default defineConfig({
     ],
     logo: '/assets/favicon-new.png',
 
-    sidebar: {
-      '/posts': getPostList(),
-    },
+    sidebar: generateSidebar(sidebarConfigs),
 
     footer: {
       message:
@@ -110,17 +124,25 @@ export default defineConfig({
     ],
   },
   rewrites: {
-    'posts/index.md': 'posts.md',
-    'people/index.md': 'people.md',
-    'zh-Hans/posts/index.md': 'zh-Hans/posts.md',
-    'ja/posts/index.md': 'ja/posts.md',
-    'ja/links/index.md': 'ja/links.md',
-    'zh-Hans/events/index.md': 'zh-Hans/events.md',
+    'en/:rest*': ':rest*',
   },
+
   vite: {
     plugins: [VueJsx(), Unocss()],
     server: { host: '0.0.0.0' },
     css: { preprocessorOptions: { sass: { api: 'modern' } } },
+    resolve: {
+      alias: [
+        {
+          find: '@',
+          replacement: fileURLToPath(new URL('../', import.meta.url)),
+        },
+        {
+          find: /^.*\/VPHome\.vue$/,
+          replacement: fileURLToPath(new URL('./theme/OurHome.vue', import.meta.url)),
+        },
+      ],
+    },
   },
   markdown: {
     config: (md) => {
@@ -129,3 +151,7 @@ export default defineConfig({
     },
   },
 });
+
+// http://localhost:5173/content/zh-Hans/posts/statement-linux-foundation
+// http://localhost:5173/zh-Hans/posts/statement-linux-foundation
+export default vitePressConfig;
