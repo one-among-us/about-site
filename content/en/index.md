@@ -38,9 +38,9 @@ features:
     details: A memorial website dedicated to transgender individuals and their allies who had passed away.
     link: https://one-among.us
   - icon: <img src="/assets/community-logo.png">
-    title: Transgender University Guidance
-    details: A collective effort aimed at providing valuable resources and support for transgender individuals pursuing higher education.
-    link: https://uniguide.oneamongus.ca/
+    title: RLE.wiki
+    details: A collective effort aimed at providing valuable resources and support for transgender and gender-diverse real-life experience.
+    link: https://rle.wiki/
   - icon: <img src="/assets/rxn-logo.png">
     title: Local Services
     details: Local service groups. Mainly in Greater Toronto Area.
@@ -51,13 +51,13 @@ friends:
     details: Project Trans (formerly MtF.wiki) aims to better maintain multiple projects including MtF wiki, FtM wiki and more.
     link: https://about.project-trans.org/en/
     icon: <img src="/assets/prts-logo.png">
-  - title: '2345.LGBT'
+  - title: 'Awesome Trans'
     details: A transgender navigation site owned and maintained by Project Trans.
     link: https://2345.lgbt/en/
     icon: <img src="/assets/2345brand.svg">
-  - title: Trans in Academia!
-    details: A community for diasporic Chinese transgender and gender non-conforming people who are pursuing their academic goals or careers.
-    link: https://oau.edu.kg
+  - title: Trans in Academia! (TiA!)
+    details: An organization aiming to document theoretical and practical knowledge from the Sinophone trans community, help trans people pursue studies, professional development, and employment, share academic knowledge related to trans issues, and produce original content from the perspective of trans people. 
+    link: https://transinacademia.org
     icon: <img src="/assets/tia-logo.png">
 ---
 

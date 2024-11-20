@@ -24,9 +24,9 @@ We started on 2023 September 27.
 
 We started on 2024 January 15. We manage the operations, administration, and funds. We avoid success at all costs.
 
-### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;UniGuide</span>
+### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;Resources</span>
 
-We started on 2022 December 11 and joined One Among Us on May 2023. We run the [Transgender University Guidance](https://uniguide.oau.edu.kg).
+We started on 2022 December 11 and joined One Among Us on May 2023. We collaborate with [Project Trans](https://about.project-trans.org) on editing [RLE.wiki](https://RLE.wiki).
 
 ### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;FOSS</span>
 

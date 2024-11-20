@@ -28,9 +28,9 @@ title: 关于我们
 
 我们成立于2024年1月15日，负责和理事会沟通协作决定组织的具体运营、行政、财务等事项，以「最小限度专业化」的精神维护组织的存续。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;升学指导</span>
+### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;社群资源</span>
 
-我们于2022年12月11日成立，2023年5月加入 One Among Us，负责 [跨性别升学指导网站](https://uniguide.oau.edu.kg) 的运营。
+我们于2022年12月11日成立，2023年5月加入 One Among Us，协助 [Project Trans](https://about.project-trans.org) 负责 [RLE.wiki](https://RLE.wiki) 的部分编辑和运营工作。
 
 ### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;自由开源软件</span>
 

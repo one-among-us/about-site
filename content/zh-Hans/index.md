@@ -27,9 +27,9 @@ features:
     details: 去世跨性别者及友跨人士的纪念网站。
     link: https://one-among.us
   - icon: <img src="/assets/community-logo.png">
-    title: 跨性别选校手册
-    details: 共同编辑的资料库，为跨性别者求学海内外提供信息。
-    link: https://uniguide.oau.edu.kg/zh-hans
+    title: RLE.wiki
+    details: 由 Project Trans 和 One Among Us 共同编辑的 RLE 资料库。
+    link: https://rle.wiki
   - icon: <img src="/assets/rxn-logo.png">
     title: 在地服务组
     details: 提供一些简单的社区互助服务。
@@ -48,8 +48,8 @@ friends:
     link: 'https://2345.lgbt/zh-cn/'
     icon: '<img src="/assets/2345brand.svg">'
   - title: Trans in Academia! 跨儿学术小组
-    details: '分享与跨性别有关的学术动态，帮助跨性别者及友跨人士求学、进修、工作，以跨性别学术人的视角发声。'
-    link: 'https://oau.edu.kg'
+    details: '记录我们所在社群的理论和实践知识，帮助跨儿求学、进修、工作，分享与跨儿有关的学术知识，并以跨儿的视角发声。'
+    link: 'https://transinacademia.org'
     icon: '<img src="/assets/tia-logo.png">'
 ---
 
