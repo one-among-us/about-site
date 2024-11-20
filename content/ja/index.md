@@ -29,10 +29,10 @@ features:
     title: 秋の葉ものがたり　ワン・アマング・アス
     details: トランスジェンダーとそのアライたちの追悼サイト(いま中国語および英語のみ)。
     link: https://one-among.us
-  - icon: <img src="/assets/community-logo.png">
-    title: トランスジェンダー同士への大学入学案内
-    details: 学術および就職を追求するトランスジェンダーおよびジェンダー・ノンコンフォーミングの同士の大学入学案内(いま中国語および英語のみ)。
-    link: https://uniguide.oneamongus.ca/
+  - icon: <img src="https://rle.wiki/logo-with-shadow.png">
+    title: RLE.wiki
+    details: トランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のRLE案内(いま中国語のみ)。
+    link: https://rle.wiki/
   - icon: <img src="/assets/rxn-logo.png">
     title: ローカルサービス
     details: ローカルサービスチーム(日本語でお問い合わせもいい)。
