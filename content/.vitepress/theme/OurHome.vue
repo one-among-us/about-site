@@ -20,12 +20,9 @@ const { frontmatter } = useData();
     </VPHomeHero>
     <slot name="home-hero-after" />
 
+    <slot name="home-features-before" />
     <VPHomeFeatures />
-    <div :class="$style.outerContent">
-      <div :class="$style.content">
-        <VPHomeIntro />
-      </div>
-    </div>
+    <slot name="home-features-after" />
 
     <VPHomeContent v-if="frontmatter.markdownStyles !== false">
       <Content />
