@@ -2,18 +2,7 @@
 title: 活动日历
 layout: page
 events:
-  OAU 02 Local 跨性别纪念日故事分享-守夜-同伴支持小组:
-    lang:
-      - 普通话
-      - English
-      - 日本語
-    time: 2024-11-22T18:30:00-05:00
-    community:
-      - 多伦多社群
-    location: The 519 (Toronto)
-    image: 1120.png
-
-  2024 跨性别纪念日晚会:
+  2024 跨性别纪念日晚会（海报二）:
     lang:
       - 普通话
     time: 2024-11-23T20:00:00+08:00
@@ -24,7 +13,31 @@ events:
       - 线上
       - Project Trans 联合举办
       - 跨性别相关放送 联合举办
-    image: 11203.png
+    image: 11200-compressed.jpg
+
+  2024 跨性别纪念日晚会（海报一）:
+    lang:
+      - 普通话
+    time: 2024-11-23T20:00:00+08:00
+    link:
+      type: 点击查看直播 (YouTube)
+      url: 'https://www.youtube.com/@OneAmongUsPride'
+    community:
+      - 线上
+      - Project Trans 联合举办
+      - 跨性别相关放送 联合举办
+    image: 11203-compressed.jpg
+
+  OAU 02 Local 跨性别纪念日故事分享-守夜-同伴支持小组:
+    lang:
+      - 普通话
+      - English
+      - 日本語
+    time: 2024-11-22T18:30:00-05:00
+    community:
+      - 多伦多社群
+    location: The 519 (Toronto)
+    image: 1120-compressed.jpg
 
   2024 跨性别纪念日晚会 留言征集:
     time: 2024-11-18T12:00:00+08:00
