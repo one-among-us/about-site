@@ -37,7 +37,7 @@ features:
     title: One Among Us
     details: A memorial website dedicated to transgender individuals and their allies who had passed away.
     link: https://one-among.us
-  - icon: <img src="/assets/community-logo.png">
+  - icon: <img src="https://rle.wiki/logo-with-shadow.png">
     title: RLE.wiki
     details: A collective effort aimed at providing valuable resources and support for transgender and gender-diverse real-life experience.
     link: https://rle.wiki/

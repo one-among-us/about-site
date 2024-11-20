@@ -26,7 +26,7 @@ features:
     title: 那些秋叶 One Among Us
     details: 去世跨性别者及友跨人士的纪念网站。
     link: https://one-among.us
-  - icon: <img src="/assets/community-logo.png">
+  - icon: <img src="https://rle.wiki/logo-with-shadow.png">
     title: RLE.wiki
     details: 由 Project Trans 和 One Among Us 共同编辑的 RLE 资料库。
     link: https://rle.wiki
