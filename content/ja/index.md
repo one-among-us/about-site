@@ -29,7 +29,7 @@ features:
     title: 秋の葉ものがたり　ワン・アマング・アス
     details: トランスジェンダーとそのアライたちの追悼サイト(いま中国語および英語のみ)。
     link: https://one-among.us
-  - icon: <img src="https://rle.wiki/logo-with-shadow.png">
+  - icon: <img src="https://rle.wiki/logo.svg">
     title: RLE.wiki
     details: トランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のRLE案内(いま中国語のみ)。
     link: https://rle.wiki/
