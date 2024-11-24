@@ -5,16 +5,24 @@ import { computed } from 'vue';
 
 const photos: { url: string; alt: Record<string, string> }[] = [
   {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/events/craft2023/DSCF2179.jpg',
-    alt: { en: 'Events Photo', 'zh-Hans': '活动照片' },
+    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/5.jpg',
+    alt: { en: 'Poster -- Licensed under CC-BY-SA', 'zh-Hans': '海报，知识共享-署名-相同方式共享授权' },
   },
   {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/events/craft2023/DSCF2154.jpg',
-    alt: { en: 'Events Photo', 'zh-Hans': '活动照片' },
+    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/4.jpg',
+    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
   },
   {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/events/craft2023/DSCF2103.jpg',
-    alt: { en: 'Events Photo', 'zh-Hans': '活动照片' },
+    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/1.jpg',
+    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
+  },
+  {
+    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/2.jpg',
+    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
+  },
+  {
+    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/3.jpg',
+    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
   },
 ];
 
