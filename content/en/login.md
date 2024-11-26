@@ -40,17 +40,13 @@ title: Member Zone
 
 ### 常用填写表格
 
-1. [简报和项目进度表（需要权限）](https://docs.google.com/spreadsheets/d/10HKV6kVFKswh-iUC-Vktxkzf0lY9CMzMm8JINPIgKOU/) 有新的进展记得填写，工作留痕
+1. [简报和项目进度表](https://docs.google.com/spreadsheets/d/10HKV6kVFKswh-iUC-Vktxkzf0lY9CMzMm8JINPIgKOU/) 有新的进展记得填写，工作留痕
 
-2. [报销表格](https://docs.google.com/forms/d/1QaUSCT4xow_sVLWj5dmLt73VVgpymNTFWHPek1tZT_8/edit) 财务制度正在改进中，暂停填写
+2. [报销表格](https://drive.google.com/file/d/1c4JxY_PQV_Ny8-i5-1cTIWju0Nmf8jbJ/view?usp=drive_link) 填写之后和相关证明一起发送到财务邮箱（donate@）
 
-3. [会计总表（需要权限，会填可以直接填里面不用走报销表格）](https://docs.google.com/spreadsheets/d/1TnYa_khIeI1iVL4_udp88FQ5i_QysFt6jpROkrC4kvc/edit#gid=972494132) 财务制度正在改进中，暂停填写
+3. [成员名单](https://contacts.google.com/directory)
 
-4. [工作细则 GitHub How-We-Work](https://github.com/one-among-us/how-we-work/) 有新的总结记得填写
-
-5. [成员名单 GitHub（需要权限）](https://github.com/one-among-us/.github-private/blob/main/memo/members.md) 我在考虑要不要转到 Google Workspace 上
-
-6. [事件/活动日历](https://calendar.google.com/calendar/u/2?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) 对这里的更改会同步到网站首页
+4. [事件/活动日历](https://calendar.google.com/calendar/u/2?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) 对这里的更改会同步到网站首页
 
 ### 网络维护
 
