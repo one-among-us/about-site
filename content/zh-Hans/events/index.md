@@ -54,7 +54,7 @@ events:
     lang:
       - 普通话
     location: 720 Spadina Ave, 2nd Fl (Toronto)
-    time: 2024-11-09T13:30-17:00-05:00
+    time: 2024-11-09T13:30:00-05:00
     community:
       - 多伦多社群
       - feat. Studio DISSONANCE
