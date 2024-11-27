@@ -7,8 +7,8 @@ events:
       - 普通话
     time: 2024-11-23T20:00:00+08:00
     link:
-      type: 点击查看直播 (YouTube)
-      url: 'https://www.youtube.com/@OneAmongUsPride'
+      type: 查看回放 (YouTube)
+      url: 'https://www.youtube.com/watch?v=IA7gERgmK_c'
     community:
       - 线上
       - Project Trans 联合举办
@@ -20,8 +20,8 @@ events:
       - 普通话
     time: 2024-11-23T20:00:00+08:00
     link:
-      type: 点击查看直播 (YouTube)
-      url: 'https://www.youtube.com/@OneAmongUsPride'
+      type: 查看回放 (YouTube)
+      url: 'https://www.youtube.com/watch?v=IA7gERgmK_c'
     community:
       - 线上
       - Project Trans 联合举办
@@ -41,9 +41,6 @@ events:
 
   2024 跨性别纪念日晚会 留言征集:
     time: 2024-11-18T12:00:00+08:00
-    link:
-      type: 点击留言
-      url: 'https://one-among.us'
     community:
       - 线上
       - Project Trans 联合举办
