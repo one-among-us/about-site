@@ -51,6 +51,9 @@ friends:
     details: '记录我们所在社群的理论和实践知识，帮助跨儿求学、进修、工作，分享与跨儿有关的学术知识，并以跨儿的视角发声。'
     link: 'https://transinacademia.org'
     icon: '<img src="/assets/tia-logo.png">'
+  - title: 多元性别中文数字图书馆
+    details: 致力于收集、保存和整理泛跨性别群体的任何相关的历史印迹——从个人故事、社群讨论、文学与艺术作品，到新闻报道与学术内容。
+    link: https://transchinese.org/
 ---
 
 你好呀！我们是 One Among Us，是一个希望为东亚（现在主要是中国）以及在海外（主要是加拿大）的跨性别/性别多元朋友们提供同辈互助和社群支持，增强两地跨儿之间的联系与互助的组织。
