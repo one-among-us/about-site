@@ -42,7 +42,7 @@ const people: People = {
     {
       title: 'Vapaa (they/she)',
       details:
-        'Vapaa is a member of us. They primarily work on the Uniguide project. When approaching them, it’s advisable to approach them gently. Abrupt interactions may startle them, and you will see them jump in fright (literally).',
+        'Vapaa is primarily responsible for organizing and sharing a wide range of information, including how gender-diverse individuals can better complete their education, plan and start their lives worldwide, and many other related areas. If Vapaa does not notice the approach of other beings, you might see them jump in fright when startled.',
       link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/vapaa.jpg',
       icon: {
         src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/vapaa.jpg',
