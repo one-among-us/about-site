@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Archives
+title: Announcements
 ---
+
+# Announcements
 
 <Page />
 

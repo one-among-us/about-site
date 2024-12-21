@@ -2,7 +2,7 @@
   <main class="main">
     <article class="vp-doc mt-4">
       <div class="flex flex-col sm:flex-row">
-        <ul class="ml-4!">
+        <ul style="padding-left:0">
           <li v-for="post in organizedPosts" :key="post.url" class="list-none p-0 m-0">
             <VPLink :href="post.url" class="text-xl">
               {{ post.title }}
@@ -21,7 +21,7 @@ import { data as posts } from '../../.vitepress/theme/utils/getPostList.zh-Hans.
 import VPLink from 'vitepress/dist/client/theme-default/components/VPLink.vue';
 
 const organizedPosts = posts
-  .filter(({ frontmatter }) => frontmatter.title)
+  .filter(({ frontmatter }) => frontmatter.date)
   .sort((a, b) => {
     const aDate = new Date(a.frontmatter.date);
     const bDate = new Date(b.frontmatter.date);
