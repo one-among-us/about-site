@@ -15,7 +15,10 @@ hero:
       text: 关于我们
       link: /zh-Hans/about
     - theme: alt
-      text: 文章存档
+      text: 文档资源
+      link: /zh-Hans/docs
+    - theme: alt
+      text: 通知公告
       link: /zh-Hans/posts
     - theme: brand
       text: 支持我们

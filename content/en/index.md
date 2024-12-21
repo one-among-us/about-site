@@ -14,7 +14,10 @@ hero:
       text: People
       link: /people
     - theme: alt
-      text: Posts
+      text: Docs
+      link: /docs
+    - theme: alt
+      text: Announcements
       link: /posts
     - theme: alt
       text: Contact

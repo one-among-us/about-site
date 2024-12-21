@@ -45,6 +45,7 @@ const vitePressConfig = defineConfig({
         nav: [
           { text: '关于我们', link: '/zh-Hans/about' },
           { text: '活动日历', link: '/zh-Hans/events' },
+          { text: '文档资源', link: '/zh-Hans/docs' },
           { text: '通知公告', link: '/zh-Hans/posts' },
           { text: '联系·支持', link: '/zh-Hans/contact' },
         ],
@@ -78,8 +79,9 @@ const vitePressConfig = defineConfig({
       { text: 'About', link: '/about' },
       { text: 'People', link: '/people' },
       { text: 'Events', link: '/zh-Hans/events' },
-      { text: 'Archives', link: '/posts' },
-      { text: 'Contact', link: '/contact' },
+      { text: 'Docs & Resources', link: '/docs' },
+      { text: 'Announcements', link: '/posts' },
+      { text: 'Contact & Support', link: '/contact' },
     ],
     logo: '/assets/favicon-new.png',
 
