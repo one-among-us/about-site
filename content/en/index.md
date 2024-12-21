@@ -14,26 +14,17 @@ hero:
       text: People
       link: /people
     - theme: alt
-      text: Docs
+      text: Events
+      link: /zh-Hans/events
+    - theme: alt
+      text: Docs & Resources
       link: /docs
     - theme: alt
       text: Announcements
       link: /posts
-    - theme: alt
-      text: Contact
+    - theme: brand
+      text: Contact & Support Us!
       link: /contact
-    - theme: alt
-      text: Events
-      link: /zh-Hans/events
-    - theme: brand
-      text: Community Resource
-      link: /community-resource
-    - theme: brand
-      text: Member Login
-      link: /login
-    - theme: brand
-      text: Support .us
-      link: https://github.com/sponsors/one-among-us/
 
 features:
   - icon: <img src="/assets/favicon-new.png">
@@ -47,7 +38,7 @@ features:
   - icon: <img src="/assets/rxn-logo.png">
     title: Local Services
     details: Local service groups. Mainly in Greater Toronto Area.
-    link: /community-resource
+    link: /docs/community
 
 friends:
   - title: Project Trans

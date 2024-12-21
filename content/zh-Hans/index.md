@@ -21,8 +21,8 @@ hero:
       text: 通知公告
       link: /zh-Hans/posts
     - theme: brand
-      text: 支持我们
-      link: https://github.com/sponsors/one-among-us/
+      text: 联系·支持
+      link: /zh-Hans/contact
 
 features:
   - icon: <img src="/assets/favicon-new.png">
@@ -36,7 +36,7 @@ features:
   - icon: <img src="/assets/rxn-logo.png">
     title: 在地服务组
     details: 提供一些简单的社区互助服务。
-    link: /community-resource
+    link: /docs/community
   - icon: <img src="/assets/onechannel-logo.png">
     title: One Channel! <nobr>跨儿骄傲联合广播</nobr>
     details: 由 Trans in Academia! 和 One Among Us 共同运营的华语跨儿信息分享频道。

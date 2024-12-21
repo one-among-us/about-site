@@ -25,6 +25,6 @@ date: 2023-11-14T14:40:00-05:00
 
 ## Local Service Groups
 
-**Toronto Events and Services**: [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca) (See our [**Land Acknowledgment**](land-ack))
+**Toronto Events and Services**: [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca)
 
 **The "Rabbit Hole" Service Group**: [hk@oneamongus.ca](mailto:hk@oneamongus.ca)
