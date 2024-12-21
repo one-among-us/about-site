@@ -1,6 +1,6 @@
 ---
 title: 2025 Board of Directors Election Results
-date: 2023-12-21T00:00:00-05:00
+date: 2024-12-21T00:00:00-05:00
 ---
 
 # 2025 Board of Directors Election Results
