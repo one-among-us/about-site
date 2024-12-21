@@ -8,4 +8,4 @@ title: 'Docs'
 
 ### [Memorial Site Editing Guide](./memorial)
 
-### [Local Community](./community)
+### [Local Community](./community/)
