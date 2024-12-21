@@ -2,6 +2,14 @@
 title: 活动日历
 layout: page
 events:
+  2025 理事会选举:
+    time: 2024-12-20T23:59:59+00:00
+    link:
+      type: 选举通道
+      url: https://vote.belenios.org/v3/election#LVmumycHSUVuos
+    community:
+      - 成员限定
+    image: election25.jpg
   2024 跨性别纪念日晚会（海报二）:
     lang:
       - 普通话
