@@ -4,8 +4,8 @@ title: 'Docs'
 
 # Docs
 
-### [Tech Generic Docs](tech)
+### [Tech Generic Docs](./tech)
 
-### [Memorial Site Editing Guide](memorial)
+### [Memorial Site Editing Guide](./memorial)
 
-### [Local Community](community)
+### [Local Community](./community)
