@@ -45,7 +45,7 @@ title: 纪念网站编辑指南
 - 请尽可能以 twitter/X username [字符限制](https://help.twitter.com/en/managing-your-account/change-x-handle)作为目录命名参照：
   - 目录名长度在4～15个字符之间
   - 仅使用字母，数字与下划线`_`
-- 考虑到现实世界的不确定性，无法通过简单的命名规则完全规避重名的可能。贡献者需一定程度上自行保障目录名称和逝者之间的对应并避免歧义。出现冲突时，请优先考虑避让先前已录入的条目并发邮件到 [info@one-among.us](mailto:info@one-among.us) 加以确认。
+- 考虑到现实世界的不确定性，无法通过简单的命名规则完全规避重名的可能。贡献者需一定程度上自行保障目录名称和逝者之间的对应并避免歧义。出现冲突时，请优先考虑避让先前已录入的条目并发邮件到 <MailTo template="info [at] one-among [dot] us" /> 加以确认。
 
 ## 收录的标准
 
@@ -53,7 +53,7 @@ title: 纪念网站编辑指南
 - 跨性别者、跨**性**别者、非二元性别人士、非常规性别者（transgender, transsexual, non-binary, and gender non-conforming people, 总称 TGD）。只要确认其 TGD 身份，就可以收录。不应该因为 TGD 人士的品行问题而选择拒绝收录和纪念，但可以以后人的视角在介绍中作公正的评判；
 - 对 TGD 社群有感情的友跨人士（allies）。这里的标准比较宽松。
 
-我们维护了一份只有 One Among Us 在任志愿者能看到的「不愿被收录人士的名单」，一旦发现 Pull Requests 或者 Issues 中有名单内提到的人，我们会手动关闭。这份名单我们认为不应该公开查阅，但是如果有确认名单或者希望自己不被收录的需求，请发邮件到 [info@one-among.us](mailto:info@one-among.us) 联系我们。
+我们维护了一份只有 One Among Us 在任志愿者能看到的「不愿被收录人士的名单」，一旦发现 Pull Requests 或者 Issues 中有名单内提到的人，我们会手动关闭。这份名单我们认为不应该公开查阅，但是如果有确认名单或者希望自己不被收录的需求，请发邮件到 <MailTo template="info [at] one-among [dot] us" /> 联系我们。
 
 ## 用 GitHub 来修改和提交
 
@@ -63,6 +63,6 @@ title: 纪念网站编辑指南
 - YAML 基本语法：缩进规则、横线、空格与引号的使用、处理特殊字符；
 - Markdown 基本语法。
 
-或者你也可以直接把想要修改或增加的部分发邮件到 [info@one-among.us](mailto:info@one-among.us)。我们的工作人员会把它们转成恰当格式上传。我们并不需要贡献者有任何技术知识，你完全可以以你喜欢的方式工作。任何形式的贡献都同样会被认可。
+或者你也可以直接把想要修改或增加的部分发邮件到 <MailTo template="info [at] one-among [dot] us" />。我们的工作人员会把它们转成恰当格式上传。我们并不需要贡献者有任何技术知识，你完全可以以你喜欢的方式工作。任何形式的贡献都同样会被认可。
 
 *Under construction*

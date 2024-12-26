@@ -2,10 +2,11 @@
 title: 多伦多社群医疗资源互助
 date: 2024-05-26T20:30:00-04:00
 ---
+# 多伦多社群医疗资源互助
 
 ## Dufferin 服务点
 
-联系方式：邮件 [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca) 或者加入 Telegram 跨性别和性别多元交流群（联系 TG [@kitakarikibo](https://t.me/kitakarikibo) 获取加群详情）。
+联系方式：邮件 <MailTo template="toronto [at] oneamongus [dot] ca" /> 或者加入 Telegram 跨性别和性别多元交流群（联系 TG [@kitakarikibo](https://t.me/kitakarikibo) 获取加群详情）。
 
 免费领取，接受捐献。地点在 TTC Dufferin 地铁站旁边。
 

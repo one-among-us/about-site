@@ -6,7 +6,7 @@ title: Member Zone
 
 1. Google Workspace
 
-- 联系 workspaceadmin@oneamongus.ca 申请注册，提供自己希望用的 First Name 和 Last Name（系统暂时不能做到只有一个名字，如果没有 Last Name 的话请把 First Name 重复一遍）、希望的账号名称（username@oneamongus.ca）、绑定的个人邮箱名称。
+- 联系 <MailTo template="workspaceadmin [at] oneamongus [dot] ca" /> 申请注册，提供自己希望用的 First Name 和 Last Name（系统暂时不能做到只有一个名字，如果没有 Last Name 的话请把 First Name 重复一遍）、希望的账号名称 (<MailTo template="username [at] oneamongus [dot] ca" />)、绑定的个人邮箱名称。
 
 - 访问 [Google Groups](https://groups.google.com)，点左侧 All Groups 查看并申请加入自己的工作组。
 

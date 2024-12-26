@@ -4,4 +4,11 @@ import DefaultTheme from 'vitepress/theme';
 import './style.css';
 // import './scss/main.scss';
 
-export default DefaultTheme;
+import { MailTo } from './utils/MailTo.tsx'
+
+export default {
+  ...DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('MailTo', MailTo);
+  },
+};

@@ -37,7 +37,7 @@ Before proceeding, you may assure yourself that you have knowledge of:
 - basic grammar of the YAML language: indentation rules, usage of dash, spaces, and quotes, and escaping from special characters;
 - basic grammar of the Markdown language.
 
-Otherwise, you can simply email your writings and advices to [info@one-among.us](mailto:info@one-among.us). Our staff will transform them to the proper format. We do not assume our contributors have to master any technical skills – at any time, you can work in a more “traditional” way and your contribution will also be highly recognized.
+Otherwise, you can simply email your writings and advices to <MailTo template="info [at] one-among [dot] us" />. Our staff will transform them to the proper format. We do not assume our contributors have to master any technical skills – at any time, you can work in a more “traditional” way and your contribution will also be highly recognized.
 
 *Under construction*
 

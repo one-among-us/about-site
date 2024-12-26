@@ -3,26 +3,28 @@ title: '連絡先'
 date: 2023-10-07T03:30:00-04:00
 ---
 
-**電話連絡**：[1-8-555-ASK-OAU = +1 (855) 527-5628](tel:+18555275628)
+# 連絡先
 
-**一般的質問**：[info@oneamongus.ca](mailto:info@oneamongus.ca)
+**電話連絡**：`1-8-555-ASK-OAU` = `+1 (855) 527-5628`
 
-**取締役会**：[board@oneamongus.ca](mailto:board@oneamongus.ca)
+**FAX**：`+1 (855) 644-3628`
 
-**運営、財務、機関審査**：[operations@oneamongus.ca](mailto:operations@oneamongus.ca)
+**一般的質問**：<MailTo template="info [at] oneamongus [dot] ca" />
+
+**取締役会**：<MailTo template="board [at] oneamongus [dot] ca" />
+
+**運営、財務、機関審査**：<MailTo template="operations [at] oneamongus [dot] ca" />
 
 ## オンラインサービス
 
-**追悼サイト**：[remembrance@oneamongus.ca](mailto:remembrance@oneamongus.ca) , [info@one-among.us](mailto:info@one-among.us)
+**追悼サイト**：<MailTo template="remembrance [at] oneamongus [dot] ca" />, <MailTo template="info [at] one-among [dot] us" />
 
-**トランス進学指導**：[uniguide@oneamongus.ca](mailto:uniguide@oneamongus.ca)
+**FOSS**：<MailTo template="foss [at] oneamongus [dot] ca" />
 
-**FOSS**: [foss@oneamongus.ca](mailto:foss@oneamongus.ca)
-
-**Arts Among Us**：[arts@oneamongus.ca](mailto:arts@oneamongus.ca)
+**Arts Among Us**：<MailTo template="arts [at] oneamongus [dot] ca" />
 
 ## ローカルサービス
 
-**トロント活動・サービス**：[toronto@oneamongus.ca](mailto:toronto@oneamongus.ca), [events@oneamongus.ca](mailto:events@oneamongus.ca)
+**トロント活動・サービス**：<MailTo template="toronto [at] oneamongus [dot] ca" />
 
-**「ウサギ穴」サービスチーム**：[hk@oneamongus.ca](mailto:hk@oneamongus.ca)
+**「ウサギ穴」サービスチーム**：<MailTo template="hk [at] oneamongus [dot] ca" />

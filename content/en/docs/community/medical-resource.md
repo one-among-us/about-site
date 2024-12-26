@@ -1,11 +1,12 @@
 ---
-title: 'Community Resource'
+title: 'Toronto Community Medical Resource'
 date: 2024-05-26T20:30:00-04:00
 ---
 
+# Toronto: Medical Resource
 ## Dufferin Location
 
-Contact: Toronto Service Group [toronto@oneamongus.ca](mailto:toronto@oneamongus.ca)
+Contact: Toronto Service Group <MailTo template="toronto [at] oneamongus [dot] ca" />
 
 All items are free. Please donate what you can.
 
