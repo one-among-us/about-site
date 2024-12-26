@@ -12,7 +12,7 @@ title: 在地社群
 
 ### [多伦多社群服务列表](./services)
 
-### [医疗资源互助](/docs/community/medical-resource)
+### [医疗资源互助](./medical-resource)
 
 ### 跨性别和性别多元交流群
 

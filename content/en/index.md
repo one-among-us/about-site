@@ -15,7 +15,7 @@ hero:
       link: /people
     - theme: alt
       text: Events
-      link: /zh-Hans/events
+      link: /events
     - theme: alt
       text: Docs & Resources
       link: /docs

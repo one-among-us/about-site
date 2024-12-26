@@ -78,7 +78,7 @@ const vitePressConfig = defineConfig({
     nav: [
       { text: 'About', link: '/about' },
       { text: 'People', link: '/people' },
-      { text: 'Events', link: '/zh-Hans/events' },
+      { text: 'Events', link: '/events' },
       { text: 'Docs & Resources', link: '/docs' },
       { text: 'Announcements', link: '/posts' },
       { text: 'Contact & Support', link: '/contact' },
