@@ -10,6 +10,8 @@ title: 在地社群
 
 ### [原住民土地承认](./land-ack)
 
+### [多伦多社群服务列表](./services)
+
 ### [医疗资源互助](/docs/community/medical-resource)
 
 ### 跨性别和性别多元交流群
