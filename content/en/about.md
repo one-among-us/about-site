@@ -8,31 +8,31 @@ We are a registered not-for-profit organization in Ontario, Canada.
 
 ## Workgroups
 
-### <OAUIcons group="01" text="Memorial"/>
+### <OAUIcons group="01"/> Memorial
 
 We are the starting point and the most important part at One Among Us. We maintain the [One Among Us memorial website](https://one-among.us).
 
-### <OAUIcons group="02" text="Local"/>
+### <OAUIcons group="02"/> Local
 
 We started on 2023 July 12. We do community service, including medical support, peer support, community gatherings, etc. Most of us live in Toronto.
 
-### <OAUIcons group="03" text="The Rabbit Hole"/>
+### <OAUIcons group="03"/> The Rabbit Hole
 
 We started on 2023 September 27.
 
-### <OAUIcons group="04" text="Operations"/>
+### <OAUIcons group="04"/> Operations
 
 We started on 2024 January 15. We manage the operations, administration, and funds. We avoid success at all costs.
 
-### <OAUIcons group="05" text="Resources"/>
+### <OAUIcons group="05"/> Resources
 
 We started on 2022 December 11 and joined One Among Us on May 2023. We collaborate with [Project Trans](https://about.project-trans.org) on editing [RLE.wiki](https://RLE.wiki).
 
-### <OAUIcons group="06" text="FOSS"/>
+### <OAUIcons group="06"/> FOSS
 
 We started on 2024 February 21 as a free/libre open-source software club. Join our Matrix group [`#foss:oau.app`](https://matrix.to/#/#foss:oau.app)!
 
-### <OAUIcons group="07" text="Arts"/>
+### <OAUIcons group="07"/> Arts
 
 
 We do trans arts and prepare for the upcoming gallery Arts Among Us.
