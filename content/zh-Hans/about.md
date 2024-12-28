@@ -12,31 +12,31 @@ title: 关于我们
 
 我们由 7 个融合在一起的工作组组成，平时更习惯用 OAU + 数字（01..07 组）来称呼自己。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau01.svg"></img> &nbsp;纪念</span>
+### <OAUIcons group="01" text="纪念"/>
 
 我们负责 [跨性别纪念网站 那些秋叶](https://one-among.us) 的运营，是 One Among Us 最初的起点和最重要的工作组。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau02.svg"></img> &nbsp;在地</span>
+### <OAUIcons group="02" text="在地"/>
 
 我们成立于2023年7月12日，负责加拿大范围，主要是多伦多的在地社群建设，包括医疗资源、社群互助、社群活动等。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau03.svg"></img> &nbsp;兔子洞</span>
+### <OAUIcons group="03" text="兔子洞"/>
 
 我们成立于2023年9月27日。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau04.svg"></img> &nbsp;运营</span>
+### <OAUIcons group="04" text="运营"/>
 
 我们成立于2024年1月15日，负责和理事会沟通协作决定组织的具体运营、行政、财务等事项，以「最小限度专业化」的精神维护组织的存续。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;社群资源</span>
+### <OAUIcons group="05" text="社群资源"/>
 
 我们于2022年12月11日成立，2023年5月加入 One Among Us，协助 [Project Trans](https://about.project-trans.org) 负责 [RLE.wiki](https://RLE.wiki) 的部分编辑和运营工作。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;自由开源软件</span>
+### <OAUIcons group="06" text="自由开源软件"/>
 
 我们成立于2024年2月21日，是一个扎根跨性别社群的自由开源软件同好会。你可以加入 Matrix 群组 [`#foss:oau.app`](https://matrix.to/#/#foss:oau.app) 参与讨论。
 
-### <span style="display:flex;height:24px"><img src="/assets/oau07.svg"></img> &nbsp;艺术</span>
+### <OAUIcons group="07" text="艺术"/>
 
 我们负责跨性别艺术相关的内容，以及筹备中的 Arts Among Us 项目。
 

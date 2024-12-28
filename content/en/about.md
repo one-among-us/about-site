@@ -8,31 +8,32 @@ We are a registered not-for-profit organization in Ontario, Canada.
 
 ## Workgroups
 
-### <span style="display:flex;height:24px"><img src="/assets/oau01.svg"></img> &nbsp;Memorial</span>
+### <OAUIcons group="01" text="Memorial"/>
 
 We are the starting point and the most important part at One Among Us. We maintain the [One Among Us memorial website](https://one-among.us).
 
-### <span style="display:flex;height:24px"><img src="/assets/oau02.svg"></img> &nbsp;Local</span>
+### <OAUIcons group="02" text="Local"/>
 
 We started on 2023 July 12. We do community service, including medical support, peer support, community gatherings, etc. Most of us live in Toronto.
 
-### <span style="display:flex;height:24px"><img src="/assets/oau03.svg"></img> &nbsp;The Rabbit Hole</span>
+### <OAUIcons group="03" text="The Rabbit Hole"/>
 
 We started on 2023 September 27.
 
-### <span style="display:flex;height:24px"><img src="/assets/oau04.svg"></img> &nbsp;Operations</span>
+### <OAUIcons group="04" text="Operations"/>
 
 We started on 2024 January 15. We manage the operations, administration, and funds. We avoid success at all costs.
 
-### <span style="display:flex;height:24px"><img src="/assets/oau05.svg"></img> &nbsp;Resources</span>
+### <OAUIcons group="05" text="Resources"/>
 
 We started on 2022 December 11 and joined One Among Us on May 2023. We collaborate with [Project Trans](https://about.project-trans.org) on editing [RLE.wiki](https://RLE.wiki).
 
-### <span style="display:flex;height:24px"><img src="/assets/oau06.svg"></img> &nbsp;FOSS</span>
+### <OAUIcons group="06" text="FOSS"/>
 
 We started on 2024 February 21 as a free/libre open-source software club. Join our Matrix group [`#foss:oau.app`](https://matrix.to/#/#foss:oau.app)!
 
-### <span style="display:flex;height:24px"><img src="/assets/oau07.svg"></img> &nbsp;Arts</span>
+### <OAUIcons group="07" text="Arts"/>
+
 
 We do trans arts and prepare for the upcoming gallery Arts Among Us.
 
@@ -125,9 +126,3 @@ The shining Little Cub’s head is the key
 Guiding us to the soul of the sky
 
 (English translated by Lindsay)
-
-<style scoped>
-img {
-    float: right;
-}
-</style>
