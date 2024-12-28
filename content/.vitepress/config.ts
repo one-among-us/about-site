@@ -1,4 +1,5 @@
 import { footnote } from '@mdit/plugin-footnote';
+import { ruby } from '@mdit/plugin-ruby';
 import VueJsx from '@vitejs/plugin-vue-jsx';
 import { fileURLToPath } from 'node:url';
 import Unocss from 'unocss/vite';
@@ -150,6 +151,7 @@ const vitePressConfig = defineConfig({
     config: (md) => {
       md.use(imgPlugin);
       md.use(footnote);
+      md.use(ruby);
     },
   },
 });

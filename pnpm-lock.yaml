@@ -14,6 +14,9 @@ importers:
       '@mdit/plugin-footnote':
         specifier: ^0.13.1
         version: 0.13.1(markdown-it@14.1.0)
+      '@mdit/plugin-ruby':
+        specifier: ^0.14.0
+        version: 0.14.0(markdown-it@14.1.0)
       '@splidejs/vue-splide':
         specifier: ^0.6.12
         version: 0.6.12
@@ -593,6 +596,15 @@ packages:
     engines: {node: '>= 18'}
     peerDependencies:
       markdown-it: ^14.1.0
+
+  '@mdit/plugin-ruby@0.14.0':
+    resolution: {integrity: sha512-7l2sqKfEWL8UrF/LYHbkeHEtkHfbWxJKNNRYKR8viz52AlxajhZTT3uxYvFaWEP/MkVyo50OE2CVxV88UcgJmg==}
+    engines: {node: '>= 18'}
+    peerDependencies:
+      markdown-it: ^14.1.0
+    peerDependenciesMeta:
+      markdown-it:
+        optional: true
 
   '@parcel/watcher-android-arm64@2.5.0':
     resolution: {integrity: sha512-qlX4eS28bUcQCdribHkg/herLe+0A9RyYC+mm2PXpncit8z5b3nSqGVzMNR3CmtAOgRutiZ02eIJJgP/b1iEFQ==}
@@ -2316,6 +2328,12 @@ snapshots:
   '@mdit/plugin-footnote@0.13.1(markdown-it@14.1.0)':
     dependencies:
       '@types/markdown-it': 14.1.2
+      markdown-it: 14.1.0
+
+  '@mdit/plugin-ruby@0.14.0(markdown-it@14.1.0)':
+    dependencies:
+      '@types/markdown-it': 14.1.2
+    optionalDependencies:
       markdown-it: 14.1.0
 
   '@parcel/watcher-android-arm64@2.5.0':
