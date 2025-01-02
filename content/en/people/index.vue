@@ -20,22 +20,22 @@ interface People {
 const people: People = {
   'Meet the Team!': [
     {
-      title: 'Beiyan Shu (she/they)',
-      details:
-        'Shu is our Executive Director. She is in charge of the inter-communication of One Among Us. She likes being with people. She is not a good cook and we warned you not to eat her cooking.',
-      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.jpg',
-      icon: {
-        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.jpg',
-        width: '100%',
-      },
-    },
-    {
       title: 'Esme (she/她/elle)',
       details:
         'Esme is our director. She is in charge of One Among Us annual TDoR and TDoV events in Toronto and is currently working on political campaigns demanding OHIP for all. She doesn’t enjoy computer programming, nor does she enjoy learning math. What she loves is to capture the everyday landscapes of the city and moments of her friends on photo, as well as fixing up vintage bikes and electronics.',
       link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/esme.jpg',
       icon: {
         src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/esme.jpg',
+        width: '100%',
+      },
+    },
+    {
+      title: 'Annie (she/her)',
+      details:
+        'Annie is one of One Among Us website maintainers, she contributes on writing entries that preserve memories of our departed friends. Occasionally, she gets bursts of inspiration and enjoys expressing them creatively. Well, she is also a stray cat who loves sneaking snacks (figuratively).',
+      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/annie.png',
+      icon: {
+        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/annie.png',
         width: '100%',
       },
     },
@@ -50,12 +50,12 @@ const people: People = {
       },
     },
     {
-      title: 'Annie (she/her)',
+      title: 'Beiyan Shu (she/they)',
       details:
-        'Annie is one of One Among Us website maintainers, she contributes on writing entries that preserve memories of our departed friends. Occasionally, she gets bursts of inspiration and enjoys expressing them creatively. Well, she is also a stray cat who loves sneaking snacks (figuratively).',
-      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/annie.png',
+        'Shu is primarily responsible for the Toronto community service and the inter-communication of One Among Us. She likes being with people. She is not a good cook and we warned you not to eat her cooking.',
+      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.jpg',
       icon: {
-        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/annie.png',
+        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.jpg',
         width: '100%',
       },
     },
