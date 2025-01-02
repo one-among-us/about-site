@@ -53,9 +53,9 @@ const people: People = {
       title: 'Beiyan Shu (she/they)',
       details:
         'Shu is primarily responsible for the Toronto community service and the inter-communication of One Among Us. She likes being with people. She is not a good cook and we warned you not to eat her cooking.',
-      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.jpg',
+      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.png',
       icon: {
-        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.jpg',
+        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.png',
         width: '100%',
       },
     },
