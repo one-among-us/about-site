@@ -59,6 +59,15 @@ const people: People = {
         width: '100%',
       },
     },
+    {
+      title: 'Elihuso Quigley',
+      details: 'A cat which could coding...\nYep out tech supporter just a neko!',
+      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/elihuso.jpg',
+      icon: {
+        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/elihuso.jpg',
+        width: '100%'
+      }
+    },
   ],
 };
 </script>
