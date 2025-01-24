@@ -14,6 +14,10 @@ title: 在地社群
 
 ### [医疗资源互助](./medical-resource)
 
+### [丧亲支持资源](./bereavement)
+
+### [安大略省医疗资源与全国热线](./ontario-resources-national-hotlines)
+
 ### 跨性别和性别多元交流群
 
 Telegram 联系 [@kitakarikibo](https://t.me/kitakarikibo) 获取加群详情。
