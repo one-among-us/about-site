@@ -17,6 +17,7 @@ date: 2025-01-24
 - [金斯顿资源](#金斯顿资源)
   - [女王大学](#女王大学)
   - [市内校外资源](#金斯顿市内资源)
+- [约克大学资源](#约克大学资源)
 - [全国热线](#全国热线)
 
 ## 全省范围资源 {#全省范围资源}
@@ -278,34 +279,73 @@ date: 2025-01-24
 - [性健康资源中心](https://www.shrckingston.org/resources)
 - [女王大学学生保健](https://www.queensu.ca/studentwellness/supports-resources)
 
+## 约克大学资源 {#约克大学资源}
+
+### 心理健康服务
+
+- **咨询服务**
+  - [线上与面对面咨询](https://students.yorku.ca/counselling)
+  - [约克大学心理诊所](https://www.yorku.ca/health/yupc/)
+
+### 基础医疗服务
+
+- [学生健康服务](https://students.yorku.ca/health/healthy-living/primary-care)
+
+### 性健康与支持
+
+- **性暴力应对中心**
+  - [支持与教育](https://thecentre.yorku.ca/)
+  - [性与生殖健康](https://students.yorku.ca/health/healthy-living/sexual-and-reproductive-health)
+
+### LGBTQ+ 资源
+
+- **Trans, Bisexual, Lesbian, Gay, Asexual at York**
+  - 网站：[tbl.gay](https://tbl.gay/)
+
+- **约克女性与跨性别者中心**
+  - [社区空间](https://yorku.campuslabs.ca/engage/organization/centreforwomenandtranspeople)
+
+更多保健资源，请访问[约克保健资源](https://www.yorku.ca/well-being/resources/students/)
+
 ## 全国热线 {#全国热线}
 
-### 心理健康支持
+### 多语言支持
 
-- **加拿大ADHD意识中心**
-  - [成人支持小组与辅导](https://caddac.ca/programs-and-events/#adult-adhd-programs)
+- **心理健康互助中心（普通话）**
+  - 电话：289-800-8818
+  - 网站：[mhmh.ca](https://www.mhmh.ca/)
 
-- **自闭症与神经多样性协会**
-  - [服务与项目](https://aane.org/services-programs/)
+- **亚裔生命热线24小时服务（普通话）**
+  - 电话：877-990-8585
+  - 网站：[liveanotherday.org](https://liveanotherday.org/bipoc/asian-americans/)
 
-### 危机热线
+- **Empower Me**
+  - 电话：833-628-5589
+  - 为学生社区提供心理健康与保健服务
 
-- **LGBT青年热线**
-  - 短信：647-694-4275
-  - [在线聊天](https://www.youthline.ca/our-programs/peer-support/)
+### 专项热线
 
-- **24/7求助热线**
-  - 本地：519-433-2023
-  - 免费：1-866-933-2023
-  - [网络聊天](https://reachout247.ca/)
+- **DrugRehab**
+  - 电话：855-520-2898
+  - [治疗信息](https://www.drugrehab.com/treatment/)
 
-### 专项支持
+- **NEDIC（全国饮食障碍信息中心）**
+  - 免费电话：866-633-4220
+  - 多伦多：416-340-4156
+  - [在线聊天支持](https://nedic.ca/help-for-yourself/)
 
-- **Wildflower Alliance**
-  - 电话：888-407-4515
-  - [同伴支持热线](https://wildfloweralliance.org/peer-support-line/)
-  - 由同伴主导的精神诊断、创伤、成瘾支持
+- **Interligne LGBTQ2+ 支持**
+  - 电话：888-505-1010
+  - [24/7在线聊天](https://interligne.co/en/)
 
-- **Kiva Centers**
-  - [在线支持小组会议](https://kivacenters.org/online-peer-support/)
-  - 由同伴主导的创伤、情绪困扰、药物使用支持
+- **Trans Lifeline**
+  - 电话：877-330-6366
+  - [资源目录](https://translifeline.org/resources/)
+
+- **The Fireside Project**
+  - 电话：623-473-7433
+  - [迷幻体验支持热线](https://firesideproject.org/)
+
+- **Thrive Lifeline**
+  - 发送短信"THRIVE"至313-662-8209
+  - [边缘群体支持](https://thrivelifeline.org/)

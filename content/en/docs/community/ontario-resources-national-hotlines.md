@@ -17,6 +17,7 @@ date: 2025-01-24
 - [Kingston Resources](#kingston-resources)
   - [Queen's University](#queens-university)
   - [Citywide Off-campus Resources](#kingston-citywide-resources)
+- [York University Resources](#york-university-resources)
 - [National Hotlines](#national-hotlines)
 
 ## Provincial Wide Resources
@@ -278,28 +279,78 @@ date: 2025-01-24
 - [Sexual Health Resource Centre](https://www.shrckingston.org/resources)
 - [Queen's Student Wellness](https://www.queensu.ca/studentwellness/supports-resources)
 
+## York University Resources
+
+### Mental Health Services
+
+- **Counselling Services**
+  - [In-person & Virtual Counselling](https://students.yorku.ca/counselling)
+  - [York University Psychology Clinic](https://www.yorku.ca/health/yupc/)
+
+### Primary Care Services
+
+- [Student Health Services](https://students.yorku.ca/health/healthy-living/primary-care)
+
+### Sexual Health & Support
+
+- **The Centre for Sexual Violence Response**
+  - [Support & Education](https://thecentre.yorku.ca/)
+  - [Sexual & Reproductive Health](https://students.yorku.ca/health/healthy-living/sexual-and-reproductive-health)
+
+### LGBTQ+ Resources
+
+- **Trans, Bisexual, Lesbian, Gay, Asexual at York**
+  - Website: [tbl.gay](https://tbl.gay/)
+
+- **York Centre for Women and Trans People**
+  - [Community Space](https://yorku.campuslabs.ca/engage/organization/centreforwomenandtranspeople)
+
+For more wellness resources, visit [York Well-being Resources](https://www.yorku.ca/well-being/resources/students/)
+
 ## National Hotlines {#national-hotlines}
 
-### Mental Health Support
+### Multilingual Support
 
-- **Centre for ADHD Awareness Canada**
-  - [Adult Support Groups & Coaching](https://caddac.ca/programs-and-events/#adult-adhd-programs)
+- **Mental Health Mutual-Aid Hub (Mandarin)**
+  - Phone: 289-800-8818
+  - Website: [mhmh.ca](https://www.mhmh.ca/)
 
-- **Association for Autism and Neurodiversity**
-  - [Services & Programs](https://aane.org/services-programs/)
+- **Asian LifeNet 24-hour Hotline (Mandarin)**
+  - Phone: 877-990-8585
+  - Website: [liveanotherday.org](https://liveanotherday.org/bipoc/asian-americans/)
 
-### Crisis Lines
+- **Empower Me**
+  - Phone: 833-628-5589
+  - Mental health & wellness services for student community
 
-- **LGBT YouthLine**
-  - Text: 647-694-4275
-  - [Online Chat](https://www.youthline.ca/our-programs/peer-support/)
+### Specialized Support Lines
 
-- **Reach Out 24/7**
-  - Local: 519-433-2023
-  - Toll Free: 1-866-933-2023
-  - [Web Chat](https://reachout247.ca/)
+- **DrugRehab**
+  - Phone: 855-520-2898
+  - [Treatment Information](https://www.drugrehab.com/treatment/)
 
-### Specialized Support
+- **NEDIC (National Eating Disorder Information Centre)**
+  - Toll Free: 866-633-4220
+  - Toronto: 416-340-4156
+  - [Online Chat Support](https://nedic.ca/help-for-yourself/)
+
+- **Interligne LGBTQ2+ Support**
+  - Phone: 888-505-1010
+  - [24/7 Online Chat](https://interligne.co/en/)
+
+- **Trans Lifeline**
+  - Phone: 877-330-6366
+  - [Resource Directory](https://translifeline.org/resources/)
+
+- **The Fireside Project**
+  - Phone: 623-473-7433
+  - [Psychedelic Support Line](https://firesideproject.org/)
+
+- **Thrive Lifeline**
+  - Text "THRIVE" to 313-662-8209
+  - [Support for Marginalized Communities](https://thrivelifeline.org/)
+
+### Peer Support Services
 
 - **Wildflower Alliance**
   - Phone: 888-407-4515
