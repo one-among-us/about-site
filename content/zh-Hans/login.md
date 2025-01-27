@@ -337,7 +337,7 @@ items:
 ---
 
 <script setup lang="ts">
-import Login from './login.vue';
+import Login from '../Login.vue';
 </script>
 
 <Login />
