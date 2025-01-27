@@ -210,15 +210,15 @@ items:
     - title: 成员通讯录
       link: https://contacts.google.com/directory
       details: 仅限注册了 Google Workspace 账号的成员。
-      icon: 通
+      icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="currentColor"><path d="M4.5 10c0-3.771 0-5.657 1.172-6.828S8.729 2 12.5 2H14c3.771 0 5.657 0 6.828 1.172S22 6.229 22 10v4c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-1.5c-3.771 0-5.657 0-6.828-1.172S4.5 17.771 4.5 14zm0-4H2m2.5 6H2m2.5 6H2"/><path d="M15.275 8.493a2 2 0 1 1-4 0a2 2 0 0 1 4 0M9.32 15.716c1.058-1.63 2.739-2.24 3.955-2.239s2.847.61 3.906 2.24a.33.33 0 0 1 .025.344c-.247.439-1.016 1.31-1.57 1.369c-.638.067-2.307.077-2.36.077s-1.773-.01-2.41-.077c-.556-.06-1.324-.93-1.572-1.37c-.061-.109-.043-.238.026-.344"/></g></svg>
     - title: 活动日历
       link: https://calendar.google.com/calendar/u/2?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
       details: 对这里的更改会同步到网站首页。
-      icon: 活
+      icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 13h5m-8 0h.009M13 17H8m8 0h-.009M18 2v2M6 2v2m-3.5 8.243c0-4.357 0-6.536 1.252-7.89C5.004 3 7.02 3 11.05 3h1.9c4.03 0 6.046 0 7.298 1.354C21.5 5.707 21.5 7.886 21.5 12.244v.513c0 4.357 0 6.536-1.252 7.89C18.996 22 16.98 22 12.95 22h-1.9c-4.03 0-6.046 0-7.298-1.354C2.5 19.293 2.5 17.114 2.5 12.756zM3 8h18" color="currentColor"/></svg>
     - title: 工作网盘
       link: https://drive.google.com/drive/folders/0ANlUF7ysFfsrUk9PVA
       details: 全体成员可见。
-      icon: 盘
+      icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m20.017 19.412l1.407-2.583c.387-.71.58-1.067.576-1.451s-.208-.736-.613-1.438l-5.442-9.417c-.43-.743-.644-1.114-1.002-1.319S14.15 3 13.277 3h-2.554c-.872 0-1.308 0-1.666.204c-.358.205-.573.576-1.002 1.319L2.613 13.94c-.405.702-.608 1.053-.613 1.438c-.005.384.189.74.576 1.451l1.408 2.583c.421.774.632 1.16.996 1.374S5.792 21 6.688 21h10.624c.896 0 1.344 0 1.708-.214c.364-.213.575-.6.997-1.374M9 4l7 11M5.5 20.5L12 9m9 6H9" color="currentColor"/></svg>
   管理页面:
     - title: Workspace Admin
       link: https://admin.google.com
