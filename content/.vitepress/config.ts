@@ -53,7 +53,7 @@ const vitePressConfig = defineConfig({
         footer: {
           message:
             '若无特殊说明，本站内容以 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享 署名 4.0</a> 协议授权',
-          copyright: '2023-2024 One Among Us Transgender Support',
+          copyright: '2023-2025 One Among Us Transgender Support',
         },
       },
     },
@@ -69,7 +69,7 @@ const vitePressConfig = defineConfig({
         footer: {
           message:
             '注があるものを除いて、このサイトの内容物は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0</a> ライセンスの下に提供されています。',
-          copyright: '2023-2024 One Among Us Transgender Support',
+          copyright: '2023-2025 One Among Us Transgender Support',
         },
       },
     },
@@ -91,7 +91,7 @@ const vitePressConfig = defineConfig({
     footer: {
       message:
         'Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless otherwise specified',
-      copyright: '2023-2024 One Among Us Transgender Support',
+      copyright: '2023-2025 One Among Us Transgender Support',
     },
 
     socialLinks: [
