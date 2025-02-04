@@ -5,7 +5,7 @@ layout: home
 hero:
   name: One Among Us
   text: '〜秋の葉ものがたり〜'
-  tagline: 東アジアと海外でのトランスジェンダー交流・相互扶助を目指す非営利組織。
+  tagline: 優しくしなやかに支え合う人々が、縁あって集い、それぞれの微かな光を重ねる組織になった。
   image: /assets/favicon-new.png
   actions:
     # - theme: brand
