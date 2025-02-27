@@ -13,13 +13,13 @@ events:
       type: RSVP
       url: https://forms.gle/BtFgmXTVG1FKVMZ3A
     image: expressivearts-compressed.jpg
-  迎新书法会:
+  Lunar New Year Calligraphy Workshop:
     time: 2025-01-24T18:30:00-05:00
     lang:
       - 普通话
       - English
     community:
-      - 多伦多社群
+      - Toronto
     image: calligraphy-compressed.jpg
   2025 Board Election:
     time: 2024-12-20T23:59:59+00:00
