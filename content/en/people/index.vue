@@ -62,9 +62,9 @@ const people: People = {
     {
       title: 'Elihuso Quigley (cat/neko)',
       details: 'A neko cat which could coding...\nYep our tech supporter just a neko!',
-      link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/elihuso.jpg',
+      link: 'https://github.com/LS-KR',
       icon: {
-        src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/elihuso.jpg',
+        src: 'https://avatars.githubusercontent.com/u/64070144?v=4',
         width: '100%'
       }
     },
