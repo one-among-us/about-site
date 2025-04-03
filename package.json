@@ -18,6 +18,7 @@
     "@splidejs/vue-splide": "^0.6.12",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "ical": "^0.8.0",
+    "lxgw-wenkai-webfont": "^1.7.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
     "sass": "^1.80.6",
     "unocss": "^0.64.0",

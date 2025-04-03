@@ -6,8 +6,9 @@
 /**
  * Colors
  * -------------------------------------------------------------------------- */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-web/1.501.0/style.css');
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;700&display=swap');
+@import 'lxgw-wenkai-webfont/lxgwwenkai-regular.css';
+@import 'lxgw-wenkai-webfont/lxgwwenkai-bold.css';
 
 @font-face {
   font-family: 'Maple Mono';
@@ -35,6 +36,13 @@ body {
 }
 .vp-doc p {
   line-height: 1.618;
+  font-weight: 400;
+}
+.vp-doc strong {
+  font-weight: 700;
+}
+.vp-doc b {
+  font-weight: 700;
 }
 .vp-doc .imageCaption {
   display: block;

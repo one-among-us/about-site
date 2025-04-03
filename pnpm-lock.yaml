@@ -26,6 +26,9 @@ importers:
       ical:
         specifier: ^0.8.0
         version: 0.8.0
+      lxgw-wenkai-webfont:
+        specifier: ^1.7.0
+        version: 1.7.0
       markdown-yaml-metadata-parser:
         specifier: ^3.0.0
         version: 3.0.0
@@ -1411,6 +1414,9 @@ packages:
 
   luxon@1.28.1:
     resolution: {integrity: sha512-gYHAa180mKrNIUJCbwpmD0aTu9kV0dREDrwNnuyFAsO1Wt0EVYSZelPnJlbj9HplzXX/YWXHFTL45kvZ53M0pw==}
+
+  lxgw-wenkai-webfont@1.7.0:
+    resolution: {integrity: sha512-kVJmT4xMAyOLhG6q0w63wJkVU7RP8UMQRGoAWj9tnpzL7sWFFYiEHBdUQyW9myqBQFa5SQfWfa2VLYF4IJBL5g==}
 
   magic-string@0.30.12:
     resolution: {integrity: sha512-Ea8I3sQMVXr8JhN4z+H/d8zwo+tYDgHE9+5G4Wnrwhs0gaK9fXTKx0Tw5Xwsd/bCPTTZNRAdpyzvoeORe9LYpw==}
@@ -3208,6 +3214,8 @@ snapshots:
 
   luxon@1.28.1:
     optional: true
+
+  lxgw-wenkai-webfont@1.7.0: {}
 
   magic-string@0.30.12:
     dependencies:
