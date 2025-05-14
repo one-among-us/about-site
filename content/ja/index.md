@@ -32,7 +32,7 @@ features:
   - icon: <img src="https://rle.wiki/logo.svg">
     title: RLE.wiki
     details: トランスジェンダーおよびジェンダー・ノンコンフォーミングの同士のRLE案内(いま中国語のみ)。
-    link: https://rle.wiki/
+    link: https://rle.oau.app/
   - icon: <img src="/assets/rxn-logo.png">
     title: ローカルサービス
     details: ローカルサービスチーム(日本語でお問い合わせもいい)。

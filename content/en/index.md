@@ -34,7 +34,7 @@ features:
   - icon: <img src="https://rle.wiki/logo.svg">
     title: RLE.wiki
     details: A collective effort aimed at providing valuable resources and support for transgender and gender-diverse real-life experience.
-    link: https://rle.wiki/
+    link: https://rle.oau.app/
   - icon: <img src="/assets/rxn-logo.png">
     title: Local Services
     details: Local service groups. Mainly in Greater Toronto Area.

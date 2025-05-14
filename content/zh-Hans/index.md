@@ -32,7 +32,7 @@ features:
   - icon: <img src="https://rle.wiki/logo.svg">
     title: RLE.wiki
     details: 由 Project Trans 和 One Among Us 共同编辑的 RLE 资料库。
-    link: https://rle.wiki
+    link: https://rle.oau.app
   - icon: <img src="/assets/rxn-logo.png">
     title: 在地服务组
     details: 提供一些简单的社区互助服务。

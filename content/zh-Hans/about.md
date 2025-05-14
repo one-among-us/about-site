@@ -30,7 +30,7 @@ title: 关于我们
 
 ### <OAUIcons group="05"/> 社群资源
 
-我们于2022年12月11日成立，2023年5月加入 One Among Us，协助 [Project Trans](https://about.project-trans.org) 负责 [RLE.wiki](https://RLE.wiki) 的部分编辑和运营工作。
+我们于2022年12月11日成立，2023年5月加入 One Among Us，负责社群资源整理以及 [neo-RLEwiki](https://rle.oau.app) 的开发。
 
 ### <OAUIcons group="06"/> 自由开源软件
 
