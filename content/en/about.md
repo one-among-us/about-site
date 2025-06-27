@@ -26,7 +26,7 @@ We started on 2024 January 15. We manage the operations, administration, and fun
 
 ### <OAUIcons group="05"/> Resources
 
-We started on 2022 December 11 and joined One Among Us on May 2023. We collect information on community resources and develop [neo-RLEwiki](https://rle.oau.app).
+We started on 2022 December 11 and joined One Among Us on May 2023. We collect information on community resources and develop [neo-RLEwiki](https://rle.oau.app) and [uce.life](https://uce.life).
 
 ### <OAUIcons group="06"/> FOSS
 
