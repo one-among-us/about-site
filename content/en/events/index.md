@@ -2,6 +2,16 @@
 title: Events Calendar
 layout: page
 events:
+  Annual Member Gathering 2025:
+    time: 2025-10-05T13:00:00+00:00
+    lang:
+      - 普通话
+      - English
+    location: The 519 Community Centre & Online
+      - Toronto
+      - Online
+      - OAU Members
+    image: amg2025.jpg
   "Expressive Art Workshop - Happy Palentine’s Day":
     time: 2025-02-28T18:30:00-05:00
     lang:
@@ -124,9 +134,9 @@ events:
     time: 2024-08-31T14:15:00+00:00
     location: North York Central Library & Online
     community:
-      - 多伦多社群
-      - 线上
-      - OAU 会员
+      - Toronto
+      - Online
+      - OAU Members
     image: ag-2024.jpg
 
   Abolitionist Pride Together:

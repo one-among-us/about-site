@@ -2,6 +2,16 @@
 title: 活动日历
 layout: page
 events:
+  One Among Us 2025 年度会议:
+    time: 2025-10-05T13:00:00+00:00
+    lang:
+      - 普通话
+      - English
+    location: The 519 Community Centre & Online
+      - 多伦多社群
+      - 线上
+      - OAU 会员
+    image: amg2025.jpg
   "艺术工坊 - 我和我的小伙伴":
     time: 2025-02-28T18:30:00-05:00
     lang:
