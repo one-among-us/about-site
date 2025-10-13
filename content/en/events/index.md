@@ -8,6 +8,7 @@ events:
       - 普通话
       - English
     location: The 519 Community Centre & Online
+    community:
       - Toronto
       - Online
       - OAU Members
