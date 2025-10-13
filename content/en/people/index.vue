@@ -59,13 +59,21 @@ const people: People = {
         width: '100%',
       },
     },
+  ],
+  'In memorial of': [
+    {
+      title: 'ArtsEpiphany',
+      link: 'https://one-among.us/profile/ArtsEpiphany',
+      icon: {
+        src: 'https://data.one-among.us/people/ArtsEpiphany/photos/profile.jpg',
+      }
+    },
     {
       title: 'Elihuso Quigley (cat/neko)',
       details: 'A neko cat which could coding...\nYep our tech supporter just a neko!',
       link: 'https://github.com/LS-KR',
       icon: {
         src: 'https://avatars.githubusercontent.com/u/64070144?v=4',
-        width: '100%'
       }
     },
   ],
