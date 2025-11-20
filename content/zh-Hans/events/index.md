@@ -2,6 +2,19 @@
 title: 活动日历
 layout: page
 events:
+  倾听自己的声音：2025 跨性别纪念日晚会:
+    time: 2025-11-20T20:00:00+08:00
+    lang:
+      - 普通话
+    community:
+      - 跨性别相关放送
+      - 跨儿文学小组
+      - OAU 放送协力
+    image: tdor2025harmonized.png
+    link:
+      type: 观看直播
+      url: "https://youtube.com/@OneAmongUsPride"
+
   One Among Us 2025 年度会议:
     time: 2025-10-05T13:00:00+00:00
     lang:

@@ -2,6 +2,15 @@
 title: Events Calendar
 layout: page
 events:
+  "Hearing Your Own Voice: 2025 TDoR Streaming":
+    time: 2025-11-20T20:00:00+08:00
+    lang:
+      - 普通话
+    image: tdor2025harmonized.png
+    community: [ OAU Collab ]
+    link:
+      type: View Livestream
+      url: "https://youtube.com/@OneAmongUsPride"
   Annual Member Gathering 2025:
     time: 2025-10-05T13:00:00+00:00
     lang:
