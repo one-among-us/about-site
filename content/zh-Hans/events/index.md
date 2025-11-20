@@ -2,6 +2,20 @@
 title: 活动日历
 layout: page
 events:
+  跨性别纪念日社区晚餐:
+    time: 2025-11-21T18:00:00-05:00
+    lang:
+      - 普通话
+      - 吳語
+      - English
+      - 日本語
+    image: 2025tdordinner-zh.jpg
+    community: [ 多伦多社群 ]
+    location: Downtown Toronto (location will be shared upon registration)
+    link:
+      type: 报名参加
+      url: https://forms.gle/uAfjqNmEu2ZBPhij6
+
   倾听自己的声音：2025 跨性别纪念日晚会:
     time: 2025-11-20T20:00:00+08:00
     lang:

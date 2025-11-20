@@ -2,6 +2,19 @@
 title: Events Calendar
 layout: page
 events:
+  "TDoR Community Dinner":
+    time: 2025-11-21T18:00:00-05:00
+    lang:
+      - 普通话
+      - 吳語
+      - English
+      - 日本語
+    image: 2025tdordinner-en.jpg
+    community: [ Toronto ]
+    location: Downtown Toronto (location will be shared upon registration)
+    link:
+      type: RSVP
+      url: https://forms.gle/uAfjqNmEu2ZBPhij6
   "Hearing Your Own Voice: 2025 TDoR Streaming":
     time: 2025-11-20T20:00:00+08:00
     lang:
