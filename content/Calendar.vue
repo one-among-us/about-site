@@ -63,13 +63,16 @@ const fetchIcal = async () => {
 
 // Execute the fetch function on component mount
 onMounted(fetchIcal);
+
+const getEventDate = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const getEventTime = (d) => `${d.getHours()}-${d.getMinutes()}`;
 </script>
 
 <template>
   <div class="description" v-if="evs.length === 0">Loading events...</div>
   <div class="events">
-    <div class="event" v-for="ev in evs" :key="ev.summary">
-      <div class="date" v-if="ev.start">
+    <article class="event" v-for="ev in evs" :key="ev.summary">
+      <time class="date" v-if="ev.start" :datetime="getEventDate(ev.start)">
         <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
         <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
         <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
@@ -80,18 +83,18 @@ onMounted(fetchIcal);
           <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
           <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
         </div>
-      </div>
+      </time>
       <div class="info">
-        <div class="summary">{{ ev.summary }}</div>
-        <div class="time" v-if="ev.start && ev.end">
-          {{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} -
-          {{
+        <div role="heading" aria-level="3" class="summary">{{ ev.summary }}</div>
+        <div role="paragraph" class="time" v-if="ev.start && ev.end">
+          <time :datetime="getEventTime(ev.start)">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</time> -
+          <time :datetime="getEventTime(ev.end)">{{
             ev.end.toLocaleString('default', {
               hour: '2-digit',
               minute: '2-digit',
               timeZoneName: 'long',
             })
-          }}
+          }}</time>
         </div>
 
         <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet as string">
@@ -99,10 +102,10 @@ onMounted(fetchIcal);
           <span>Google Meet</span>
         </a>
 
-        <div class="location">{{ ev.location }}</div>
-        <div class="description" v-html="ev.description"></div>
+        <div role="paragraph" class="location">{{ ev.location }}</div>
+        <div role="paragraph" class="description" v-html="ev.description"></div>
       </div>
-    </div>
+    </article>
   </div>
 </template>
 

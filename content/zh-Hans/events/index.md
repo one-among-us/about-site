@@ -251,11 +251,15 @@ events:
       Replay is available on YouTube.
 ---
 
+<script setup>
+const getEventDate = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+</script>
+
 <div class="EventGrid">
   <div class="container">
-    <div class="events">
-      <div v-for="(item, name) in $frontmatter.events" :key="name" class="event" loading='lazy'>
-        <div class="date" v-if="item.time">
+    <div role="list" class="events">
+      <div v-for="(item, name) in $frontmatter.events" role="listitem" :key="name" class="event" loading='lazy'>
+        <time v-if="item.time" class="date" :datetime="getEventDate(new Date(item.time))">
           <span class="year">{{ (new Date(item.time)).toLocaleDateString('default', {  year: 'numeric' }) }}</span>
           <span class="month">{{ (new Date(item.time)).toLocaleDateString('default', {  month: 'short' }) }}</span>
           <span class="day">{{ (new Date(item.time)).toLocaleDateString('default', { day: 'numeric' }) }}</span>
@@ -264,22 +268,22 @@ events:
             <span class="month">{{ (new Date(item.time)).toLocaleDateString('default', {  month: 'short' }) }}</span>
             <span class="day">{{ (new Date(item.time)).toLocaleDateString('default', { day: 'numeric' }) }}</span>
           </div>
-        </div>
+        </time>
         <div>
           <div class="info">
-            <div class="summary"> {{ name }} </div>
-            <div class="time">
-              <span v-if="item.time">
+            <h2 class="summary"> {{ name }} </h2>
+            <p class="time">
+              <time v-if="item.time" :datetime="item.time">
                 {{ (new Date(item.time)).toLocaleTimeString('default', { weekday: "long", hour: '2-digit', minute: '2-digit', hour12: false, timeZoneName: "short" }) }}
-              </span>
+              </time>
               <span v-if="item.location">
                 @ {{ item.location }}
               </span>
-            </div>
-            <div class="community">
-              <div v-for="c in item.community" :key="c" class="cclick" loading='lazy'> {{ c }}
+            </p>
+            <div role="list" class="community">
+              <div v-for="c in item.community" role="listitem" :key="c" class="cclick" loading='lazy'> {{ c }}
               </div>
-              <div class="clink" v-if="item.link && item.link.type">
+              <div class="clink" v-if="item.link && item.link.type" role="listitem">
                 <a v-if="item.link && item.link.type" class="link-type" :href="`${item.link.url}`">
                   {{ item.link.type }}
                 </a>
