@@ -13,3 +13,5 @@ title: Local Community
 ### [Bereavement Support Resources](./bereavement)
 
 ### [Ontario Health Resources & National Hotlines](./ontario-resources-national-hotlines)
+
+### [Consultation about Life in Toronto](./consultation)

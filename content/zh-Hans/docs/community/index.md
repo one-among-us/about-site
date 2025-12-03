@@ -18,6 +18,8 @@ title: 在地社群
 
 ### [安大略省医疗资源与全国热线](./ontario-resources-national-hotlines)
 
+### [多伦多生活相关咨询](./consultation)
+
 ### 跨性别和性别多元交流群
 
 Telegram 联系 [@kitakarikibo](https://t.me/kitakarikibo) 获取加群详情。
