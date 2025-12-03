@@ -76,7 +76,7 @@ const getEventTime = (d) => `${String(d.getHours()).padStart(2, '0')}:${String(d
         <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
         <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
         <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
-        <div class="actual-date">
+        <div class="actual-date" aria-hidden="true">
           <span class="month">{{
             ev.start.toLocaleDateString('default', { month: 'short' })
           }}</span>
