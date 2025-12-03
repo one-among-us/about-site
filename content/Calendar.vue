@@ -65,7 +65,7 @@ const fetchIcal = async () => {
 onMounted(fetchIcal);
 
 const getEventDate = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-const getEventTime = (d) => `${d.getHours()}-${d.getMinutes()}`;
+const getEventTime = (d) => `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
 </script>
 
 <template>
