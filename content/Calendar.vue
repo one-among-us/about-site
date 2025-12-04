@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import ICAL, { CalendarComponent } from 'ical';
+import { getEventDate, getEventFullDateTime } from './dateTimeUtils';
 
 // Props
 const props = defineProps({
@@ -67,41 +68,43 @@ onMounted(fetchIcal);
 
 <template>
   <div class="description" v-if="evs.length === 0">Loading events...</div>
-  <div class="events">
-    <div class="event" v-for="ev in evs" :key="ev.summary">
-      <div class="date" v-if="ev.start">
-        <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
-        <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
-        <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
-        <div class="actual-date">
-          <span class="month">{{
-            ev.start.toLocaleDateString('default', { month: 'short' })
-          }}</span>
+  <div role="list" class="events">
+    <div v-for="ev in evs" role="listitem" :key="ev.summary">
+      <article class="event">
+        <time class="date" v-if="ev.start" :datetime="getEventDate(ev.start)">
+          <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
           <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
           <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
-        </div>
-      </div>
-      <div class="info">
-        <div class="summary">{{ ev.summary }}</div>
-        <div class="time" v-if="ev.start && ev.end">
-          {{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }} -
-          {{
-            ev.end.toLocaleString('default', {
+          <div class="actual-date" aria-hidden="true">
+            <span class="month">{{
+              ev.start.toLocaleDateString('default', { month: 'short' })
+              }}</span>
+            <span class="day">{{ ev.start.toLocaleDateString('default', { day: 'numeric' }) }}</span>
+            <span class="dow">{{ ev.start.toLocaleDateString('default', { weekday: 'long' }) }}</span>
+          </div>
+        </time>
+        <div class="info">
+          <div role="heading" aria-level="3" class="summary">{{ ev.summary }}</div>
+          <div role="paragraph" class="time" v-if="ev.start && ev.end">
+            <time :datetime="getEventFullDateTime(ev.start)">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</time> -
+            <time :datetime="getEventFullDateTime(ev.end)">{{
+              ev.end.toLocaleString('default', {
               hour: '2-digit',
               minute: '2-digit',
               timeZoneName: 'long',
-            })
-          }}
+              })
+              }}</time>
+          </div>
+
+          <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet as string">
+            <img src="/assets/google-meet.svg" alt="google meet icon" />
+            <span>Google Meet</span>
+          </a>
+
+          <div role="paragraph" class="location">{{ ev.location }}</div>
+          <div role="paragraph" class="description" v-html="ev.description"></div>
         </div>
-
-        <a class="googleMeetBtn" v-if="ev.googleMeet" :href="ev.googleMeet as string">
-          <img src="/assets/google-meet.svg" alt="google meet icon" />
-          <span>Google Meet</span>
-        </a>
-
-        <div class="location">{{ ev.location }}</div>
-        <div class="description" v-html="ev.description"></div>
-      </div>
+      </article>
     </div>
   </div>
 </template>

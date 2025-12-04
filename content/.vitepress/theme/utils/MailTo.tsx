@@ -29,12 +29,14 @@ export const MailTo = defineComponent({
     };
 
     return () => (
-      <code
+      <button
+        class="mailTo"
+        type="button"
         title={tooltip.value}
         onClick={handleClick}
       >
         {displayedText.value}
-      </code>
+      </button>
     );
   },
 });

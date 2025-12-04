@@ -8,7 +8,7 @@
               {{ post.title }}
             </VPLink>
             <p>
-              {{ new Date(post.date).toLocaleDateString() }}
+              <time :datetime="post.date">{{ new Date(post.date).toLocaleDateString() }}</time>
             </p>
           </li>
         </ul>
