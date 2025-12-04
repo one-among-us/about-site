@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import ICAL, { CalendarComponent } from 'ical';
-import { getEventDate, getEventTime } from './dateTimeUtils';
+import { getEventDate, getEventFullDateTime } from './dateTimeUtils';
 
 // Props
 const props = defineProps({
@@ -86,8 +86,8 @@ onMounted(fetchIcal);
         <div class="info">
           <div role="heading" aria-level="3" class="summary">{{ ev.summary }}</div>
           <div role="paragraph" class="time" v-if="ev.start && ev.end">
-            <time :datetime="getEventTime(ev.start)">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</time> -
-            <time :datetime="getEventTime(ev.end)">{{
+            <time :datetime="getEventFullDateTime(ev.start)">{{ ev.start.toLocaleTimeString('default', { hour: '2-digit', minute: '2-digit' }) }}</time> -
+            <time :datetime="getEventFullDateTime(ev.end)">{{
               ev.end.toLocaleString('default', {
               hour: '2-digit',
               minute: '2-digit',
