@@ -1,0 +1,24 @@
+---
+title: <abbr title="Trans and Gender-Diverse">TGD</abbr> Education Roundtable
+lang:
+  - 普通话
+community:
+  - UniGuide
+  - Online
+time: 2023-10-28T14:00:00+00:00
+image: bhd-poster.jpg
+---
+
+**Bright, Hope, Dream.**
+
+**TiA! 學業與生活經驗分享會 北歐與加拿大篇<small>（試運行）</small>**
+
+<time datetime="2023-10-28T14:00:00+00:00">2023年10月28日 週六 14:00 UTC</time>  
+（美國東部夏令時間<time datetime="2023-10-28T10:00:00-04:00">當日10點</time>，北京時間/台北時間<time datetime="2023-10-28T22:00:00+08:00">當日22時</time>）
+
+參與方式<small>（右側 QR code 從上至下：QR code 1 - 3）</small>
+
+- 如果您有希望獲得回答的問題，請[使用 QR code 1 獲取表單](https://forms.gle/wRRX14WGCQ9rRLr56)：
+- 如果您希望加入分享會的 Telegram 群組，請[使用 QR code 2 獲取鏈接](https://t.me/+OUQFGnDOtgphNWU0)：
+- 如果您希望加入更綜合的 TiA! 公告板，請[使用 QR code 3 獲取鏈接](https://t.me/transacademicorg)：
+

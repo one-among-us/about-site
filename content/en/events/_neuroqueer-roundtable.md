@@ -1,0 +1,36 @@
+---
+title: Neuroqueer Roundtable
+lang:
+  - 普通话
+location: 720 Spadina Ave, 2nd Fl (Toronto)
+time: 2024-11-09T13:30:00-05:00
+community:
+  - Toronto
+  - feat. Studio <span class="allCaps">Dissonance</span>
+image: neuroqueer.jpg
+---
+
+**<span class="allCaps">Queer Roundtable Chapter 1</span>  
+Neuroqueer**
+
+**神经多样性酷儿座谈会**
+
+理解身份交叉性  
+接纳真实自我  
+拒绝社会性别标签
+
+**Queering is Practicing**
+
+To be seen, heard, and felt, while resisting the temptation to accept visibility under dominative constraints
+
+<time datetime="2024-11-09T13:30:00-05:00">November 9th  
+1:30pm</time> - <time datetime="2024-11-09T17:00:00-05:00">5:00pm</time>
+
+720 Spadina Ave  
+<span class="allCaps">2nd floor</span>
+
+空间可容纳 30 人，欢迎[扫二维码报名](https://forms.gle/6SeqWYXHyMwgtcbq5)！
+
+有饮料和美食供应！
+
+One Among Us &times; Studio <span class="allCaps">Dissonance</span>
