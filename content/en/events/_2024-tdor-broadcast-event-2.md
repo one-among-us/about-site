@@ -1,5 +1,5 @@
 ---
-title: 2024 <abbr title="Transgender Day of Rememberence">TDOR</abbr> Broadcast Event (Poster II)
+title: 2024 <abbr title="Transgender Day of Remembrance">TDOR</abbr> Broadcast Event (Poster II)
 lang:
   - 普通话
 time: 2024-11-23T20:00:00+08:00

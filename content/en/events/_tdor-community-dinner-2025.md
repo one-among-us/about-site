@@ -1,5 +1,5 @@
 ---
-title: '<abbr title="Transgender Day of Rememberence">TDoR</abbr> Community Dinner'
+title: '<abbr title="Transgender Day of Remembrance">TDoR</abbr> Community Dinner'
 time: 2025-11-21T18:00:00-05:00
 lang:
 - 普通话
@@ -15,16 +15,16 @@ link:
 ---
 
 One Among Us 那些秋叶 presents  
-**<abbr title="Transgender Day of Rememberence">TDoR</abbr> Community Dinner**  
-By and for East-Asian trans and queer migrants, and those who celebrate their lives
+**<abbr title="Transgender Day of Remembrance">TDoR</abbr> Community Dinner**  
+By and for East Asian trans and queer migrants, and those who celebrate their lives
 
 **<time datetime="2025-11-21">November 21, 2025</time> | <time datetime="18:00">6PM</time> - <time datetime="20:00">8PM</time>**
 
 - Downtown Toronto | <abbr title="Toronto Transit Commission">TTC</abbr> tickets provided
 - Location will be shared upon registration
-- Free <abbr title="Hormorne Replacement Therapy">HRT</abbr> injection supply will be distributed
+- Free <abbr title="Hormone Replacement Therapy">HRT</abbr> injection supply will be distributed
 
-Also features a resource sharing session navigating transition related care
+Also features a resource sharing session on navigating transition related care
 
 [Scan to register](https://forms.gle/hd6bWRSnRg5w1tQs8)
 

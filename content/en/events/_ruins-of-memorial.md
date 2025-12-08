@@ -16,7 +16,7 @@ Main Floor Meeting Room
 
 **Ruins of memorial**
 
-Diasporic Thinking about the Departed Chinese Trans on Transgender Day of Rememberence
+Diasporic Thinking about the Departed Chinese Trans on Transgender Day of Remembrance
 
 A film screening followed by a panel discussion with guest speakers and a Q&A session
 

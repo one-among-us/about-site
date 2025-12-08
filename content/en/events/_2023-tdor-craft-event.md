@@ -1,5 +1,5 @@
 ---
-title: 2023 <abbr title="Transgender Day of Rememberence">TDOR</abbr> Craft Event
+title: 2023 <abbr title="Transgender Day of Remembrance">TDOR</abbr> Craft Event
 lang:
   - 普通话
   - 吳語
@@ -23,7 +23,7 @@ Sat</time></span>**
 
 **One Among Us**
 
-<abbr title="Transgender Day of Rememberence">TDoR</abbr> Craft Event
+<abbr title="Transgender Day of Remembrance">TDoR</abbr> Craft Event
 
 519 Church St, Toronto  
 <time datetime="14:00">2</time>-<time datetime="16:00">4PM</time>

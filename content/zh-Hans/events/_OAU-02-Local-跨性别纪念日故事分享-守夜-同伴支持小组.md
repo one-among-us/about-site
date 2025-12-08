@@ -18,9 +18,9 @@ image: 1120-compressed.jpg
 
 - **爱丁堡 Edinburgh**  
   爱丁堡大学  
-  <time datetime="2024-11-20">11.20</time> <time>18:00</time> @ Bistro Square
+  <time datetime="2024-11-20">11.20</time> <time>18:00</time> @ Bristo Square
 - **桑德贝 Thunder Bay**  
-  胡首大学 Lakehead University Pride Central  
+  湖首大学 Lakehead University Pride Central  
   <time datetime="2024-11-20">11.20</time> <time>17:00</time> - <time>19:00</time> @ The Study Coffeehouse
 - **多伦多 Toronto**
   - The 519: 守夜 / 晚餐 / 社交活动  

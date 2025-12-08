@@ -1,5 +1,5 @@
 ---
-title: 2024 <abbr title="Transgender Day of Rememberence">TDOR</abbr> - Write a Letter
+title: 2024 <abbr title="Transgender Day of Remembrance">TDOR</abbr> - Write a Letter
 time: 2024-11-18T12:00:00+08:00
 community:
   - Online
@@ -9,7 +9,7 @@ image: tdor20241.jpg
 ---
 
 **跨性别纪念日  
-<abbr title="Transgender Day of Rememberence">TDoR</abbr> 2024  
+<abbr title="Transgender Day of Remembrance">TDoR</abbr> 2024  
 来信征集**
 
 请将信件发送至：  

@@ -17,7 +17,7 @@ One Among Us**
 
 **Lunar New Year Calligraphy Workshop**
 
-<time datetime="2025-01-24T18:30:00-05:00">January 24th, 2025, 6:30 PM</time> - <time datetime="2025-01-24T20:30:00-05:00">20:30</time>
+<time datetime="2025-01-24T18:30:00-05:00">January 24th, 2025, 6:30 PM</time> - <time datetime="2025-01-24T20:30:00-05:00">8:30 PM</time>
 
 @The 519 Community Center  
 519 Church St, Toronto, ON  M4Y 2C9,  

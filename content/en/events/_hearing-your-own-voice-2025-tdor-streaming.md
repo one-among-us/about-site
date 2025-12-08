@@ -1,5 +1,5 @@
 ---
-title: 'Hearing Your Own Voice: 2025 <abbr title="Transgender Day of Rememberence">TDoR</abbr> Streaming'
+title: 'Hearing Your Own Voice: 2025 <abbr title="Transgender Day of Remembrance">TDoR</abbr> Streaming'
 time: 2025-11-20T20:00:00+08:00
 lang:
   - 普通话
@@ -10,7 +10,7 @@ link:
   url: "https://youtube.com/@OneAmongUsPride"
 ---
 
-**<abbr title="Transgender Day of Rememberence">TDoR</abbr> 2025<br>跨性别纪念日晚会**
+**<abbr title="Transgender Day of Remembrance">TDoR</abbr> 2025<br>跨性别纪念日晚会**
 
 倾听自己的声音
 

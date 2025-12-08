@@ -18,7 +18,7 @@ description: >
 <span class="allCaps">Project Trans</span> <small>feat. MtF.wiki & FtM.wiki</small> &times; 那些秋叶 One Among Us
 
 **跨性別現身日  
-銀河鐵道之夜朗讀會**
+銀河鐵道之夜 朗讀會**
 
 <time datetime="2023-03-31T20:00:00+08:00">3月31日星期五 20:00（GMT+8）</time>
 

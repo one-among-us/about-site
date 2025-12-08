@@ -13,7 +13,7 @@ image: 519EventsPosterZip.png
 
 **One Among Us  
 東亞跨性別茶話會  
-東アジアトランズサポートグループ**
+東アジアトランスサポートグループ**
 
 **East Asian Trans Support Group**
 

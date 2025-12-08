@@ -32,7 +32,7 @@ One Among Us &times; 跨儿学术小组 Trans in Academia!
 若要和我们一起参加，可联系电报社群小助手 [t.me/kitakarikibo](https://t.me/kitakarikibo) 加入社群群聊。
 
 **<time datetime="2024-06-30T14:00:00-04:00">Sun, June 30  
-2</time>-<time datetime="2024-06-30T19:00:00-04:00">7pm</time>**  
+2</time>-<time datetime="2024-06-30T19:00:00-04:00">7 p.m</time>**  
 Grange Park  
 Toronto
 

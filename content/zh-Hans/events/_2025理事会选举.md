@@ -13,4 +13,8 @@ image: election25.jpg
 
 2025 Election of the Directors of One Among Us
 
-<!-- XXX 日语和韩语不会打 -->
+2025 One Among Us 이사회 선거
+
+2025 One Among Us 理事会 选举
+
+2025 One Among Us 理事会 選挙

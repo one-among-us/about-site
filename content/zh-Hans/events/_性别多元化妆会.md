@@ -21,6 +21,9 @@ image: makeup-toronto.jpg
 519 Church St, Toronto, ON  M4Y 2C9,  
 Room 204
 
+免費報名試妝，[請使用下方 QR code 獲取報名表](https://forms.gle/6Pg1ks3jFy9UGE5p6)。
+（※注：擬開放名額為 10 人）
+
 **Free Gender Diverse MakeUp Trial**
 
 <time datetime="2024-10-25T18:30:00-04:00">2024.10.25, 18:30</time> ~ <time datetime="2024-10-25T20:30:00-04:00">20:30</time>
