@@ -11,27 +11,4 @@ community:
 image: makeup-toronto.jpg
 ---
 
-**東亞跨性別茶話會 特輯  
-性別多元化妝會  
-<abbr title="One Among Us">OAU</abbr> &times; Studio <span class="allCaps">Dissonance</span>**
-
-<time datetime="2024-10-25T18:30:00-04:00">2024年10月25日，18:30</time> - <time datetime="2024-10-25T20:30:00-04:00">20:30</time>
-
-@The 519 Community Center  
-519 Church St, Toronto, ON  M4Y 2C9,  
-Room 204
-
-免費報名試妝，[請使用下方 QR code 獲取報名表](https://forms.gle/6Pg1ks3jFy9UGE5p6)。
-（※注：擬開放名額為 10 人）
-
-**Free Gender Diverse MakeUp Trial**
-
-<time datetime="2024-10-25T18:30:00-04:00">2024.10.25, 18:30</time> ~ <time datetime="2024-10-25T20:30:00-04:00">20:30</time>
-
-@The 519 Community Center  
-519 Church St, Toronto, ON  M4Y 2C9,  
-Room 204
-
-[RSVP via QR Code](https://forms.gle/6Pg1ks3jFy9UGE5p6)!
-
-One Among Us &times; Studio <span class="allCaps">Dissonance</span>
+<!--@include: @/zh-Hans/events/_性别多元化妆会.md -->

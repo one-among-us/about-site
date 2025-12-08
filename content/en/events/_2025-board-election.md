@@ -9,12 +9,4 @@ community:
 image: election25.jpg
 ---
 
-2025 Élection des directaires de One Among Us
-
-2025 Election of the Directors of One Among Us
-
-2025 One Among Us 이사회 선거
-
-2025 One Among Us 理事会 选举
-
-2025 One Among Us 理事会 選挙
+<!--@include: @/zh-Hans/events/_2025理事会选举.md -->
