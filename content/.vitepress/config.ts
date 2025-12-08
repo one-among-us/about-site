@@ -14,6 +14,8 @@ const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
   useFolderLinkFromIndexFile: true,
   useTitleFromFileHeading: true,
   collapsed: true,
+  // exclude all pages starting with _
+  excludeByGlobPattern: ['**/_*'],
 };
 
 const supportedLocales = [rootLocale, 'zh-Hans', 'ja'] as const;
@@ -87,6 +89,7 @@ const vitePressConfig = defineConfig({
     logo: '/assets/favicon-new.png',
 
     sidebar: generateSidebar(sidebarConfigs),
+    srcExclude: ['**/_*'],
 
     footer: {
       message:
