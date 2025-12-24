@@ -31,6 +31,8 @@ Toronto, ON  M2N 5N9
 <time datetime="2024-08-31T14:15:00+00:00">2024.8.31 14:15</time>~<time datetime="2024-08-31T16:45:00+00:00">16:45 UTC</time>  
 <time datetime="2024-08-31T10:15:00-04:00">2024.8.31 10:15</time>~<time datetime="2024-08-31T12:45:00-04:00">12:45 Eastern Time</time>
 
-<!-- 后面那几个 logo 分别是什么啊 -->
+(Multiple logos related to One Among Us)  
+（跟 One Among Us 相关的多个 logo）
+
 <board@oneamongus.ca>  
 Telegram: [@kitakarikibo](https://t.me/kitakarikibo)
