@@ -1,11 +1,9 @@
-{ pkgs ? <nixpkgs> { } }:
+{
+  pkgs ? <nixpkgs> { },
+}:
 pkgs.mkShell {
-  buildInputs = with pkgs;[
-    nodejs
+  buildInputs = with pkgs; [
+    nodejs_22
+    pnpm_9
   ];
-  shellHook = ''
-    mkdir -p $TMPDIR/bin
-    corepack enable --install-directory=$TMPDIR/bin
-    export PATH=$TMPDIR/bin:$PATH
-  '';
 }
