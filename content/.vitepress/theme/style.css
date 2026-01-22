@@ -127,3 +127,7 @@ body {
   color: var(--vp-code-color);
   font-family: var(--vp-font-family-mono);
 }
+
+.allCaps {
+  text-transform: uppercase;
+}

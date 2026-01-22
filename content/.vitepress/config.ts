@@ -2,6 +2,8 @@ import { footnote } from '@mdit/plugin-footnote';
 import { ruby } from '@mdit/plugin-ruby';
 import VueJsx from '@vitejs/plugin-vue-jsx';
 import { fileURLToPath } from 'node:url';
+import { glob, rm } from 'node:fs/promises';
+import { resolve } from 'node:path';
 import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
 import { generateSidebar, VitePressSidebarOptions } from 'vitepress-sidebar';
@@ -14,6 +16,8 @@ const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
   useFolderLinkFromIndexFile: true,
   useTitleFromFileHeading: true,
   collapsed: true,
+  // exclude all pages starting with _
+  excludeByGlobPattern: ['**/_*'],
 };
 
 const supportedLocales = [rootLocale, 'zh-Hans', 'ja'] as const;
@@ -87,6 +91,7 @@ const vitePressConfig = defineConfig({
     logo: '/assets/favicon-new.png',
 
     sidebar: generateSidebar(sidebarConfigs),
+    srcExclude: ['**/_*'],
 
     footer: {
       message:
@@ -153,6 +158,12 @@ const vitePressConfig = defineConfig({
       md.use(footnote);
       md.use(ruby);
     },
+  },
+  async buildEnd({ outDir }) {
+    for await (const entry of glob('**/events/_*.html', { cwd: outDir })) {
+      const fn = resolve(outDir, entry);
+      await rm(fn);
+    }
   },
 });
 
