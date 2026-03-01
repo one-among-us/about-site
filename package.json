@@ -16,21 +16,21 @@
     "@mdit/plugin-footnote": "^0.13.1",
     "@mdit/plugin-ruby": "^0.14.0",
     "@splidejs/vue-splide": "^0.6.12",
-    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vitejs/plugin-vue-jsx": "^4.2.0",
     "ical": "^0.8.0",
     "lxgw-wenkai-webfont": "^1.7.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
-    "sass": "^1.80.6",
-    "unocss": "^0.64.0",
+    "sass": "^1.97.3",
+    "unocss": "^0.64.1",
     "vitepress": "1.5.0",
     "vitepress-sidebar": "^1.33.1",
-    "vue": "^3.5.12"
+    "vue": "^3.5.29"
   },
   "devDependencies": {
     "@types/ical": "^0.8.3",
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.9.0",
-    "prettier": "^3.3.3"
+    "@types/node": "^22.19.13",
+    "prettier": "^3.8.1"
   },
   "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
   "pnpm": {
