@@ -13,24 +13,25 @@
   "author": "One Among Us",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "@mdit/plugin-footnote": "^0.13.1",
-    "@mdit/plugin-ruby": "^0.14.0",
+    "@mdit/plugin-footnote": "^0.23.2",
+    "@mdit/plugin-ruby": "^0.23.2",
     "@splidejs/vue-splide": "^0.6.12",
-    "@vitejs/plugin-vue-jsx": "^4.2.0",
+    "@vitejs/plugin-vue-jsx": "^5.1.5",
     "ical": "^0.8.0",
     "lxgw-wenkai-webfont": "^1.7.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
-    "sass": "^1.97.3",
-    "unocss": "^0.64.1",
-    "vitepress": "1.5.0",
+    "sass": "^1.99.0",
+    "unocss": "^66.6.8",
+    "vitepress": "1.6.4",
     "vitepress-sidebar": "^1.33.1",
-    "vue": "^3.5.29"
+    "vue": "^3.5.33"
   },
   "devDependencies": {
     "@types/ical": "^0.8.3",
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.19.13",
-    "prettier": "^3.8.1"
+    "@types/node": "^25.6.0",
+    "@unocss/preset-wind3": "^66.6.8",
+    "prettier": "^3.8.3"
   },
   "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
   "pnpm": {
