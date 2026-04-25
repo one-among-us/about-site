@@ -9,20 +9,17 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
   deployments: write
 
 concurrency:
-  group: 'pages-${{ github.ref }}'
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -37,6 +34,9 @@ jobs:
 
       - name: Setup Magic Nix Cache
         uses: DeterminateSystems/magic-nix-cache-action@v13
+        with:
+          use-flakehub: false
+          diagnostic-endpoint: ""
 
       - name: Get pnpm store directory
         id: pnpm-cache
@@ -59,16 +59,30 @@ jobs:
         run: nix develop --command pnpm docs:build
 
       - name: Upload Build Artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-preview
+          path: content/.vitepress/dist
+          retention-days: 1
+
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://oneamongus.ca
+    steps:
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v8
         with:
           name: site-preview
           path: content/.vitepress/dist
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          github_token: ${{ secrets.GH_PERSONAL_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./content/.vitepress/dist
           publish_branch: deploy
           cname: oneamongus.ca
