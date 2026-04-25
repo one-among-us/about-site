@@ -78,7 +78,7 @@ Visit our [Linktree](https://linktr.ee/oneamongus) or [Instagram](https://www.in
 
 ### Transgender University Guidance
 
-On 2023, Transgender University Guidance editing group joined Us. Visit our document through [uniguide.oneamongus.ca](https://uniguide.oneamongus.ca). We invite you to contribute that!
+On 2023, Transgender University Guidance editing group joined Us. Visit our document through [uniguide.oau.edu.kg](https://uniguide.oau.edu.kg). We invite you to contribute that!
 
 ### Arts Among Us
 

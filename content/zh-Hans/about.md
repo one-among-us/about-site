@@ -76,7 +76,7 @@ One Among Us 最初的起点以及最重要的业务是纪念逝去的{跨性别
 
 ### 跨性别选校手册
 
-2024年，跨性别选校手册的编辑部加入了我们。请访问 [uniguide.oneamongus.ca](https://uniguide.oau.edu.kg/zh-hans) 获得更多信息。我们鼓励你共同编辑！
+2024年，跨性别选校手册的编辑部加入了我们。请访问 [uniguide.oau.edu.kg](https://uniguide.oau.edu.kg/zh-hans/) 获得更多信息。我们鼓励你共同编辑！
 
 ### Arts Among Us
 
