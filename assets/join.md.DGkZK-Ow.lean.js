@@ -1,0 +1,1 @@
+import{_ as a,o,c as t,ae as r}from"./chunks/framework.Cuy5ADyd.js";const d=JSON.parse('{"title":"Become a Member","description":"","frontmatter":{},"headers":[],"relativePath":"join.md","filePath":"en/join.md"}'),s={name:"join.md"};function n(i,e,m,l,p,c){return o(),t("div",null,[...e[0]||(e[0]=[r("",8)])])}const h=a(s,[["render",n]]);export{d as __pageData,h as default};
