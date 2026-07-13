@@ -76,6 +76,8 @@ import Carousel from '../Carousel.vue'
 
 可以 [添加到你的 Google Calendar](https://calendar.google.com/calendar/u/1?cid=Y19kZWYzZGMxNjJkZGFmM2IxNWIzZWU0MTk1NTFhMmI2NTA2OGIyNDkzYzBlY2JiZGNlN2RhYTg2N2YyYmMwYWViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) 或者使用 [ICal (ics) 格式链接](https://calendar.google.com/calendar/ical/c_def3dc162ddaf3b15b3ee419551a2b65068b2493c0ecbbdce7daa867f2bc0aeb%40group.calendar.google.com/public/basic.ics)。
 
+![多伦多社群每月常规活动](https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/5.jpg)
+
 ## 照片墙
 
 <Carousel />
