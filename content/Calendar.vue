@@ -29,7 +29,45 @@ const fetchIcal = async () => {
 
     const _tmp = [];
     for (let k in cal) _tmp.push(cal[k]);
-    const events = _tmp.filter((ev) => ev.type == 'VEVENT' && ev.start && ev.start > now);
+
+    const events: CalendarComponent[] = [];
+    _tmp.forEach((ev) => {
+      if (ev.type !== 'VEVENT' || !ev.start) return;
+
+      if (ev.rrule) {
+        // Expand the recurring events for the next 30 days to avoid clutter
+        const limit = new Date(now);
+        limit.setDate(limit.getDate() + 30);
+        let dates = ev.rrule.between(now, limit, true);
+        
+        // Fallback: If no occurrences in the next 30 days (e.g. quarterly/annual events),
+        // fetch the immediate next occurrence.
+        if (dates.length === 0) {
+          const nextDate = ev.rrule.after(now, true);
+          if (nextDate) dates = [nextDate];
+        }
+
+        dates.forEach((date) => {
+          const dateStr = date.toISOString().substring(0, 10);
+          if (ev.exdate && ev.exdate[dateStr]) return;
+
+          if (ev.recurrences && ev.recurrences[dateStr]) {
+            events.push(ev.recurrences[dateStr]);
+            return;
+          }
+
+          const clone = { ...ev };
+          clone.start = date;
+          if (ev.end) {
+            const duration = ev.end.getTime() - ev.start.getTime();
+            clone.end = new Date(date.getTime() + duration);
+          }
+          events.push(clone);
+        });
+      } else if (ev.start > now) {
+        events.push(ev);
+      }
+    });
 
     // If there are no upcoming events, show one from the past
     if (events.length == 0) {
@@ -69,7 +107,7 @@ onMounted(fetchIcal);
 <template>
   <div class="description" v-if="evs.length === 0">Loading events...</div>
   <div role="list" class="events">
-    <div v-for="ev in evs" role="listitem" :key="ev.summary">
+    <div v-for="ev in evs" role="listitem" :key="`${ev.uid || ev.summary}-${ev.start ? ev.start.getTime() : ''}`">
       <article class="event">
         <time class="date" v-if="ev.start" :datetime="getEventDate(ev.start)">
           <span class="month">{{ ev.start.toLocaleDateString('default', { month: 'short' }) }}</span>
