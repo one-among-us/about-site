@@ -3,43 +3,9 @@ import '@splidejs/vue-splide/css/skyblue';
 import { defineClientComponent, useData } from 'vitepress';
 import { computed } from 'vue';
 
-const photos: { url: string; alt: Record<string, string> }[] = [
-  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/100.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/96.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/95.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/94.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/47.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/44.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },
-  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/4.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },
-  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/1.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },
-  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/2.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },
-  {
-    url: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/3.jpg',
-    alt: { en: 'Events Photo -- All rights reserved', 'zh-Hans': '活动照片，保留所有权利' },
-  },
-];
+import photosData from './photos.json';
+
+const photos: { url: string; alt: Record<string, string> }[] = photosData;
 
 export default defineClientComponent(async () => {
   const data = useData();
@@ -76,6 +42,10 @@ export default defineClientComponent(async () => {
 .splideimg {
   border: 1px solid var(--vp-c-bg-soft);
   border-radius: 12px;
+  max-height: 70vh;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
   transition:
     border-color 0.25s,
     background-color 0.25s;
@@ -83,5 +53,10 @@ export default defineClientComponent(async () => {
 
 .splideimg:hover {
   border-color: var(--vp-c-brand-1);
+}
+
+/* Override VitePress default list styling that misaligns the pagination buttons */
+.splide__pagination li {
+  margin-top: 0 !important;
 }
 </style>
