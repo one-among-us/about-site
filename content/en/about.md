@@ -2,23 +2,25 @@
 
 Hi! We are One Among Us, proudly a community of the proud East Asian and East Asian-Canadian transgender and gender-diverse family. We provide peer and community support for our fellows, aiming to build connections between travelers and those in our hometown.
 
-We started as a memorial site for our friends and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us. Now we have developed into an alliance of seven interconnected workgroups.
+We started as a memorial site for our friends and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us. Now we have developed into an alliance of eight interconnected workgroups.
 
 We are a registered not-for-profit organization in Ontario, Canada.
 
 ## Workgroups
 
+We are an interconnected community alliance of 8 working groups, each maintaining its own autonomy. We generally call ourselves OAU 01 to 08, with the numbers reflecting the chronological order of our founding.
+
 ### <OAUIcons group="01"/> Memorial
 
 We are the starting point and the most important part at One Among Us. We maintain the [One Among Us memorial website](https://one-among.us).
 
-### <OAUIcons group="02"/> Local
+### <OAUIcons group="02"/> Toronto Local
 
 We started on 2023 July 12. We do community service, including medical support, peer support, community gatherings, etc. Most of us live in Toronto.
 
 ### <OAUIcons group="03"/> The Rabbit Hole
 
-We started on 2023 September 27.
+We are a community agent support network started on 2023 September 27.
 
 ### <OAUIcons group="04"/> Operations
 
@@ -34,7 +36,11 @@ We started on 2024 February 21 as a free/libre open-source software club. Join o
 
 ### <OAUIcons group="07"/> Arts
 
-We do trans arts and prepare for the upcoming gallery Arts Among Us.
+We do all kinds of trans art projects, including visual art, music, theatre, installation art, etc. We are also preparing for the upcoming trans art gallery Arts Among Us.
+
+### <OAUIcons group="08"/> Helsinki Local
+
+We started in 2026 and welcome trans and queer people in Helsinki, the capital city of Finland.
 
 ## Our Mandate
 
