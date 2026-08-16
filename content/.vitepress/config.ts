@@ -49,6 +49,7 @@ const vitePressConfig = defineConfig({
       themeConfig: {
         nav: [
           { text: '关于我们', link: '/zh-Hans/about' },
+          { text: '成员介绍', link: '/zh-Hans/people' },
           { text: '活动日历', link: '/zh-Hans/events' },
           { text: '文档资源', link: '/zh-Hans/docs' },
           { text: '通知公告', link: '/zh-Hans/posts' },
