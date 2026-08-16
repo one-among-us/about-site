@@ -56,6 +56,8 @@ jobs:
         run: nix develop --command pnpm install --frozen-lockfile
 
       - name: Build page
+        env:
+          VITE_TURNSTILE_SITE_KEY: ${{ secrets.VITE_TURNSTILE_SITE_KEY }}
         run: nix develop --command pnpm docs:build
 
       - name: Upload Build Artifact
