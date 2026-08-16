@@ -19,7 +19,7 @@
     "@vitejs/plugin-vue-jsx": "^5.1.5",
     "ical": "^0.8.0",
     "lxgw-wenkai-webfont": "^1.7.0",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.2.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
     "sass": "^1.99.0",
     "unocss": "^66.6.8",
