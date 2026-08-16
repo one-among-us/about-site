@@ -137,6 +137,9 @@ const vitePressConfig = defineConfig({
   },
 
   vite: {
+    // VitePress uses `content` as Vite's root, while deployment secrets and
+    // local configuration live in the repository-level .env file.
+    envDir: fileURLToPath(new URL('../../', import.meta.url)),
     plugins: [VueJsx(), Unocss()],
     server: { host: '0.0.0.0' },
     css: { preprocessorOptions: { sass: { api: 'modern' } } },

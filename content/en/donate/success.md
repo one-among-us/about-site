@@ -2,9 +2,12 @@
 title: Thank you
 ---
 
+<script setup lang="ts">
+import DonationStatus from '../../DonationStatus.vue';
+</script>
+
 # Thank you for your donation
 
-Stripe is processing your payment. A confirmation will be sent to the email
-address provided during checkout.
+<DonationStatus locale="en" />
 
 [Return to the website](/)

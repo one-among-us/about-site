@@ -2,8 +2,12 @@
 title: 感谢捐赠
 ---
 
+<script setup lang="ts">
+import DonationStatus from '../../DonationStatus.vue';
+</script>
+
 # 感谢您的捐赠
 
-Stripe 正在处理您的付款。确认信息将发送至您在结账时提供的电子邮箱。
+<DonationStatus locale="zh-Hans" />
 
 [返回网站首页](/zh-Hans/)
