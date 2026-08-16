@@ -2,10 +2,18 @@
 title: '联系·支持'
 ---
 
+<script setup lang="ts">
+import DonateForm from '../DonateForm.vue';
+</script>
+
 ## 支持捐赠
 
 - 加拿大境内：Interac e-Transfer 到 <MailTo template="donate [at] oneamongus [dot] ca" />
 - 加入我们的 [GitHub Sponsors](https://github.com/sponsors/one-among-us/) 列表
+
+### 使用信用卡捐款
+
+<DonateForm locale="zh-Hans" />
 
 ## 联系方式
 

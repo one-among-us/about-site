@@ -3,10 +3,18 @@ title: 'Contact'
 date: 2023-11-14T14:40:00-05:00
 ---
 
+<script setup lang="ts">
+import DonateForm from '../DonateForm.vue';
+</script>
+
 ## Support
 
 - In Canada: Interac e-Transfer to <MailTo template="donate [at] oneamongus [dot] ca" />
 - Worldwide: Become our Sponsor via [GitHub](https://github.com/sponsors/one-among-us/)
+
+### Donate by card
+
+<DonateForm locale="en" />
 
 ## Contact
 
