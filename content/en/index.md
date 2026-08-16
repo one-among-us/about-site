@@ -57,7 +57,7 @@ friends:
 
 Hi! We are One Among Us, proudly a community of the proud East Asian and East Asian-Canadian transgender and gender-diverse family. We provide peer and community support for our fellows, aiming to build connections between travelers and those in our hometown.
 
-We started as [a memorial site](https://one-among.us) for our friends and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us. Now we have developed into [an alliance of seven interconnected workgroups](./about).
+We started as [a memorial site](https://one-among.us) for our friends and allies who passed away. We believe that both those who are still living and those who had passed away are important members of our community, are the “Ones” Among Us. Now we have developed into [an alliance of eight interconnected workgroups](./about).
 
 We are a registered not-for-profit organization in Ontario, Canada.
 
