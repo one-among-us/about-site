@@ -22,4 +22,4 @@ title: 在地社群
 
 ### 跨性别和性别多元交流群
 
-Telegram 联系 [@kitakarikibo](https://t.me/kitakarikibo) 获取加群详情。
+Telegram 联系 [@oneamongus](https://t.me/oneamongus) 获取加群详情。

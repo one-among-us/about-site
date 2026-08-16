@@ -328,14 +328,14 @@ items:
         after: ' to apply for their Google Workspace accounts. Required fields: your preferred first & last names (if you only have first name, please repeat it twice), account name, and personal email.'
       - After registration, browse Google Groups–All Groups to lookup and join available workgroups.
     Telegram Groups:
-      - Contact telegram @kitakarikibo for the assembly.
+      - Contact telegram [@oneamongus](https://t.me/oneamongus) for the assembly.
       - Contact the VP of each workgroup for group cohorts.
       - Matrix bridge available.
     GitHub Organization:
-      - Contact telegram @kitakarikibo for GitHub Organization invitation. (pending)
+      - Contact telegram [@oneamongus](https://t.me/oneamongus) for GitHub Organization invitation. (pending)
     Tailscale & Server Access:
       - Contact tech admin.
-      - Login to servers via tailscale. For <span style="font-face:--vp-font-family-mono">oau-vultr</span>, login as <span style="font-face:--vp-font-family-mono">root</span>. For other servers, login as your username.
+      - Login to servers via Tailscale. For `oau-vultr`, login as `root`. For other servers, login as your username.
 ---
 
 <script setup lang="ts">

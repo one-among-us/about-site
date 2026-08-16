@@ -27,4 +27,4 @@ Outside observers: Drop-in or contact for online meeting invitation
 
 Email: <board@oneamongus.ca>
 
-Telegram: [@kitakarikibo](https://t.me/kitakarikibo)
+Telegram: [@oneamongus](https://t.me/oneamongus)

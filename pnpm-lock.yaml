@@ -29,6 +29,9 @@ importers:
       lxgw-wenkai-webfont:
         specifier: ^1.7.0
         version: 1.7.0
+      markdown-it:
+        specifier: ^14.1.0
+        version: 14.1.0
       markdown-yaml-metadata-parser:
         specifier: ^3.0.0
         version: 3.0.0

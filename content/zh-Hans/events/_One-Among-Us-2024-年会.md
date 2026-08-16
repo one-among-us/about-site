@@ -35,4 +35,4 @@ Toronto, ON  M2N 5N9
 （跟 One Among Us 相关的多个 logo）
 
 <board@oneamongus.ca>  
-Telegram: [@kitakarikibo](https://t.me/kitakarikibo)
+Telegram: [@oneamongus](https://t.me/oneamongus)
