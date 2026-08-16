@@ -32,10 +32,34 @@ const labels = computed(() => props.locale === 'zh-Hans'
     });
 
 const siteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY as string | undefined;
+const donationMin = 5;
+const donationMax = 200;
+const donationDefault = 10;
 const turnstileElement = ref<HTMLElement>();
 const turnstileToken = ref('');
 const loadFailed = ref(false);
+const amount = ref<string | number>(donationDefault.toFixed(2));
+const amountHasBeenFocused = ref(false);
 let widgetId: string | undefined;
+
+const handleAmountFocus = () => {
+  if (amountHasBeenFocused.value) return;
+  amountHasBeenFocused.value = true;
+  amount.value = '';
+};
+
+const normalizeAmount = () => {
+  const value = String(amount.value).trim();
+  if (!/^\d+(?:\.\d*)?$/.test(value)) {
+    amount.value = donationDefault.toFixed(2);
+    return;
+  }
+
+  const parsed = Number(value);
+  amount.value = Number.isFinite(parsed)
+    ? Math.min(donationMax, Math.max(donationMin, parsed)).toFixed(2)
+    : donationDefault.toFixed(2);
+};
 
 const loadTurnstile = () => new Promise<void>((resolve, reject) => {
   if (window.turnstile) return resolve();
@@ -83,7 +107,12 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <form class="donate-form" method="post" action="https://donate.oau.app/session">
+  <form
+    class="donate-form"
+    method="post"
+    action="https://donate.oau.app/session"
+    @submit="normalizeAmount"
+  >
     <input type="hidden" name="locale" :value="locale" />
     <input type="hidden" name="cf-turnstile-response" :value="turnstileToken" />
 
@@ -95,10 +124,12 @@ onBeforeUnmount(() => {
           name="amount"
           type="number"
           inputmode="decimal"
-          min="5"
-          max="200"
-          step="0.01"
-          value="10.00"
+          :min="donationMin"
+          :max="donationMax"
+          step="any"
+          v-model="amount"
+          @focus="handleAmountFocus"
+          @blur="normalizeAmount"
           required
         />
       </span>
