@@ -202,6 +202,9 @@ $grid__cols: 12
     margin: 0
     width: 100%
 
+    > div
+        min-width: 0
+
 @media (min-width: 960px)
     .events
         grid-template-columns: repeat(2, minmax(0, 1fr))
@@ -263,6 +266,7 @@ img
     display: flex
     gap: 6px
     flex-wrap: wrap
+    min-width: 0
     padding: 6px 0px 6px 0px
     margin: 0 0 4px 0
 
@@ -272,8 +276,10 @@ img
     padding: 2px 8px 0 8px
     color: var(--vp-c-indigo-1)
     background-color: var(--vp-c-indigo-soft)
-    height: 26px
-    white-space: nowrap
+    min-height: 26px
+    max-width: 100%
+    overflow-wrap: anywhere
+    white-space: normal
 
 .clink
     border: 1px solid
