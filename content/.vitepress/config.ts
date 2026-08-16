@@ -16,8 +16,8 @@ const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
   useFolderLinkFromIndexFile: true,
   useTitleFromFileHeading: true,
   collapsed: true,
-  // exclude all pages starting with _
-  excludeByGlobPattern: ['**/_*'],
+  // exclude all pages starting with _ or under donate
+  excludeByGlobPattern: ['**/_*', '**/donate/**'],
 };
 
 const supportedLocales = [rootLocale, 'zh-Hans', 'ja'] as const;
