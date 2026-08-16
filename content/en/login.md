@@ -323,7 +323,9 @@ items:
       icon: ⇵
   Member Registration:
     Google Workspace:
-      - 'All members may contact <span style="font-face:--vp-font-family-mono">workspaceadmin [at] oneamongus [dot] ca</span> to apply for their Google Workspace accounts. Required fields: your preferred first & last names (if you only have first name, please repeat it twice), account name, and personal email.'
+      - before: 'All members may contact '
+        email: 'workspaceadmin [at] oneamongus [dot] ca'
+        after: ' to apply for their Google Workspace accounts. Required fields: your preferred first & last names (if you only have first name, please repeat it twice), account name, and personal email.'
       - After registration, browse Google Groups–All Groups to lookup and join available workgroups.
     Telegram Groups:
       - Contact telegram @kitakarikibo for the assembly.

@@ -324,7 +324,9 @@ items:
       icon: ⇵
   成员注册:
     Google Workspace:
-      - 联系 <span style="font-face:--vp-font-family-mono">workspaceadmin [at] oneamongus [dot] ca</span> 申请注册，提供自己希望用的 First Name 和 Last Name（系统暂时不能做到只有一个名字，如果没有 Last Name 的话请把 First Name 重复一遍）、希望的邮箱账号名称、绑定的个人邮箱名称。
+      - before: '联系 '
+        email: 'workspaceadmin [at] oneamongus [dot] ca'
+        after: ' 申请注册，提供自己希望用的 First Name 和 Last Name（系统暂时不能做到只有一个名字，如果没有 Last Name 的话请把 First Name 重复一遍）、希望的邮箱账号名称、绑定的个人邮箱名称。'
       - 访问 Google Groups，点左侧 All Groups 查看并申请加入自己的工作组。
     Telegram 群:
       - 联系 Telegram 账号 @kitakarikibo 申请加入全体成员大群。
