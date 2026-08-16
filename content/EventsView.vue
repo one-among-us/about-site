@@ -19,7 +19,13 @@
     </fieldset>
     <div class="container">
       <div role="list" class="events">
-        <div v-for="({ name, item, Content }) in events" role="listitem" :key="name" loading='lazy'>
+        <div
+          v-for="({ name, item, Content }, index) in events"
+          :ref="(element) => setEventElement(element, index)"
+          role="listitem"
+          :key="name"
+          loading='lazy'
+        >
           <article class="event">
             <time v-if="item.time" class="date" :datetime="getEventDate(new Date(item.time))">
               <span class="year">{{ (new Date(item.time)).toLocaleDateString('default', {  year: 'numeric' }) }}</span>
@@ -77,7 +83,7 @@
 
 <script setup>
 import { getEventDate, getEventFullDateTime } from './dateTimeUtils';
-import { computed, ref, onMounted, nextTick } from 'vue';
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
 
 const { imports } = defineProps({
   imports: Object,
@@ -89,6 +95,45 @@ const showPoster = computed({
   get() { return !showText; },
   set(v) { showText = !v; },
 });
+
+const eventElements = new Map();
+let resizeObserver;
+
+const resizeEvent = (element) => {
+  const card = element.firstElementChild;
+  if (!card) return;
+
+  // Reserve the card's height plus the 1em vertical gutter. Grid rows are 1px
+  // tall, which lets differently sized cards form a masonry layout while the
+  // browser still places them in DOM order from left to right.
+  const gap = parseFloat(getComputedStyle(element).fontSize);
+  element.style.gridRowEnd = `span ${Math.ceil(card.getBoundingClientRect().height + gap)}`;
+};
+
+const setEventElement = (element, index) => {
+  const previousElement = eventElements.get(index);
+  if (previousElement && previousElement !== element) resizeObserver?.unobserve(previousElement);
+
+  if (element) {
+    eventElements.set(index, element);
+    resizeObserver?.observe(element.firstElementChild);
+  } else {
+    eventElements.delete(index);
+  }
+};
+
+onMounted(() => {
+  resizeObserver = new ResizeObserver((entries) => {
+    for (const entry of entries) resizeEvent(entry.target.parentElement);
+  });
+
+  for (const element of eventElements.values()) {
+    resizeObserver.observe(element.firstElementChild);
+    resizeEvent(element);
+  }
+});
+
+onBeforeUnmount(() => resizeObserver?.disconnect());
 
 const events = computed(() => {
   const r = Object.values(imports).map(({
@@ -134,9 +179,16 @@ $grid__cols: 12
     max-width: 1152px
 
 .events
-    display: block
+    display: grid
+    grid-template-columns: minmax(0, 1fr)
+    grid-auto-flow: row
+    grid-auto-rows: 1px
+    column-gap: 1em
     width: 100%
     padding: 1em 0 1em 0
+
+    > div
+        min-width: 0
 
 // Event box (this card style is copied from VitePress homepage theme)
 .event
@@ -144,17 +196,15 @@ $grid__cols: 12
     gap: 1em
     border: 1px solid var(--vp-c-bg-soft)
     border-radius: 12px
-    height: 100%
     background-color: var(--vp-c-bg-soft)
     transition: border-color 0.25s, background-color 0.25s
     padding: 1em
-    margin: 0 0 1em 0
+    margin: 0
     width: 100%
 
 @media (min-width: 960px)
     .events
-        display: block
-        column-count: 2
+        grid-template-columns: repeat(2, minmax(0, 1fr))
 
 .event:hover
     border-color: var(--vp-c-brand-1)
