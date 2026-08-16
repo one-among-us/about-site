@@ -12,7 +12,7 @@
           >
             <a class="person-link" :href="person.link">
               <article class="person">
-                <img :src="person.icon.src" :alt="person.title" />
+                <img class="avatar" :src="person.icon.src" :alt="person.title" />
                 <div class="info">
                   <h2 class="name">{{ person.title }}</h2>
                   <p v-if="person.details" class="details">{{ person.details }}</p>
@@ -25,6 +25,7 @@
     </div>
   </main>
 </template>
+
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted } from 'vue';
 
@@ -42,7 +43,7 @@ interface People {
   [index: string]: Person[];
 }
 
-const { people } = defineProps<{
+defineProps<{
   people: People;
 }>();
 
@@ -53,18 +54,21 @@ const resizePerson = (element: HTMLElement) => {
   const card = element.firstElementChild as HTMLElement | null;
   if (!card) return;
 
-  const gap = parseFloat(getComputedStyle(element).fontSize);
+  const gap = parseFloat(getComputedStyle(element).fontSize) || 16;
   element.style.gridRowEnd = `span ${Math.ceil(card.getBoundingClientRect().height + gap)}`;
 };
 
 const setPersonElement = (element: unknown, key: string) => {
   const htmlElement = element as HTMLElement | null;
   const previousElement = personElements.get(key);
-  if (previousElement && previousElement !== htmlElement) resizeObserver?.unobserve(previousElement);
+  if (previousElement?.firstElementChild) {
+    resizeObserver?.unobserve(previousElement.firstElementChild as HTMLElement);
+  }
 
-  if (htmlElement) {
+  if (htmlElement?.firstElementChild) {
     personElements.set(key, htmlElement);
     resizeObserver?.observe(htmlElement.firstElementChild as HTMLElement);
+    resizePerson(htmlElement);
   } else {
     personElements.delete(key);
   }
@@ -72,12 +76,17 @@ const setPersonElement = (element: unknown, key: string) => {
 
 onMounted(() => {
   resizeObserver = new ResizeObserver((entries) => {
-    for (const entry of entries) resizePerson(entry.target.parentElement as HTMLElement);
+    for (const entry of entries) {
+      const parent = entry.target.parentElement as HTMLElement | null;
+      if (parent) resizePerson(parent);
+    }
   });
 
   for (const element of personElements.values()) {
-    resizeObserver.observe(element.firstElementChild as HTMLElement);
-    resizePerson(element);
+    if (element.firstElementChild) {
+      resizeObserver.observe(element.firstElementChild as HTMLElement);
+      resizePerson(element);
+    }
   }
 });
 
@@ -111,14 +120,14 @@ onBeforeUnmount(() => resizeObserver?.disconnect());
     grid-template-columns: minmax(0, 1fr)
     grid-auto-flow: row
     grid-auto-rows: 1px
-    column-gap: 1em
+    column-gap: 1.25rem
     width: 100%
     padding: 1em 0
 
     > div
         min-width: 0
 
-@media (min-width: 960px)
+@media (min-width: 768px)
     .people
         grid-template-columns: repeat(2, minmax(0, 1fr))
 
@@ -126,10 +135,13 @@ onBeforeUnmount(() => resizeObserver?.disconnect());
     display: block
     color: inherit
     text-decoration: none
+    height: fit-content
 
 .person
-    overflow: hidden
-    width: 100%
+    display: flex
+    align-items: flex-start
+    gap: 1rem
+    padding: 1.25rem
     border: 1px solid var(--vp-c-bg-soft)
     border-radius: 12px
     background-color: var(--vp-c-bg-soft)
@@ -138,24 +150,32 @@ onBeforeUnmount(() => resizeObserver?.disconnect());
     &:hover
         border-color: var(--vp-c-brand-1)
 
-    img
+    .avatar
+        width: 64px
+        height: 64px
+        min-width: 64px
+        border-radius: 50%
+        object-fit: cover
+        background-color: var(--vp-c-default-soft)
         display: block
-        width: 100%
-        height: auto
-        border-radius: 12px
+        flex-shrink: 0
 
 .info
     min-width: 0
-    padding: 1em
+    flex: 1
 
 .name
-    margin: 0 0 4px
+    margin: 0 0 0.4rem
     overflow-wrap: anywhere
-    font-size: 1.2em
-    font-weight: bold
+    font-size: 1.1rem
+    font-weight: 600
+    line-height: 1.4
 
 .details
     margin: 0
     overflow-wrap: anywhere
     white-space: pre-line
+    font-size: 0.92rem
+    line-height: 1.6
+    color: var(--vp-c-text-2)
 </style>
