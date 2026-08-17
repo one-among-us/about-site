@@ -47,6 +47,11 @@ friends:
     details: トランス・ジェンダーのすべて。
     link: https://2345.lgbt/ja/
     icon: <img src="/assets/2345brand.svg">
+  - title: STAR
+    details: 『秋の葉ものがたり』以外の、もう一つの追悼サイト。逝去された方を偲び、命の物語を記録し、必要とする方に心の支えを提供する。
+    link: https://staris.xin/ja
+    icon: <img src="https://staris.xin/assets/site/logo.png">
+
 ---
 
 こんにちは。

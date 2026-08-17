@@ -53,6 +53,11 @@ friends:
     details: An organization aiming to document theoretical and practical knowledge from the Sinophone trans community, help trans people pursue studies, professional development, and employment, share academic knowledge related to trans issues, and produce original content from the perspective of trans people. 
     link: https://transinacademia.org
     icon: <img src="/assets/tia-logo.png">
+  - title: STAR
+    details: Another memorial website just like One Among Us, dedicated to remembering the deceased, preserving life stories, and providing emotional support to those who need it.
+    link: https://staris.xin/en
+    icon: <img src="https://staris.xin/assets/site/logo.png">
+
 ---
 
 Hi! We are One Among Us, proudly a community of the proud East Asian and East Asian-Canadian transgender and gender-diverse family. We provide peer and community support for our fellows, aiming to build connections between travelers and those in our hometown.
