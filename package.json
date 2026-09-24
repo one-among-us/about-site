@@ -32,6 +32,7 @@
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^25.6.0",
     "@unocss/preset-wind3": "^66.6.8",
+    "feed": "^6.0.0",
     "prettier": "^3.8.3"
   },
   "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",

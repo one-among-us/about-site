@@ -8,6 +8,7 @@ import Unocss from 'unocss/vite';
 import { defineConfig } from 'vitepress';
 import { generateSidebar, VitePressSidebarOptions } from 'vitepress-sidebar';
 import imgPlugin from './plugins/imgPlugin';
+import { genFeed } from './genFeed';
 
 const rootLocale = 'en';
 const commonSidebarConfigs: Partial<VitePressSidebarOptions> = {
@@ -37,15 +38,31 @@ const vitePressConfig = defineConfig({
   description:
     'A community for East-Asian and East-Asian Canadian transgender and gender diverse people. An Ontario registered not-for-profit corporation.',
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://oneamongus.ca',
+    transformItems(items) {
+      return items.filter((item) => !item.url.includes('/_'));
+    },
+  },
   locales: {
     root: {
       label: 'English',
       lang: 'en',
+      head: [
+        ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'One Among Us (RSS 2.0 · English)', href: 'https://oneamongus.ca/feed.rss' }],
+        ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'One Among Us (Atom · English)', href: 'https://oneamongus.ca/atom.xml' }],
+        ['link', { rel: 'alternate', type: 'application/feed+json', title: 'One Among Us (JSON Feed · English)', href: 'https://oneamongus.ca/feed.json' }],
+      ],
       themeConfig: {},
     },
     'zh-Hans': {
       label: '简体中文',
       lang: 'zh-Hans',
+      head: [
+        ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'One Among Us (RSS 2.0 · 简体中文)', href: 'https://oneamongus.ca/zh-Hans/feed.rss' }],
+        ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'One Among Us (Atom · 简体中文)', href: 'https://oneamongus.ca/zh-Hans/atom.xml' }],
+        ['link', { rel: 'alternate', type: 'application/feed+json', title: 'One Among Us (JSON Feed · 简体中文)', href: 'https://oneamongus.ca/zh-Hans/feed.json' }],
+      ],
       themeConfig: {
         nav: [
           { text: '关于我们', link: '/zh-Hans/about' },
@@ -65,6 +82,11 @@ const vitePressConfig = defineConfig({
     ja: {
       label: '日本語',
       lang: 'ja',
+      head: [
+        ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'One Among Us (RSS 2.0 · 日本語)', href: 'https://oneamongus.ca/ja/feed.rss' }],
+        ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'One Among Us (Atom · 日本語)', href: 'https://oneamongus.ca/ja/atom.xml' }],
+        ['link', { rel: 'alternate', type: 'application/feed+json', title: 'One Among Us (JSON Feed · 日本語)', href: 'https://oneamongus.ca/ja/feed.json' }],
+      ],
       themeConfig: {
         nav: [
           // { text: '紹介', link: '/ja/about' },
@@ -163,11 +185,13 @@ const vitePressConfig = defineConfig({
       md.use(ruby);
     },
   },
-  async buildEnd({ outDir }) {
+  async buildEnd(siteConfig) {
+    const { outDir } = siteConfig;
     for await (const entry of glob('**/events/_*.html', { cwd: outDir })) {
       const fn = resolve(outDir, entry);
       await rm(fn);
     }
+    await genFeed(siteConfig);
   },
 });
 

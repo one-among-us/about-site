@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /pr-preview/
+
+Sitemap: https://oneamongus.ca/sitemap.xml
