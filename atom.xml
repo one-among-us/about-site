@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://oneamongus.ca</id>
+    <title>One Among Us</title>
+    <updated>2026-09-24T07:06:17.096Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://oneamongus.ca/"/>
+    <subtitle>A community for East-Asian and East-Asian Canadian transgender and gender diverse people. An Ontario registered not-for-profit corporation.</subtitle>
+    <logo>https://oneamongus.ca/assets/favicon-new.png</logo>
+    <icon>https://oneamongus.ca/favicon.ico</icon>
+    <rights>2023-2026 One Among Us Transgender Support</rights>
+    <entry>
+        <title type="html"><![CDATA[2025 Board of Directors Election Results]]></title>
+        <id>https://oneamongus.ca/posts/board_election_202412</id>
+        <link href="https://oneamongus.ca/posts/board_election_202412"/>
+        <updated>2024-12-21T05:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="_2025-board-of-directors-election-results" tabindex="-1">2025 Board of Directors Election Results <a class="header-anchor" href="#_2025-board-of-directors-election-results" aria-label="Permalink to &quot;2025 Board of Directors Election Results&quot;">&ZeroWidthSpace;</a></h1>
+<p>One Among Us is pleased to announce the results of our 2025 Board of Directors
+Election. The following three members were elected to serve a 1‐year term as
+Board Directors starting from January 1, 2025, each of which was elected to have
+1⅖ seats on the Board:</p>
+<div class="language-diff vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">diff</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D">+ Alice</span></span>
+<span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D">+ 内田茉莉</span></span>
+<span class="line"><span style="--shiki-light:#22863A;--shiki-dark:#85E89D">+ Beatrix</span></span></code></pre>
+</div><p>The following two members were re‐elected to serve another 1‐year term as Board
+Directors starting from January 1, 2025, each of which was elected to have 1⅖
+seats on the Board:</p>
+<div class="language-diff vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">diff</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  Esme-Shiru</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">  Yuri/晓之</span></span></code></pre>
+</div><p>One member was elected to serve a 1‐year term as a Non‐Board
+Reference Director (“Vice Director”) starting from January 1, 2025, each of which
+was elected to be represented by ⅕ seats of every Board Director.</p>
+<p>One member was elected to serve another 1‐year term as a Non‐Board
+Reference Director starting from January 1, 2025, each of which was elected to be
+represented by ⅕ seats of every Board Director.</p>
+<p>We thank all candidates who put their names forward in this yearʼs election.</p>
+<p>The following two members will cease to act as Board Directors from January 1,
+2025, according to their resignation:</p>
+<div class="language-diff vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">diff</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0" v-pre=""><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">‐ Shu</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8">‐ Azalea</span></span></code></pre>
+</div><p>We thank all who have served as Directors in the past seasons.</p>
+<p>One Among Us Transgender Support</p>
+<p>2024.12.20</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Statement on the Solidarity of the Free and Open Source Software Community]]></title>
+        <id>https://oneamongus.ca/posts/statement-linux-foundation</id>
+        <link href="https://oneamongus.ca/posts/statement-linux-foundation"/>
+        <updated>2024-11-01T14:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="statement-on-the-solidarity-of-the-free-and-open-source-software-community-one-among-us-free-and-open-source-software-group-group-06-project-trans" tabindex="-1">Statement on the Solidarity of the Free and Open Source Software Community -- One Among Us Free and Open Source Software Group (Group 06) &amp; Project Trans <a class="header-anchor" href="#statement-on-the-solidarity-of-the-free-and-open-source-software-community-one-among-us-free-and-open-source-software-group-group-06-project-trans" aria-label="Permalink to &quot;Statement on the Solidarity of the Free and Open Source Software Community -- One Among Us Free and Open Source Software Group (Group 06) &amp; Project Trans&quot;">&ZeroWidthSpace;</a></h1>
+<p>On October 18, 2024, Greg Kroah-Hartman, a Linux Foundation fellow and a senior kernel maintainer, submitted a document change patch to the Linux kernel without any detailed explanation or prior public discussion, removing several maintainers, most of whose top-level email domains were.ru. A few days later, this patch, handled by Linus Torvalds, quietly made its way into the next release candidate, 6.12-rc4.</p>
+<p>On October 23, Kexy Biscuit, a contributor from the AOSC (Anthon Open Source Community), pointed out several questionable details about this incident, including a lack of transparency, and expressed concerns about the potential impact on kernel security if such unaudited changes were allowed. Kexy decided to submit a revert patch to the previous change. Instead of transparency, Linus Torvalds responded with personal attacks and name-calling. Several contributors, including members of the AOSC, were referred to as &quot;paid actors&quot; and &quot;Russian trolls.&quot;</p>
+<p>As of the time of publication, Linus Torvalds has not responded to his violation of the kernel code of conduct. As the earliest author and maintainer of the Linux kernel, Linus Torvalds holds significant influence and responsibility. Making changes to this open source project under the pretext of &quot;legal compliance&quot; does not justify the absence of effective communication and the lack of transparency. Not providing a direct explanation while suppressing opposition and reasonable questions through personal attacks sends a chilling signal to all contributors: even reasonable questions made in good faith may draw baseless attacks and smears. This will inevitably suffocate the healthy development of the community, hurt contributors' confidence in the long term and ultimately damage the prosperity of the Linux kernel and the entire open source ecosystem.</p>
+<p>We support the following <a href="https://lkml.org/lkml/2024/10/24/1280" target="_blank" rel="noreferrer">demand composed by Peter Cai</a>:</p>
+<ul>
+<li>Linus Torvalds should issue an apology letter to all open source/free software contributors who were unjustly attacked as &quot;Russian trolls&quot; based on unfounded suspicion;</li>
+<li>Linus Torvalds should unconditionally retract the personal attacks on the revert patch submitter, Kexy Biscuit, and acknowledge that the members of AOSC.io (Anthon Open Source Community) are not &quot;state-funded actors&quot;;</li>
+<li>The above apology statement should be made public as soon as possible and used as a precedent in the future when necessary compliance requirements arise;</li>
+<li>Personal attacks based on unfounded assumptions should not be tolerated.</li>
+</ul>
+<p>As organizations and projects serving the East Asian transgender and gender-diverse community, we have always supported the development of open source and free software through our personal and collective practices. Even if the removal of individual maintainers was based on compliance considerations, this cannot be used as an excuse to trample on the spirit of open source and suppress opposition. &quot;Complying with orders&quot; does not mean &quot;being ethical,&quot; especially when the orders themselves carry discriminatory and unjust implications. We call on the Linux kernel community and the Linux Foundation to establish clear and transparent processes for handling similar situations should they occur again in the future, respecting the rights of all contributors and ensuring that any related decisions are made through sufficient discussion and review.</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024 Board of Directors Election Results]]></title>
+        <id>https://oneamongus.ca/posts/board_election_202312</id>
+        <link href="https://oneamongus.ca/posts/board_election_202312"/>
+        <updated>2023-12-19T01:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="_2024-board-of-directors-election-results" tabindex="-1">2024 Board of Directors Election Results <a class="header-anchor" href="#_2024-board-of-directors-election-results" aria-label="Permalink to &quot;2024 Board of Directors Election Results&quot;">&ZeroWidthSpace;</a></h1>
+<p>One Among Us is pleased to announce the results of our 2024 Board of Directors Election. The following members were elected to serve a 1-year term starting from 2023 Dec 18, each of which was elected to have 1¼ seats on the Board:</p>
+<ul>
+<li>Azalea (reelected)</li>
+<li>Yuri (reelected)</li>
+<li>Shu (reelected)</li>
+<li>Esme (new)</li>
+</ul>
+<p>As decided from the election, the ¼ seats of each director are to be used as the representation of the elected one non-board reference director.</p>
+<p>We thank all candidates who put their names forward in this year’s election.</p>
+<p>One Among Us Transgender Support</p>
+<p>2023.12.18</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Mandate of One Among Us]]></title>
+        <id>https://oneamongus.ca/posts/mandate</id>
+        <link href="https://oneamongus.ca/posts/mandate"/>
+        <updated>2023-12-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="the-mandate-of-one-among-us" tabindex="-1">The Mandate of One Among Us <a class="header-anchor" href="#the-mandate-of-one-among-us" aria-label="Permalink to &quot;The Mandate of One Among Us&quot;">&ZeroWidthSpace;</a></h1>
+<blockquote>
+<p>This is a revised translation from the Chinese Mandate.</p>
+</blockquote>
+<p>One Among Us starts first as a memorial of our departed fellows in the transgender and gender diverse (TGD) community, which is our most important mission and shall not be changed. Therefore, we are a trans service organization and trans community based on the departed, or more accurately, on the relationship between the living and the deceased. Everyone, regardless of their living or death, shall be one among our diverse and spiritual trans community. Since we would not gather here in solidarity as an organization serving the living without the shared memory of the departed, in all of our events or services shall we try our best to make available for both the living and the departed, with our consideration of those who are silently watching over us on the other side of the Galaxy River which, though, demarcates us. Our organizational symbols, including but not limited to the anthem and flag, shall include in its purpose the connection between the living and the departed.</p>
+<p>We are certain that any kind of remembrance, in its essence, is not private but political. However, we also note that its publicity, concerning the political, is generated by the intimate connection between the self and the other. Therefore, we, as an organization, shall never address frivolously our political ideas as if we were them, the deceased, with our arrogance. However, this shall not imply we should act apolitically: We hold that in our era, becoming trans or allies is to face -- even if not willing to be thrown into piles of sociopolitical disputes -- a life of heavier political responsibility, intentionally or unintentionally, voluntarily or forcedly. Hence, we believe that, at the very least, calling for equity, social justice, and each one's freedom of expression of their identities, including but not limited to gender identity, shall be considered as the collective will of the departed, and shall accordingly not be viewed as disrespect, nor should it be viewed as a failure to keep the impartiality of the memorial.</p>
+<p>Since we are a trans community built among the departed, we are bound to carry a bitter reflection on the precarity of life. Especially in our current world, trans lives are even more vulnerable due to our shared sufferings and difficulties. We do not glorify our sufferings, but we are not ashamed to speak out about our fragility and persist in looking after each other. We stand with all individuals and communities who are still suffering from inequality, including those who do not have a joint &quot;identity&quot; as their identifier. We strive for social change for the happiness of our community friends, with our realization that individual happiness would never be achieved before the happiness of all humankind, not to mention that true happiness is always a puzzle. Even though our efforts to promote social change often end up with loss, we hope to share and heal each other's wounds in this process with our mutually increasing gratitude and reconciliation.</p>
+<p>We are an &quot;east asian and diaspora&quot; trans community: Our members are either from east asia or have anyway a connection to east asia at some point in their lives. Here &quot;east asia&quot; is not the geographical East Asia, but rather east asia as a method: it is neither the 'central' nor the 'marginal' for its inability to fit into a mainstream and hegemonic narrative while always desiring to materialize and standardize another value system as opposed to it. Our critical connection to east asia lies in the fact that while we restrain our desire to fit into the 'center,' we shall also avoid presenting ourselves as the purely 'margin' being juxtaposed with the center. We shall keep reflective constantly to be conscious dwellers in a critical state between the 'center' and the 'margin,' a state of tension with all self-evident cultures and traditions, whether new or old.</p>
+<p>Therefore, our organization shall also keep ambiguous the boundary between 'insiders' and 'outsiders' by admitting the intersectionality between organizational members, community friends, supporters and the supported. We shall be open and inclusive rather than acting as a small circle only for 'insiders.' Presumably, it shall not be interpreted as tolerating violence against our organizational or community members.</p>
+<p>In order to meet the requirements of the regulatory authorities in our registered place and to better serve the community, as a not-for-profit organization, we should be professional and receive and produce knowledge on all aspects of community work and peer support. However, we are also clearly aware that professions and institutions are only for service maintenance and self-preservation instead of the purpose itself and have been inevitably limiting the full and free development of humankind until the end of capitalism. Therefore, we follow the principle of minimal professionalization to avoid success at all costs. Professionalization must not give way to our ethics or integrity, nor to our collective will or expectation.</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Among Us Holds Successful Annual Member Gathering Event]]></title>
+        <id>https://oneamongus.ca/posts/2023-member-gathering</id>
+        <link href="https://oneamongus.ca/posts/2023-member-gathering"/>
+        <updated>2023-09-30T14:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="one-among-us-holds-successful-annual-member-gathering-event" tabindex="-1">One Among Us Holds Successful Annual Member Gathering Event <a class="header-anchor" href="#one-among-us-holds-successful-annual-member-gathering-event" aria-label="Permalink to &quot;One Among Us Holds Successful Annual Member Gathering Event&quot;">&ZeroWidthSpace;</a></h1>
+<p>In a heartwarming display of unity and progress, One Among Us, the registered not-for-profit organization dedicated to supporting the East Asian and East Asian-Canadian transgender and gender diverse community, held its highly successful annual member gathering event on September 16, 2023. This year's gathering proved to be a milestone, marked by reflection on past accomplishments and ambitious plans for the future.</p>
+<p>The event, attended by members and allies from across the region, was a testament to the organization's commitment to fostering a sense of belonging, understanding, and empowerment within the community. It provided a platform for sharing experiences, learning from one another, and collectively envisioning a more inclusive future.</p>
+<p>At the beginning of the meeting, the room filled with the poignant strains of &quot;Star Tour Song&quot; as attendees joined their voices together. This moving tribute served as a heartfelt reminder of the friends who had passed away, a touching acknowledgment of their enduring presence within the community, and a symbol of the unity that One Among Us stands for.</p>
+<p>One of the highlights of this year's gathering was the presentation of the organization's previous work. One Among Us has been diligently working on identifying and addressing the unique needs of the Chinese-speaking transgender and queer society. Through dedicated research and outreach efforts, the organization has made significant strides in understanding the challenges faced by this community and in developing tailored support systems.</p>
+<p>The unveiling of the &quot;Transgender University Guide&quot; and the &quot;Trans in Academia!&quot; group were met with enthusiastic applause. These initiatives represent a crucial step toward creating more inclusive spaces within academic institutions. The Transgender University Guide aims to provide resources and guidance for transgender and gender diverse individuals pursuing higher education, ensuring they have access to a supportive and nurturing environment. The &quot;Trans in Academia!&quot; group, on the other hand, serves as a platform for individuals within academia to connect, share experiences, and advocate for a more inclusive academic culture.</p>
+<p>During the event, members engaged in lively discussions about the future of One Among Us. The organization's commitment to its mission of love, remembrance, and unity was reaffirmed, and ambitious plans were laid out to further expand its reach and impact. The participants emphasized the importance of education and outreach, intending to increase awareness and understanding of transgender and gender diverse issues within the broader community.</p>
+<p>In line with their dedication to inclusivity, One Among Us expressed its intention to continue collaborating with other organizations, educational institutions, and policymakers to advocate for transgender and gender diverse rights. The organization's vision includes creating safe spaces, offering support and resources, and promoting acceptance and understanding among all individuals, regardless of their gender identity.</p>
+<p>The annual gathering concluded with a sense of hope despite the hard situation of our community. It served as a powerful reminder of the strength and resilience of the East Asian and East Asian-Canadian transgender and gender diverse community. As One Among Us looks toward the future, its commitment to its members and allies remains unwavering, reflecting the belief that, together, they can create a more inclusive and accepting world for all.</p>
+<p>The success of this year's annual gathering was not just a celebration of past achievements; it was a launchpad for a brighter, more inclusive future. One Among Us continues to be a shining example of an organization dedicated to making a positive impact and fostering a sense of belonging within the transgender and gender diverse community.</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Flag and Anthem of One Among Us]]></title>
+        <id>https://oneamongus.ca/posts/flag_anthem</id>
+        <link href="https://oneamongus.ca/posts/flag_anthem"/>
+        <updated>2023-06-05T14:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="the-flag-and-anthem-of-one-among-us" tabindex="-1">The Flag and Anthem of One Among Us <a class="header-anchor" href="#the-flag-and-anthem-of-one-among-us" aria-label="Permalink to &quot;The Flag and Anthem of One Among Us&quot;">&ZeroWidthSpace;</a></h1>
+<p>We released the flag and anthem of our organization recently.</p>
+<h2 id="the-flag-double-flowered-cherry-blossom" tabindex="-1">The Flag: Double-Flowered Cherry Blossom <a class="header-anchor" href="#the-flag-double-flowered-cherry-blossom" aria-label="Permalink to &quot;The Flag: Double-Flowered Cherry Blossom&quot;">&ZeroWidthSpace;</a></h2>
+<p><img src="./flag.oau.png" alt="The Flag of One Among Us" title="The Flag of One Among Us"><span class="imageCaption">◎ The Flag of One Among Us</span></p>
+<h2 id="the-anthem-star-tour-song" tabindex="-1">The Anthem: Star Tour Song <a class="header-anchor" href="#the-anthem-star-tour-song" aria-label="Permalink to &quot;The Anthem: Star Tour Song&quot;">&ZeroWidthSpace;</a></h2>
+<p><strong>『星めぐりの歌』</strong>　宮沢賢治 作詞/作曲</p>
+<p><img src="./hoshi-meguri-no-uta.png" alt="Star Tour Song, from *The Complete Work of Miyazawa Kenji*, Chikuma Shobō" title="Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo"><span class="imageCaption">◎ Star Tour Song, from The Complete Work of Miyazawa Kenji, Chikuma Shobo</span></p>
+<p>Can you see the red eyed Scorpion?<br>
+And the Eagle spreads his wings so wide<br>
+Over there the blue-eyed young Puppy<br>
+See the coiled up Serpent of the light<br>
+Orion sings from far away<br>
+It drops it’s dew and frost from the sky</p>
+<p>Can you see the cloud of Andromeda<br>
+Looking just like the lips of a fish<br>
+See the Mama Bear’s pawn up in the north,<br>
+Take five steps south and you will find<br>
+The shining Little Cub’s head is the key<br>
+Guiding us to the soul of the sky</p>
+<p>(English translated by Lindsay)</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023 April Board of Directors Election Results]]></title>
+        <id>https://oneamongus.ca/posts/board_election_202304</id>
+        <link href="https://oneamongus.ca/posts/board_election_202304"/>
+        <updated>2023-04-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="_2023-april-board-of-directors-election-results" tabindex="-1">2023 April Board of Directors Election Results <a class="header-anchor" href="#_2023-april-board-of-directors-election-results" aria-label="Permalink to &quot;2023 April Board of Directors Election Results&quot;">&ZeroWidthSpace;</a></h1>
+<p>Since Cassie Z. (CC) noticed us their resignation from her position starting from 2023 Apr 22, One Among Us has to elect a new director in replace of them to meet the Not-for-Profit Corporations Act in Ontario.</p>
+<p>The following new director was nominated by the Board of Directors and passed by the members to serve the rest of the 1-year term starting from 2023 Apr 22 to 2023 December with our current directors, Azalea G. and Yvette W:</p>
+<ul>
+<li>Yuri Z.</li>
+</ul>
+<p>We thank all the members who have been with us through this difficult time.</p>
+<p>One Among Us Transgender Support</p>
+<p>2023.04.22</p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Among Us Promotes Mental Health Among Members]]></title>
+        <id>https://oneamongus.ca/posts/mh_promotion</id>
+        <link href="https://oneamongus.ca/posts/mh_promotion"/>
+        <updated>2023-04-11T09:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="one-among-us-promotes-mental-health-among-members" tabindex="-1">One Among Us Promotes Mental Health Among Members <a class="header-anchor" href="#one-among-us-promotes-mental-health-among-members" aria-label="Permalink to &quot;One Among Us Promotes Mental Health Among Members&quot;">&ZeroWidthSpace;</a></h1>
+<p>At One Among Us, we are committed to promoting mental health among our members, especially amidst the challenges posed by remote work, while also addressing the critical issues of self-cutting and overdose prevention.</p>
+<p>We recognize that substance abuse and self-injury are often rooted in social, economic, and environmental factors that can contribute to feelings of hopelessness, despair, and disconnection. To address these underlying causes, we have been working with mental health professionals to provide our members with the tools and support they need to overcome addiction and manage emotional distress.</p>
+<p>Additionally, we are dedicated to raising awareness about these issues in our community and promoting a culture of empathy, compassion, and understanding. By fostering a supportive and inclusive environment, we hope to reduce the stigma and shame associated with substance abuse and self-injury and encourage individuals to seek the help they need.</p>
+<p>As most of us are working from home and some overseas, we understand that the challenges posed by remote work can exacerbate mental health issues and contribute to feelings of isolation and disconnection. To address these challenges, we have been providing virtual resources and support to our members, including online support groups and mental health toolkits.</p>
+<p>We believe that promoting mental health and preventing overdose and self-harm are essential to creating a healthier and more resilient community. By addressing the complex social causes of these issues and providing support and resources to our members, we hope to make a positive impact on the well-being of our members and the diversed trans, gender non-conforming, and queer community as a whole.</p>
+<p><img src="./mh.png" alt="Striving to Become a Model NPO for Mental Health Promotion" title="A parody of Chinese propaganda arts but showing our topic of preventing overdose and self-cutting."><span class="imageCaption">◎ A parody of Chinese propaganda arts but showing our topic of preventing overdose and self-cutting.</span></p>
+<p><img src="./another-mh-art.jpg" alt="Do not juice pom. Do not overeat starch." title="Another artwork, proudly made by our member artifaritaKuniklo."><span class="imageCaption">◎ Another artwork, proudly made by our member artifaritaKuniklo.</span></p>
+]]></content>
+        <author>
+            <name>One Among Us</name>
+        </author>
+    </entry>
+</feed>

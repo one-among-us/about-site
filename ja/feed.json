@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "One Among Us",
+    "home_page_url": "https://oneamongus.ca/ja/",
+    "description": "A community for East-Asian and East-Asian Canadian transgender and gender diverse people. An Ontario registered not-for-profit corporation.",
+    "icon": "https://oneamongus.ca/assets/favicon-new.png",
+    "items": [
+        {
+            "id": "https://oneamongus.ca/ja/posts/flag_anthem",
+            "content_html": "<h1 id=\"社旗と社歌\" tabindex=\"-1\">社旗と社歌 <a class=\"header-anchor\" href=\"#社旗と社歌\" aria-label=\"Permalink to &quot;社旗と社歌&quot;\">&ZeroWidthSpace;</a></h1>\n<h2 id=\"社旗-八重桜\" tabindex=\"-1\">社旗：八重桜 <a class=\"header-anchor\" href=\"#社旗-八重桜\" aria-label=\"Permalink to &quot;社旗：八重桜&quot;\">&ZeroWidthSpace;</a></h2>\n<p><img src=\"@/en/posts/flag.oau.png\" alt=\"One Among Us 社旗\" title=\"One Among Us 社旗\"><span class=\"imageCaption\">◎ One Among Us 社旗</span></p>\n<h2 id=\"社歌-星めぐりの歌\" tabindex=\"-1\">社歌：星めぐりの歌 <a class=\"header-anchor\" href=\"#社歌-星めぐりの歌\" aria-label=\"Permalink to &quot;社歌：星めぐりの歌&quot;\">&ZeroWidthSpace;</a></h2>\n<p><strong>星めぐりの歌</strong>　宮沢賢治 作詞/作曲</p>\n<p><img src=\"@/en/posts/hoshi-meguri-no-uta.png\" alt=\"「星めぐりの歌」『宮沢賢治全集』筑摩書房\" title=\"「星めぐりの歌」『宮沢賢治全集』筑摩書房\"><span class=\"imageCaption\">◎ 「星めぐりの歌」『宮沢賢治全集』筑摩書房</span></p>\n<p>あかいめだまの　さそり<br>\nひろげた<ruby>鷲<rt>わし</rt></ruby>の　　つばさ<br>\nあをいめだまの　<ruby>小<rt>こ</rt></ruby>いぬ、<br>\nひかりのへびの　とぐろ。<br>\nオリオンは<ruby>高<rt>たか</rt></ruby>く　うたひ<br>\nつゆとしもとを　おとす、</p>\n<p>アンドロメダの　くもは<br>\nさかなのくちの　かたち。<br>\n<ruby>大<rt>おほ</rt></ruby>ぐまのあしを　きたに<br>\n<ruby>五<rt>いつ</rt></ruby>つのばした　　ところ。<br>\n<ruby>小<rt>こ</rt>熊<rt>ぐま</rt></ruby>のひたひの　うへは<br>\nそらのめぐりの　めあて。</p>\n",
+            "url": "https://oneamongus.ca/ja/posts/flag_anthem",
+            "title": "社旗と社歌",
+            "date_modified": "2023-06-05T14:00:00.000Z",
+            "author": {
+                "name": "One Among Us"
+            }
+        }
+    ]
+}
