@@ -42,6 +42,17 @@ people:
       link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.png'
       icon:
         src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.png'
+    - title: 'Estelle (She/Her)'
+      details: >-
+        Estelle is the lead developer of our Lavender Book Project and a public
+        transgender rights activist. Her personal work focuses on trans people living under
+        hostile governments, from China and Russia to North Africa and the
+        Middle East, and on pushing for trans rights to reach every corner of
+        the world. She believes no trans person should ever have to face it alone,
+        no matter where they were born.
+      link: 'https://github.com/joshuazhang447'
+      icon:
+        src: 'https://avatars.githubusercontent.com/joshuazhang447'
   'In memorial of':
     - title: ArtsEpiphany
       link: 'https://one-among.us/profile/ArtsEpiphany'
