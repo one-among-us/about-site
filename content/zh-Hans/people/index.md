@@ -32,6 +32,15 @@ people:
       link: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.png'
       icon:
         src: 'https://eu2.contabostorage.com/176b8434127b4d90bfb1360e128e586c:oneamongus/about-us/people/shu.png'
+    - title: 'Estelle（她/she）'
+      details: >-
+        Estelle 是我们 Lavender Book 的首席开发，也是一名跨性别权益倡导者。
+        她个人的工作主要是关注和帮助生活在不友好政权下的跨性别者，从中国、俄罗斯到北非与中东，
+        并努力推动跨性别权利抵达世界的每一个角落。
+        她相信，无论出生在哪里，任何跨性别者都不应该独自面对这一切。
+      link: 'https://github.com/joshuazhang447'
+      icon:
+        src: 'https://avatars.githubusercontent.com/joshuazhang447'
   '谨此纪念':
     - title: ArtsEpiphany
       link: 'https://one-among.us/profile/ArtsEpiphany'
