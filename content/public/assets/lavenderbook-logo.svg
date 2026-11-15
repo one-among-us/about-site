@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-171 -85 1140 1140" width="1140" height="1140" role="img" aria-label="Book with the Progress Pride flag on its cover">
+  <title>Progress Pride book</title>
+
+  <defs>
+    <!-- Silhouette of the whole book: everything is clipped to this -->
+    <clipPath id="book">
+      <path d="M100.36,1.59H696.77C751.69,1.59 797.12,48.66 797.12,105.57
+               V881.11C797.12,924.02 757.59,969.17 720.02,969.17
+               H68.66C28.79,969.17 -4.19,932.59 -4.19,888.36
+               V107.11C-4.19,49.36 43.14,1.59 100.36,1.59Z"/>
+    </clipPath>
+    <!-- Spine: the left strip of the cover, painted in slightly deeper tints -->
+    <clipPath id="spine"><rect x="-60" y="-60" width="158" height="1090"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#book)">
+
+    <!-- Rainbow cover -->
+    <g id="rainbow">
+      <rect x="-60" y="1.59"   width="918" height="141.24" fill="#e2211f"/>
+      <rect x="-60" y="142.83" width="918" height="138.18" fill="#f8880f"/>
+      <rect x="-60" y="281.01" width="918" height="137.28" fill="#fee103"/>
+      <rect x="-60" y="418.29" width="918" height="136.50" fill="#07802e"/>
+      <rect x="-60" y="554.79" width="918" height="137.07" fill="#0253e7"/>
+      <rect x="-60" y="691.86" width="918" height="138.24" fill="#761389"/>
+      <rect x="-60" y="830.10" width="918" height="200"    fill="#4e056e"/>
+    </g>
+
+    <!-- Progress chevron: nested wedges, each one painted over the left half of the previous -->
+    <g id="chevron">
+      <path fill="#14191d" d="M-500,-60L55.28,-60L480.23,416.61L-40.78,1030L-500,1030Z"/>
+      <path fill="#915b26" d="M-500,-60L-35.71,-60L387.04,415.85L-133.82,1030L-500,1030Z"/>
+      <path fill="#94e3fc" d="M-500,-60L-133.33,-60L288.40,416.05L-225.35,1030L-500,1030Z"/>
+      <path fill="#fcacc6" d="M-500,-60L-229.51,-60L193.88,416.52L-321.20,1030L-500,1030Z"/>
+      <path fill="#ffffff" d="M-500,-60L-326.65,-60L93.78,416.73L-417.75,1030L-500,1030Z"/>
+    </g>
+
+    <!-- Same chevron in the spine's darker tints -->
+    <g id="chevron-spine" clip-path="url(#spine)">
+      <path fill="#0e1215" d="M-500,-60L55.28,-60L480.23,416.61L-40.78,1030L-500,1030Z"/>
+      <path fill="#7f4c1f" d="M-500,-60L-35.71,-60L387.04,415.85L-133.82,1030L-500,1030Z"/>
+      <path fill="#75d3ee" d="M-500,-60L-133.33,-60L288.40,416.05L-225.35,1030L-500,1030Z"/>
+      <path fill="#fcacc6" d="M-500,-60L-229.51,-60L193.88,416.52L-321.20,1030L-500,1030Z"/>
+      <path fill="#ffffff" d="M-500,-60L-326.65,-60L93.78,416.73L-417.75,1030L-500,1030Z"/>
+    </g>
+
+    <!-- Book block below the cover -->
+    <path id="block" fill="#4e056e"
+          d="M66.8,830.1H696.98C752.29,830.1 797.12,786.55 797.12,732.83
+             V881.11C797.12,924.02 757.59,969.17 720.02,969.17
+             H68.66C28.79,969.17 -4.19,932.59 -4.19,888.36
+             C-4.19,871.51 28.57,830.1 66.8,830.1Z"/>
+
+    <!-- Page edges -->
+    <path id="pages" fill="#f7f7f7"
+          d="M71.82,856.69H706.48C742.65,856.69 771.97,830.54 771.97,825.1
+             V884.78C771.97,916.47 745.27,942.15 712.34,942.15
+             H71.82C47.66,942.15 28.07,923.02 28.07,899.42
+             C28.07,875.82 47.66,856.69 71.82,856.69Z"/>
+  </g>
+</svg>
