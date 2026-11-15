@@ -39,6 +39,10 @@ features:
     title: Local Services
     details: Local service groups. Mainly in Greater Toronto Area.
     link: /docs/community
+  - icon: <img src="/assets/lavenderbook-logo.svg">
+    title: LavenderBook
+    details: Find LGBTQ+ friendly places in your city, indexed by our team and reviewed by the community.
+    link: https://lavenderbook-about.oau.app/
 
 friends:
   - title: Project Trans
